@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 MAR 2018 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -881,23 +881,28 @@ eAcquisitionUse.png>] [4
 ] [7
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 88.
+line 97.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [8
+)
+Overfull \hbox (0.44078pt too wide) detected at line 97
+[] [] 
+ []
+
+[8
 
 ] [9
 
@@ -911,7 +916,7 @@ vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 1
-31.
+40.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [10
 
@@ -926,10 +931,10 @@ vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
-t line 142.
+t line 151.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (10.2035pt too high) detected at line 142
+Overfull \vbox (10.2035pt too high) detected at line 151
  []
 
 [11
@@ -945,10 +950,10 @@ vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 1
-53.
+62.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (10.2035pt too high) detected at line 153
+Overfull \vbox (10.2035pt too high) detected at line 162
  []
 
 [12
@@ -964,7 +969,7 @@ vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
-t line 164.
+t line 173.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [13
 
@@ -979,7 +984,7 @@ vis/ki08_vis06_graphCIs_all-race_byGroup".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-race_byGroup".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-race_byGroup".pdf used on input 
-line 175.
+line 184.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [14
 
@@ -994,11 +999,11 @@ i08_vis06_graphCIs_all-race_byGroup.pdf>]
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 7F6B311A03FEC7F707A6A24DAFDF6C01;581.
 
@@ -1019,7 +1024,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on presentation.pdf (14 pages, 605405 bytes).
+Output written on presentation.pdf (14 pages, 606412 bytes).
 PDF statistics:
  542 PDF objects out of 1000 (max. 8388607)
  491 compressed objects within 5 object streams
