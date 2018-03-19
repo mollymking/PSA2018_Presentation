@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,6 +658,35 @@ emedefault.sty
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emedefault.sty)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count154
+\calc@Bcount=\count155
+\calc@Adimen=\dimen188
+\calc@Bdimen=\dimen189
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count156
+\calc@Cskip=\skip59
+)
+\pgf@logicalpages=\count157
+\pgf@firstshipout=\count158
+\pgf@lastshipout=\count159
+\pgf@currentshipout=\count160
+\pgf@cpn=\count161
+\pgf@shipoutnextto=\count162
+\pgfphysicalheight=\dimen190
+\pgfphysicalwidth=\dimen191
+\pgfpages@shipoutbox=\box53
+)
+\pgfpages@box@1=\box54
+\pgfpages@box@2=\box55
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBo
 adilla.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
@@ -667,24 +696,32 @@ emerounded.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emedolphin.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emeinfolines.sty)) (./presentation.aux)
+emeinfolines.sty))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -721,16 +758,16 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count154
-\scratchdimen=\dimen188
-\scratchbox=\box53
-\nofMPsegments=\count155
-\nofMParguments=\count156
+\scratchcounter=\count163
+\scratchdimen=\dimen192
+\scratchbox=\box56
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count157
-\MPscratchDim=\dimen189
-\MPnumerator=\count158
-\makeMPintoPDFobject=\count159
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen193
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -750,8 +787,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 12.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -759,68 +796,58 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count160
+\c@section@level=\count169
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 12.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 12.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 12.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 12.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 12.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 12.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> OT1/ppl/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 12.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 12.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 12.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-2.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-12.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 12.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 32.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -846,103 +873,149 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 12.
+LaTeX Info: Redefining \includegraphics on input line 32.
 
 (./presentation.nav)
+\GPT@outputbox=\box58
+ (./presentation.toc) [2
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 17.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}pdfTeX wa
+rning (ext4): destination with the same identifier (name{Navigation1}) has been
+ already used, duplicate ignored
 
-[1
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.44 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.1}) has been already used, duplicate ignored
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./presentation.toc) [2
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.44 \end{frame}
+                
 
-]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
-eAcquisitionUse".png, id=131, 1602.98875pt x 526.96875pt>
-File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Kno
-wledgeAcquisitionUse".png Graphic file (type png)
+] [3
 
-<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Know
-ledgeAcquisitionUse".png>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/KnowledgeAcquisitionUse".png used on input line 37.
-(pdftex.def)             Requested size: 342.2953pt x 112.52414pt.
- [3
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
+ has been already used, duplicate ignored
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
-eAcquisitionUse.png>] [4
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.2}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                
+
+] [4
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation3})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.3}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                
 
 ] [5
 
-] [6
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation4})
+ has been already used, duplicate ignored
 
-] [7
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.4}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.71 \end{frame}
+                
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 81.
+ [6
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation5})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.5}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 97.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 112.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-Overfull \hbox (0.44078pt too wide) detected at line 97
+Overfull \hbox (18.36966pt too wide) detected at line 112
 [] [] 
  []
 
-[8
+[7
 
-] [9
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation6})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.112 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.6}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.112 \end{frame}
+                 
+
+] [8
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.140 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.7}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.140 \end{frame}
+                 
 
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender".pdf, id=315, 397.485pt x 289.08pt>
-File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
-
-<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_all-gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 1
-40.
-(pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [10
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender.pdf>]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_gender".pdf, id=355, 397.485pt x 289.08pt>
-File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
-
-<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis03_propHoriz02_multComp_gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
-t line 151.
-(pdftex.def)             Requested size: 298.113pt x 216.81pt.
-
-Overfull \vbox (10.2035pt too high) detected at line 151
- []
-
-[11
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_gender.pdf>]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income".pdf, id=396, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_all-income".pdf, id=285, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
 
@@ -950,18 +1023,27 @@ vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 1
-62.
+57.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
+ [9
 
-Overfull \vbox (10.2035pt too high) detected at line 162
- []
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
+ has been already used, duplicate ignored
 
-[12
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.157 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.8}) has been already used, duplicate ignored
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income.pdf>]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.157 \end{frame}
+                 
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_income".pdf, id=435, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_income".pdf, id=311, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 
@@ -969,14 +1051,90 @@ vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
-t line 173.
+t line 168.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [13
+ [10
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.168 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.9}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.168 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-income.pdf>]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-gender".pdf, id=351, 397.485pt x 289.08pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
+vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
+is/ki08_vis06_graphCIs_all-gender".pdf>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 1
+79.
+(pdftex.def)             Requested size: 298.113pt x 216.81pt.
+ [11
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.179 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.10}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.179 \end{frame}
+                 
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis03_propHoriz02_multComp_income.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-race_byGroup".pdf, id=477, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_gender".pdf, id=393, 397.485pt x 289.08pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
+vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
+is/ki08_vis03_propHoriz02_multComp_gender".pdf>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
+t line 190.
+(pdftex.def)             Requested size: 298.113pt x 216.81pt.
+
+Overfull \vbox (9.47295pt too high) detected at line 190
+ []
+
+[12
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.190 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.11}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.190 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-gender.pdf>]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-race_byGroup".pdf, id=432, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_all-race_byGroup".pdf Graphic file (type pdf)
 
@@ -984,9 +1142,51 @@ vis/ki08_vis06_graphCIs_all-race_byGroup".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-race_byGroup".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-race_byGroup".pdf used on input 
-line 184.
+line 201.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
+ [13
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.201 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.12}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.201 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis03_propHoriz02_multComp_gender.pdf>]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
+eAcquisitionUse".png, id=472, 1602.98875pt x 526.96875pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Kno
+wledgeAcquisitionUse".png Graphic file (type png)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Know
+ledgeAcquisitionUse".png>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+results/figures/KnowledgeAcquisitionUse".png used on input line 221.
+(pdftex.def)             Requested size: 342.2953pt x 112.52414pt.
  [14
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.221 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.13}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.221 \end{frame}
+                 
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis06_graphCIs_all-race_byGroup.pdf>]
@@ -999,35 +1199,47 @@ i08_vis06_graphCIs_all-race_byGroup.pdf>]
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+ [15
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.226 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{page.14}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.226 \end{document}
+                    
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
+eAcquisitionUse.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7F6B311A03FEC7F707A6A24DAFDF6C01;581.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
+(rerunfilecheck)             Checksum: 25F51C7D314515F380BB39B3557EA554;628.
  ) 
 Here is how much of TeX's memory you used:
- 17166 strings out of 492995
- 332358 string characters out of 6132704
- 398557 words of memory out of 5000000
- 20271 multiletter control sequences out of 15000+600000
- 10746 words of font info for 39 fonts, out of 8000000 for 9000
+ 17470 strings out of 492995
+ 338806 string characters out of 6132704
+ 422796 words of memory out of 5000000
+ 20560 multiletter control sequences out of 15000+600000
+ 21223 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,62p,797b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on presentation.pdf (14 pages, 606412 bytes).
+ 56i,16n,62p,799b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation.pdf (14 pages, 578329 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
+ 540 PDF objects out of 1000 (max. 8388607)
  491 compressed objects within 5 object streams
- 39 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
