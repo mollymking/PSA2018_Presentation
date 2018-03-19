@@ -1,6 +1,26 @@
 \documentclass[pdf]{beamer}
+\usepackage{pgfpages}
+\setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
 \usetheme{Boadilla}
 \mode<presentation>{}
+% To give a presentation with the Skim reader (http://skim-app.sourceforge.net) on OSX so
+% that you see the notes on your laptop and the slides on the projector, do the following:
+%
+% 1. Generate just the presentation (hide notes) and save to slides.
+%\setbeameroption{hide notes} % Only slides
+% 2. Generate only the notes (show only nodes) and save to notes.pdf
+%\setbeameroption{show only notes} % Only notes
+
+% 3. With Skim open both slides.pdf and notes.pdf
+% 4. Click on slides.pdf to bring it to front.
+% 5. In Skim, under "View -> Presentation Option -> Synhcronized Noted Document"
+%    select notes.pdf.
+% 6. Now as you move around in slides.pdf the notes.pdf file will follow you.
+% 7. Arrange windows so that notes.pdf is in full screen mode on your laptop
+%    and slides.pdf is in presentation mode on the projector.
+
+% Give a slight yellow tint to the notes page
+\setbeamertemplate{note page}{\pagecolor{yellow!5}\insertnote}\usepackage{palatino}
 
  % % preamble
 \title{Information Inequality}
