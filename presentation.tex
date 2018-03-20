@@ -59,7 +59,7 @@
   \item
     Differences in information capacity itself are, by definition, a
     dimension of `inequality';
-      \note[item]{Were also all here because we like learning for the sake of knowledge, so I probably don't have to argue too much for this idea of the current value of knowledge.}
+      \note[item]{Were also all here because we like learning for the sake of knowledge, so I probably don't have to argue too much for this idea of the inherent value of knowledge.}
   \pause
   \item
     Differences in the amount of information people have are influenced by
@@ -114,7 +114,14 @@
         \end{tabular}
    \end{columns}
 
-\note[item]{.}
+\note[item]{My data include 48 nationally representative data sets from between the
+years 2005 and 2015, each including at least one knowledge question.}
+ \note[item]{I collected these data from places like main public opinion survey repositories, the
+General Social Survey and Pew Research Center.}
+\note[item]{A question was included if it asked respondents about factual knowledge  - a question with a generally agreed-upon answer}
+\note[item]{These are true/false or multiple-choice questions that asked things like:}
+  \note[item]{--- ``True or false: A laser is a concentrated soundwave. The answer is false - lasers are concentrated light waves.''}
+  \note[item]{--- ``Who is the vice president?''}
 \end{frame}
 
 \subsection{Domains}
@@ -143,7 +150,9 @@
         \hline  % adds horizontal line to the bottom edges
         \end{tabular}
   \end{columns}
-\note[item]{.}
+
+\note[item]{For each question, I mark for each individual whether they got the question correct or incorrect.}
+\note[item]{I curated these data and categorized them by domain.}
 \end{frame}
 
 
@@ -178,7 +187,9 @@
        \end{tabular}
   \end{column}
 \end{columns}
-\note[item]{For each question, I use logistic regression to predict the probability that an individual will get the question correct.}
+
+\note[item]{I also gathered many demographic characteristics about the individuals answering these factual knowledge questions.}
+\note[item]{For each question, I then use logistic regression to predict the probability that an individual will get the question correct.}
 \end{frame}
 
 
@@ -190,27 +201,29 @@
 
 % Log odds for correct answer by class and knowledge domain
 \begin{frame}
-\frametitle{Income correlates with mean knowledge advantage in 13/16 domains}
+\frametitle{Income correlates with mean knowledge advantage in 13/14 domains}
   \begin{figure}[ht]
     \begin{center}
     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-income"}
     \end{center}
   \end{figure}
 
-   \note[item]{As a reminder, this is after controlling for education - making this a conservative test for the effect of income (since in effect we are controlling twice for class).}
+  \note[item]{}
+  \note[item]{As a reminder, this is after controlling for education - making this a conservative test for the effect of income (since in effect we are controlling twice for class).}
+  \note[item]{So in this slide, I tested whether the effect of income on the average knowledge in the whole domain with significant. For each domain, we decide whether there is a significant effect of income, and then see that that effect largely favors those with higher incomes having more knowledge.}
 \end{frame}
 
 
 % Proportion of questions above and below 0 log odds by income
 \begin{frame}
-\frametitle{Income predicts correct answer in $> 5\%$ questions in 6 domains}
+\frametitle{Those with higher incomes answer a greater proportion of questions correctly}
   \begin{figure}[ht]
     \begin{center}
     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income"}
     \end{center}
   \end{figure}
 
-  \note[item]{.}
+  \note[item]{We can also look at whether each question within a given domain was significantly different.}
 \end{frame}
 
 
@@ -223,7 +236,7 @@
     \end{center}
   \end{figure}
 
-  \note[item]{.}
+  \note[item]{Here again, I tested whether gender had a significant effect on knowledge within each entire domain. For each domain, the simulated mean and confidence intervals allow us to see whether there is a significant difference between the 2 gender groups and the direction of that difference.}
 \end{frame}
 
 
