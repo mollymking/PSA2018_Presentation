@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1521566573 "presentation.tex" "presentation.pdf" "presentation" 1521566574
+["pdflatex"] 1521568904 "presentation.tex" "presentation.pdf" "presentation" 1521568905
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender.pdf" 1520294959 19642 50a2e3189854f3b16ed188f0df2a5602 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income.pdf" 1520294962 18912 d17b5756a1260a6539f08eeec348c995 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-gender.pdf" 1521084752 90133 37557c181a7b96b6bb7ab95a3bf96767 ""
@@ -188,16 +188,16 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation.aux" 1521566574 5054 0582728cfce50a2fdfd324c3eaefa812 ""
-  "presentation.nav" 1521566574 2784 fbab767fe66fd8957b081ea1c249023f ""
-  "presentation.out" 1521566574 628 770a351a146393e3a5461737f0b34278 ""
-  "presentation.tex" 1521566572 8757 2c65ec6733c41e3406db7fdd889502ce ""
-  "presentation.toc" 1521566574 582 f141cc2e34b130f5bf0a31486f2cd160 ""
+  "presentation.aux" 1521568905 5384 5b37d295ae430e318ce49873864a2d1a ""
+  "presentation.nav" 1521568905 2992 2aff8746e9ace24522ae2b8e2cc64795 ""
+  "presentation.out" 1521568905 685 f8b6c05f5358cbfd0e701510ca3132c8 ""
+  "presentation.tex" 1521568904 10170 8133593ab5645fd8990439b04ecc3611 ""
+  "presentation.toc" 1521568905 632 84e3fcc2de0ce5012433adb9ab3a44f2 ""
   (generated)
-  "presentation.aux"
+  "presentation.nav"
   "presentation.log"
-  "presentation.out"
+  "presentation.aux"
   "presentation.pdf"
   "presentation.snm"
-  "presentation.nav"
   "presentation.toc"
+  "presentation.out"

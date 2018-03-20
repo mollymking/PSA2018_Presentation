@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 MAR 2018 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 MAR 2018 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -999,29 +999,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.147 \end{frame}
+l.149 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.7}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.147 \end{frame}
+l.149 \end{frame}
                  
 
 ]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income".pdf, id=285, 397.485pt x 289.08pt>
-File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
-
-<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_all-income".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 1
-67.
-(pdftex.def)             Requested size: 298.113pt x 216.81pt.
-
-Overfull \vbox (9.47295pt too high) detected at line 167
+Overfull \hbox (2.49474pt too wide) in paragraph at lines 184--184
+[][]  
  []
 
 [9
@@ -1031,35 +1020,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.167 \end{frame}
+l.184 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.8}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.167 \end{frame}
+l.184 \end{frame}
                  
 
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_income".pdf, id=311, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_all-income".pdf, id=316, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
+vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis03_propHoriz02_multComp_income".pdf>
+is/ki08_vis06_graphCIs_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
-t line 180.
+results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 2
+04.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 180.
 
-Overfull \vbox (9.47295pt too high) detected at line 180
+Overfull \vbox (9.47295pt too high) detected at line 204
  []
 
 [10
@@ -1069,48 +1052,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.180 \end{frame}
+l.204 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.9}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.180 \end{frame}
+l.204 \end{frame}
                  
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income.pdf>]
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender".pdf, id=351, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_income".pdf, id=342, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
+vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_all-gender".pdf>
+is/ki08_vis03_propHoriz02_multComp_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 1
-93.
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
+t line 217.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [11
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 217.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 217.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 217.
+
+Overfull \vbox (9.47295pt too high) detected at line 217
+ []
+
+[11
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.193 \end{frame}
+l.217 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.193 \end{frame}
+l.217 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-income.pdf>]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-gender".pdf, id=383, 397.485pt x 289.08pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
+vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
+is/ki08_vis06_graphCIs_all-gender".pdf>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 2
+30.
+(pdftex.def)             Requested size: 298.113pt x 216.81pt.
+ [12
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.230 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.11}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.230 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis03_propHoriz02_multComp_income.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_gender".pdf, id=395, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_gender".pdf, id=426, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
 
@@ -1118,54 +1139,54 @@ vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
-t line 206.
+t line 243.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (9.47295pt too high) detected at line 206
+Overfull \vbox (9.47295pt too high) detected at line 243
  []
 
-[12
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.206 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.11}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.206 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender.pdf>]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
-eAcquisitionUse".png, id=433, 1602.98875pt x 526.96875pt>
-File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Kno
-wledgeAcquisitionUse".png Graphic file (type png)
-
-<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Know
-ledgeAcquisitionUse".png>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/KnowledgeAcquisitionUse".png used on input line 237.
-(pdftex.def)             Requested size: 342.2953pt x 112.52414pt.
- [13
+[13
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.237 \end{frame}
+l.243 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.12}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.237 \end{frame}
+l.243 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_all-gender.pdf>]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
+eAcquisitionUse".png, id=464, 1602.98875pt x 526.96875pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Kno
+wledgeAcquisitionUse".png Graphic file (type png)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Know
+ledgeAcquisitionUse".png>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+results/figures/KnowledgeAcquisitionUse".png used on input line 274.
+(pdftex.def)             Requested size: 342.2953pt x 112.52414pt.
+ [14
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.274 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.13}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.274 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
@@ -1179,37 +1200,37 @@ i08_vis03_propHoriz02_multComp_gender.pdf>]
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
- [14
+ [15
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.242 \end{document}
+l.279 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
- (name{page.13}) has been already used, duplicate ignored
+ (name{page.14}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.242 \end{document}
+l.279 \end{document}
                     
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
 eAcquisitionUse.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 770A351A146393E3A5461737F0B34278;628.
+(rerunfilecheck)             Checksum: F8B6C05F5358CBFD0E701510CA3132C8;685.
  ) 
 Here is how much of TeX's memory you used:
- 17492 strings out of 492995
- 338782 string characters out of 6132704
- 423733 words of memory out of 5000000
- 20583 multiletter control sequences out of 15000+600000
+ 17500 strings out of 492995
+ 338867 string characters out of 6132704
+ 423811 words of memory out of 5000000
+ 20588 multiletter control sequences out of 15000+600000
  27049 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,62p,799b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1218,10 +1239,10 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (13 pages, 313926 bytes).
+Output written on presentation.pdf (14 pages, 316432 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 462 compressed objects within 5 object streams
- 38 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
