@@ -1,15 +1,15 @@
 \documentclass[pdf]{beamer}
 \usepackage{pgfpages}
-\setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
+   \setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
 \usetheme{Boadilla}
 \mode<presentation>{}
 % To give a presentation with the Skim reader (http://skim-app.sourceforge.net) on OSX so
 % that you see the notes on your laptop and the slides on the projector, do the following:
 %
 % 1. Generate just the presentation (hide notes) and save to slides.
-%\setbeameroption{hide notes} % Only slides
+% \setbeameroption{hide notes} % Only slides
 % 2. Generate only the notes (show only nodes) and save to notes.pdf
-%\setbeameroption{show only notes} % Only notes
+ % \setbeameroption{show only notes} % Only notes
 
 % 3. With Skim open both slides.pdf and notes.pdf
 % 4. Click on slides.pdf to bring it to front.
@@ -21,6 +21,8 @@
 
 % Give a slight yellow tint to the notes page
 \setbeamertemplate{note page}{\pagecolor{yellow!5}\insertnote}\usepackage{palatino}
+
+\usepackage{amssymb,amsmath}
 
  % % preamble
 \title{Information Inequality}
@@ -34,6 +36,7 @@
  % Title Slide
 \begin{frame}
   \titlepage
+    \note[item]{.}
 \end{frame}
 
 
@@ -41,6 +44,7 @@
 \begin{frame}
 \frametitle{Outline}
   \tableofcontents
+  \note[item]{.}
 \end{frame}
 
 \section{Introduction}
@@ -105,10 +109,12 @@
         Global Views American Public Opinion and Foreign Policy \\
         Outlook on Life Survey \\
         State of the First Amendment surveys \\
-        Chicago Council Survey of American Public Opinion and U.S. Foreign Policy \\
+        Chicago Survey of Amer. Public Opinion and U.S. Foreign Policy \\
         \hline  % adds horizontal line to the bottom edges
         \end{tabular}
    \end{columns}
+
+\note[item]{.}
 \end{frame}
 
 \subsection{Domains}
@@ -137,7 +143,11 @@
         \hline  % adds horizontal line to the bottom edges
         \end{tabular}
   \end{columns}
+\note[item]{.}
 \end{frame}
+
+
+
 
 
 \section{Results}
@@ -146,7 +156,7 @@
 
 % Log odds for correct answer by class and knowledge domain
 \begin{frame}
-\frametitle{}
+\frametitle{Income correlates with mean knowledge advantage in 13/16 domains}
   \begin{figure}[ht]
     \begin{center}
     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-income"}
@@ -159,12 +169,14 @@
 
 % Proportion of questions above and below 0 log odds by income
 \begin{frame}
-\frametitle{}
+\frametitle{Income predicts correct answer in $> 5\%$ questions in 6 domains}
   \begin{figure}[ht]
     \begin{center}
     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income"}
     \end{center}
   \end{figure}
+
+  \note[item]{.}
 \end{frame}
 
 
@@ -176,6 +188,8 @@
       \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-gender"}
     \end{center}
   \end{figure}
+
+  \note[item]{.}
 \end{frame}
 
 
@@ -187,6 +201,8 @@
       \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender"}
     \end{center}
   \end{figure}
+
+  \note[item]{.}
 \end{frame}
 
 

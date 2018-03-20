@@ -7,5 +7,5 @@
 \beamer@sectionintoc {3}{Results}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{Means across domains}{9}{0}{3}
 \beamer@subsectionintoc {3}{2}{Proportions correct by group}{9}{0}{3}
-\beamer@sectionintoc {4}{Implications}{14}{0}{4}
-\beamer@subsectionintoc {4}{1}{Model of knowledge}{14}{0}{4}
+\beamer@sectionintoc {4}{Implications}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{Model of knowledge}{13}{0}{4}
