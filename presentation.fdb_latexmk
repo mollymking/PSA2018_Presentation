@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1521570131 "presentation.tex" "presentation.pdf" "presentation" 1521570415
+["pdflatex"] 1521662049 "presentation.tex" "presentation.pdf" "presentation" 1521662050
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender.pdf" 1520294959 19642 50a2e3189854f3b16ed188f0df2a5602 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income.pdf" 1520294962 18912 d17b5756a1260a6539f08eeec348c995 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-gender.pdf" 1521084752 90133 37557c181a7b96b6bb7ab95a3bf96767 ""
@@ -184,16 +184,16 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation.aux" 1521570132 5384 5b37d295ae430e318ce49873864a2d1a ""
-  "presentation.nav" 1521570132 2992 2aff8746e9ace24522ae2b8e2cc64795 ""
-  "presentation.out" 1521570132 685 f8b6c05f5358cbfd0e701510ca3132c8 ""
-  "presentation.tex" 1521570415 11688 c83020dda186bae851e458f4b6ae198a ""
-  "presentation.toc" 1521570132 632 84e3fcc2de0ce5012433adb9ab3a44f2 ""
+  "presentation.aux" 1521662050 5652 d6e203c8e7a4af6f4ef0fff1ac5ff13c ""
+  "presentation.nav" 1521662050 3188 bcfef90dcfe7e40f61651d8290828987 ""
+  "presentation.out" 1521662050 685 f8b6c05f5358cbfd0e701510ca3132c8 ""
+  "presentation.tex" 1521662049 14146 44e86aa023476473b21fae669892e0f9 ""
+  "presentation.toc" 1521662050 632 84e3fcc2de0ce5012433adb9ab3a44f2 ""
   (generated)
-  "presentation.toc"
-  "presentation.out"
-  "presentation.pdf"
   "presentation.aux"
+  "presentation.out"
   "presentation.nav"
   "presentation.snm"
+  "presentation.toc"
   "presentation.log"
+  "presentation.pdf"
