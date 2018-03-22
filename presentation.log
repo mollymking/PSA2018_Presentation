@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 MAR 2018 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2018 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1071,10 +1071,10 @@ vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
-t line 267.
+t line 268.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (9.47295pt too high) detected at line 267
+Overfull \vbox (9.47295pt too high) detected at line 268
  []
 
 [11
@@ -1084,13 +1084,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.267 \end{frame}
+l.268 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.267 \end{frame}
+l.268 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
@@ -1104,7 +1104,7 @@ vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 2
-80.
+84.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [12
 
@@ -1113,13 +1113,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.280 \end{frame}
+l.284 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.11}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.280 \end{frame}
+l.284 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
@@ -1133,10 +1133,10 @@ vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
-t line 293.
+t line 299.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (9.47295pt too high) detected at line 293
+Overfull \vbox (9.47295pt too high) detected at line 299
  []
 
 [13
@@ -1146,13 +1146,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.293 \end{frame}
+l.299 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.12}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.293 \end{frame}
+l.299 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
@@ -1165,7 +1165,7 @@ wledgeAcquisitionUse".png Graphic file (type png)
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Know
 ledgeAcquisitionUse".png>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/KnowledgeAcquisitionUse".png used on input line 324.
+results/figures/KnowledgeAcquisitionUse".png used on input line 330.
 (pdftex.def)             Requested size: 342.2953pt x 112.52414pt.
  [14
 
@@ -1174,13 +1174,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.324 \end{frame}
+l.330 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.13}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.324 \end{frame}
+l.330 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
@@ -1201,22 +1201,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.329 \end{document}
+l.335 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{page.14}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.329 \end{document}
+l.335 \end{document}
                     
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
 eAcquisitionUse.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: F8B6C05F5358CBFD0E701510CA3132C8;685.
  ) 
@@ -1231,7 +1231,7 @@ Here is how much of TeX's memory you used:
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (14 pages, 303345 bytes).
+Output written on presentation.pdf (14 pages, 303976 bytes).
 PDF statistics:
  532 PDF objects out of 1000 (max. 8388607)
  486 compressed objects within 5 object streams
