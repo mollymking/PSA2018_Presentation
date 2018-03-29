@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2018 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAR 2018 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,50 +1031,46 @@ l.232 \end{frame}
 
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income".pdf, id=316, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_all-gender".pdf, id=316, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
+vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_all-income".pdf>
+is/ki08_vis06_graphCIs_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 2
-53.
+results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 2
+56.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
-
-Overfull \vbox (9.47295pt too high) detected at line 253
- []
-
-[10
+ [10
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
  has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.253 \end{frame}
+l.256 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.9}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.253 \end{frame}
+l.256 \end{frame}
                  
 
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_income".pdf, id=342, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_gender".pdf, id=342, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
+vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis03_propHoriz02_multComp_income".pdf>
+is/ki08_vis03_propHoriz02_multComp_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
-t line 268.
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
+t line 271.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (9.47295pt too high) detected at line 268
+Overfull \vbox (9.47295pt too high) detected at line 271
  []
 
 [11
@@ -1084,59 +1080,63 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.268 \end{frame}
+l.271 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.268 \end{frame}
+l.271 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-income.pdf>]
+i08_vis06_graphCIs_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender".pdf, id=383, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_all-income".pdf, id=383, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_all-gender".pdf Graphic file (type pdf)
+vis/ki08_vis06_graphCIs_all-income".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_all-gender".pdf>
+is/ki08_vis06_graphCIs_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_all-gender".pdf used on input line 2
-84.
+results/figures/08_vis/ki08_vis06_graphCIs_all-income".pdf used on input line 2
+85.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [12
+
+Overfull \vbox (9.47295pt too high) detected at line 285
+ []
+
+[12
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.284 \end{frame}
+l.285 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.11}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.284 \end{frame}
+l.285 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_income.pdf>]
+i08_vis03_propHoriz02_multComp_gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_gender".pdf, id=424, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_income".pdf, id=424, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis03_propHoriz02_multComp_gender".pdf Graphic file (type pdf)
+vis/ki08_vis03_propHoriz02_multComp_income".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis03_propHoriz02_multComp_gender".pdf>
+is/ki08_vis03_propHoriz02_multComp_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender".pdf used on inpu
-t line 299.
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income".pdf used on inpu
+t line 300.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (9.47295pt too high) detected at line 299
+Overfull \vbox (9.47295pt too high) detected at line 300
  []
 
 [13
@@ -1146,17 +1146,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.299 \end{frame}
+l.300 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.12}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.299 \end{frame}
+l.300 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_all-gender.pdf>]
+i08_vis06_graphCIs_all-income.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Knowledg
 eAcquisitionUse".png, id=462, 1602.98875pt x 526.96875pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/Kno
@@ -1184,7 +1184,7 @@ l.330 \end{frame}
                  
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_gender.pdf>]
+i08_vis03_propHoriz02_multComp_income.pdf>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1231,7 +1231,7 @@ Here is how much of TeX's memory you used:
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (14 pages, 303976 bytes).
+Output written on presentation.pdf (14 pages, 303978 bytes).
 PDF statistics:
  532 PDF objects out of 1000 (max. 8388607)
  486 compressed objects within 5 object streams
