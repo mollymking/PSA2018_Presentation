@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{Research Question}{4}{0}{1}
+\beamer@sectionintoc {2}{Methods}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Data}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Domains}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Model}{7}{0}{2}
+\beamer@sectionintoc {3}{Results}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Means across domains}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Proportions correct by group}{8}{0}{3}
+\beamer@sectionintoc {4}{Theory}{16}{0}{4}
+\beamer@subsectionintoc {4}{1}{Factual Reality}{16}{0}{4}
+\beamer@subsectionintoc {4}{2}{Model of knowledge}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Motivation}{23}{0}{4}

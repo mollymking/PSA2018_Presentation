@@ -1,0 +1,591 @@
+\documentclass[pdf]{beamer}
+
+\usepackage{pgfpages}
+   \setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
+\usetheme{Boadilla}
+\usecolortheme{beaver}  % red
+
+\mode<presentation>{}
+% To give a presentation with the Skim reader (http://skim-app.sourceforge.net) on OSX so
+% that you see the notes on your laptop and the slides on the projector, do the following:
+%
+% 1. Generate just the presentation (hide notes) and save to slides.
+% \setbeameroption{hide notes} % Only slides
+% 2. Generate only the notes (show only nodes) and save to notes.pdf
+%  \setbeameroption{show only notes} % Only notes
+
+% 3. With Skim open both slides.pdf and notes.pdf
+% 4. Click on slides.pdf to bring it to front.
+% 5. In Skim, under "View -> Presentation Option -> Synhcronized Noted Document"
+%    select notes.pdf.
+% 6. Now as you move around in slides.pdf the notes.pdf file will follow you.
+% 7. Arrange windows so that notes.pdf is in full screen mode on your laptop
+%    and slides.pdf is in presentation mode on the projector.
+
+% Give a slight yellow tint to the notes page
+\setbeamertemplate{note page}{\pagecolor{yellow!5}\insertnote}\usepackage{palatino}
+
+\usepackage{amssymb,amsmath}
+
+ % Bibliography
+ %\usepackage{natbib}
+ %\bibpunct{(}{)}{;}{a}{,}{,~}
+ %\bibliography{"/Users/mollymking/Documents/SocResearch/Dissertation/text/KI_comparisonByDemographic/library"}
+
+
+
+ % % preamble
+\title{Information Inequality}
+\subtitle{the Class, Gender, and Race of Knowledge Domains}
+\author{Molly King}
+\institute{Stanford University}
+\date{April 19, 2018}
+
+\begin{document}
+
+ % Title Slide
+\begin{frame}
+  \titlepage
+    \note[item]{Today I am going to be presenting on 1 of the papers from my dissertation:}
+    \note[item]{Information Inequality - the class, gender, and race of knowledge domains}
+\end{frame}
+
+
+- % Table Of Contents Slide
+\begin{frame}
+\frametitle{Outline}
+  \tableofcontents
+    \note[item]{Just to give you a roadmap of where we're going:}
+    \note[item]{I will start by outlining my research question.}
+    \note[item]{Next, I'll tell you how I collected my data and the models I used to analyze it.}
+    \note[item]{Then, we'll dive into some results from my study around class and gender.}
+    \note[item]{Finally, I want to discuss the theoretical frame and motivation I am considering right now and focus your feedback on that.}
+\end{frame}
+
+
+% Research Questions
+\section{Research Question}
+\begin{frame}
+\frametitle{Research Question}
+  \emph{How does the status gap in knowledge vary by domain?}
+
+   \note[item]{So I wanted to perform a wide scan analysis of knowledge inequality, looking at who has and does not have knowledge in different domains, and how those inequalities might compare to each other.}
+
+   \note[item]{So I wanted to ask, How does the status gap in knowledge vary by domain?}
+   \note[item]{And here I mean status in the sense of status characteristics, like gender, class, and race.}
+\end{frame}
+
+
+
+% Methods
+\section{Methods}
+
+ % Data
+\subsection{Data}
+\begin{frame}
+\frametitle{Data}
+  \begin{columns}
+      \begin{tabular}{l}  % creates table with text left-centered, vertical lines right and left
+        \hline   % adds horizontal lines to the top of the table
+        General Social Survey           \\
+        Pew Research Center (21)           \\
+        Kaiser Family Foundation        \\
+        Health Information National Trends Survey (8) \\
+        Integrated Health Interview Series \\
+        Annenberg National Health Communication Survey \\
+        USC's Understanding America Study (3) \\
+        Rand American Life Panel (2)  \\
+        National Financial Capability Studies (3) \\
+        21st Century Americanism survey \\
+        Global Views American Public Opinion and Foreign Policy \\
+        Outlook on Life Survey \\
+        State of the First Amendment surveys \\
+        Chicago Survey of Amer. Public Opinion and U.S. Foreign Policy \\
+        \hline  % adds horizontal line to the bottom edges
+        \end{tabular}
+   \end{columns}
+
+\note[item]{My data include 48 nationally representative data sets from between the
+years 2005 and 2015, each including at least one knowledge question.}
+ \note[item]{I collected these data from places like main public opinion survey repositories, the
+General Social Survey and Pew Research Center.}
+\note[item]{A question was included if it asked respondents about factual knowledge  - a question with a generally agreed-upon answer}
+\note[item]{These are true/false or multiple-choice questions that asked things like:}
+  \note[item]{--- ``True or false: A laser is a concentrated soundwave. The answer is false - lasers are concentrated light waves.''}
+  \note[item]{--- ``Who is the vice president?''}
+\end{frame}
+
+\subsection{Domains}
+\begin{frame}
+\frametitle{Domains}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{tabular} {l}  % creates table with text left-centered, vertical lines right and left
+        \hline   % adds horizontal lines to the top of the table
+        history			                   \\
+        natural world                  \\
+        physical science               \\
+        biological science             \\
+        technology                     \\
+        math                           \\
+        culture                        \\
+        geography                      \\
+        domestic politics              \\
+        foreign politics               \\
+        economics                      \\
+        finance                        \\
+        health                         \\
+        religion                       \\
+        pop culture                    \\
+        war                            \\
+        \hline  % adds horizontal line to the bottom edges
+        \end{tabular}
+  \end{columns}
+
+\note[item]{For each question, I mark for each individual whether they got the question correct or incorrect.}
+\note[item]{I curated these data and categorized them by domain.}
+\note[item]{This resulted in 16 topical domains.}
+
+\note[item]{People have studied knowledge gaps in many of these domains before. What is unique to my study is gathering these domains all together in one comparative framework, allowing us to look at the structured acquisition of knowledge.}
+\end{frame}
+
+
+% Model
+\subsection{Model}
+\begin{frame}
+\frametitle{Model}
+\begin{columns}
+  \begin{column}{0.25\textwidth}
+     \begin{tabular}{l}  % creates table with text left-centered, vertical lines right and left
+       \hline   % adds horizontal lines to the top of the table
+       Outcome        \\
+       \hline   % adds horizontal lines to the top of the table
+       Probability      \\
+       that you get     \\
+       the question     \\
+       correct          \\
+       \hline  % adds horizontal line to the bottom edges
+       \end{tabular}
+  \end{column}
+  \begin{column}{0.25\textwidth}
+     \begin{tabular}{l}  % creates table with text left-centered, vertical lines right and left
+       \hline   % adds horizontal lines to the top of the table
+       Factors          \\
+       \hline   % adds horizontal lines to the top of the table
+       Income           \\
+       Gender           \\
+       Race / Ethnicity \\
+       Education        \\
+       Age + $age^2$    \\
+       \hline  % adds horizontal line to the bottom edges
+       \end{tabular}
+  \end{column}
+\end{columns}
+
+\note[item]{I also gathered many demographic characteristics about the individuals answering these factual knowledge questions.}
+\note[item]{For each question, I then use logistic regression to predict the probability that an individual will get the question correct.}
+\note[item]{I regressed the outcome of correct answer on the independent variables income, gender, race and ethnicity categories, and controls education categories, and age and age squared.}
+\note[item]{Although the ideal measure of class here would have been parental occupation, I had to use respondents' family or household income because parental education was not available in most surveys.}
+\end{frame}
+
+
+
+%%%%------ RESULTS ------%%%%
+
+\section{Results}
+\subsection{Means across domains}
+\subsection{Proportions correct by group}
+
+
+
+ % Cross-domain gender log odds
+\begin{frame}
+\frametitle{No mean gender difference in 5/16 domains}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-gender"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{So here we see that each blue dot represents an individual question. I have taken about 400 questions and divided them into these 16 domains across the x-axis.}
+  \note[item]{The yellow square is the mean knowledge level within each domain, and the confidence interval represents 95\% simulated certainty around that mean for each domain.}
+  \note[item]{If there were no difference in the average difference between men and women, we would see the confidence interval bar across the 0 line.}
+  \note[item]{Here I tested whether gender had a significant effect on knowledge within each entire domain. For each domain, the simulated mean and confidence intervals allow us to see whether there is a significant difference between the 2 gender groups and the direction of that difference.}
+  \note[item]{While there is no average gender difference in 5 of the 16 domains, men have greater average knowledge in 10 domains.}
+  \note[item]{Women have greater average knowledge in the domain of social science.}
+  \note[item]{One interesting difference I would like to focus your attention on is that men have greater average knowledge than women in the domain of religion. This is a surprising result given that U.S. women are much more likely to report that religion is ``very important'' in their lives, and women are largely responsible for the religious education of children.}
+\end{frame}
+
+
+% Proportion of questions above and below 0 log odds by gender
+\begin{frame}
+\frametitle{Men answer greater proportion of questions correctly in 65\% of domains}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_gender"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{For each of these 400 questions, I tested whether the gender difference in knowledge with significant.}
+  \note[item]{For health, I found that women answered 30\% of the questions correctly more often than men.}
+
+  \note[item]{We see that women answer greater proportion questions correctly in the domains of health and social science.}
+    \note[item]{One reason we might consider this to be notable is that men's poor health outcomes are typically explained by behavioral differences. Here we see that differences in health outcomes might also be explained by a relatively large enter disparity in health knowledge.}
+
+  \note[item]{Men are particularly advantaged in the domains of finance, physical science, foreign politics, geography, and war - though the last may be an artifact of sample size.}
+
+  \note[item]{Overall, Men answer a greater proportion of questions correctly in 65\% of the domains, while women answer a greater proportion of questions correctly in 12.5\% of the domains.}
+\end{frame}
+
+
+
+
+
+
+% Log odds for correct answer by class and knowledge domain
+\begin{frame}
+\frametitle{Income correlates with mean knowledge advantage in 13/14 domains}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-income"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{Here we see this model using income to predict the likelihood that respondents get the factual knowledge question correct, controlling for all other factors. This is essentially the income elasticity of knowledge.}
+  \note[item]{As a reminder, this is after controlling for education - making this a conservative test for the effect of income (since in effect we are controlling twice for class).}
+  \note[item]{So in this slide, I tested whether the effect of income on the average knowledge in the whole domain was significant. For each domain, we decide whether there is a significant effect of income, and then see that that effect largely favors those with higher incomes having more knowledge.}
+\end{frame}
+
+
+% Proportion of questions above and below 0 log odds by income
+\begin{frame}
+\frametitle{Those with higher incomes answer a greater proportion of questions correctly}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_income"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{Again, I tested to see whether each question had a significant effect of income on knowledge.}
+  \note[item]{We can also look at whether each question within a given domain was significantly different.}
+  \note[item]{This way of viewing the data shows us that those with higher incomes answer a greater proportion of questions correctly in half of the domains.}
+  \note[item]{Those with higher incomes are particularly advantaged in the domains of health, finance, and social science.}
+\end{frame}
+
+
+% Log odds for correct answer by Race and knowledge domain
+\begin{frame}
+\frametitle{}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_all-race_byGroup"}
+    \note[item]{ .}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+% Proportion of questions above and below 0 log odds for Black / Aftican American
+\begin{frame}
+\frametitle{Proportion of questions answered by non-Hispanic Whites vs Blacks}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_rblack"}
+    \note[item]{ .}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+
+% Proportion of questions above and below 0 log odds for Asian / Asian American
+\begin{frame}
+\frametitle{Proportion of questions answered by non-Hispanic Whites vs Asians}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_rasian"}
+      \note[item]{ .}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+% Proportion of questions above and below 0 log odds for Hispanic
+\begin{frame}
+\frametitle{Proportion of questions answered by non-Hispanic Whites vs Hispanics}
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_rhisp"}
+    \note[item]{ .}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+
+%%%%-------- THEORY ---------%%%%
+
+\section{Theory}
+
+%The Current State Of Facts
+\subsection{Factual Reality}
+
+\begin{frame}
+\frametitle{Factual Reality}
+      \note{As we move wholesale into an information society, there is  increasing evidence that command over information matters for a great many
+      outcomes, yet rather surprisingly we really have no idea who knows what.
+      To be sure, there is of course a large literature on IQ tests, but these
+      are presumed to measure skill rather than content or knowledge. Insofar as
+      we do study content, it is in a few stylized domains, like math and
+      reading. The purpose, then, of my dissertation is to provide the first
+      comprehensive assessment of which types of groups know what types of
+      content (e.g., health, religion, sports, history, politics, science).  Are
+      some groups systematically advantaged across all types of content?  Or is
+      there a “knowledge division of labor” in which some groups specialize in
+      some types of content? Here I provide concrete evidence on the size of
+      these knowledge disparities.}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Factual Reality}
+      \note[item]{At no time in history has understanding how people perceive correct and
+      incorrect knowledge been more important than right now. Information is
+      the currency of the new economy, and as such, it is becoming more
+      important than ever in our modern world. Never before has such a wealth
+      of information been so immediately accessible to so many through the
+      internet and yet the filtering demands so high. Correct and incorrect
+      knowledge dramatically shaped the most recent U.S. election cycle.
+      Topics many believe to be objective and resolved after years of
+      scientific consensus are now resurfacing as topics of factual debate.
+      What people know, what we think we know, and what we think others know
+      all have dramatic consequences for the future of the U.S. and the world.
+      Information truly is power; and who possesses it and wields it most
+      effectively has profound consequences for inequality and human welfare.}
+      \note[item]{After all, reality may not appear identical to all of us.}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Factual Reality}
+\begin{center}
+  \textbf{\textit{``Everyday life presents itself as a reality interpreted by men and subjectively meaningful to them as a coherent world''}}  \newline
+     - Berger and Luckman, 1967
+\end{center}
+      \note[item]{Rather, humans create and maintain an understanding of social reality through social interactions with other people and institutions. Some facts are ``brute facts'' -- those which are physical, biological, and not dependent on language -- and others are ``social facts'' -- constructed out of language and institutional agreements.}
+      \note[item]{But as Berger and Luckman note, none of these seem anything but real: ``Everyday life presents itself as a reality
+      interpreted by men and subjectively meaningful to them as a coherent world''}
+      \note[item]{I argue that our different social statuses structure different
+      understandings of this reality. In other words, individuals face the world
+      with different sets of knowledge, shaped by their social contexts. Some of
+      this knowledge may be correct, and some of it may be incorrect, as we see
+      in the results of my analysis. People may be aware that some of their
+      incorrect knowledge represents a gap in their understanding, but in other
+      domains, they may falsely believe what they know is the truth.}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Factual Reality}
+  \begin{center}
+    \begin{itemize}
+    \item
+      \textbf{\textit{confabulations}} (Miller 1956) \newline
+    \end{itemize}
+    \break
+      ``our heads are full of images, opinions, and information,
+      untagged as to truth value, to which we are inclined to attribute accuracy
+      and plausibility''   \newline
+      - DiMaggio 1997
+  \end{center}
+      \note{In psychiatry, these ``honest lies'' are referred to as
+      confabulations. Once thought to be the realm of only the memory-impaired,
+      confabulations are increasingly understood to be a common human
+      experience. We all have imperfect memories. Many studies have supported
+      the finding that we are only able to remember and transmit about  7($\pm$2)
+      pieces of discrete information in our immediate memories at any one time
+    . This has important implications for learning,
+      particularly in adulthood when repetition may be less frequent. It also
+      means that ``our heads are full of images, opinions, and information,
+      untagged as to truth value, to which we are inclined to attribute accuracy
+      and plausibility'' . This can lead to false
+      conclusions about our memories of ``facts''.}
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Factual Reality}
+  \begin{center}
+    \begin{itemize}
+    \item
+    confabulations (Miller 1956)
+    \item
+      \textbf{\textit{schemata / heuristics}} (Forster 1999;
+      Gigerenzer et al. 2011, Gigerenzer et al. 2011a, DiMaggio 1997)
+      \end{itemize}
+  \end{center}
+      \note{Cognitive science research tells us that information is organized and
+      processed using schemata (or heuristics). These schemata/heuristics group
+      similar concepts together and provide rules for information processing
+      . When using these,
+      people are more likely to perceive information that fits with existing
+      schemata and biases. They also recall information more quickly and
+      accurately when it is embedded in schemata .
+      Perception of reality is shaped by existing schemata and heuristics.
+      Understanding exactly which facts groups already have correct knowledge of
+      can help us better understand what they are likely to perceive correctly
+      in the future.}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Factual Reality}
+  \begin{center}
+    \begin{itemize}
+    \item
+    confabulations (Miller 1956)
+    \item
+      schemata / heuristics (Forster 1999;
+      Gigerenzer et al. 2011, Gigerenzer et al. 2011a, DiMaggio 1997)
+    \item
+      \textbf{\textit{perfect information (canonical cite?)}}
+    \end{itemize}
+  \end{center}
+      \note{Furthermore, my study engages with the perfect information
+      assumption of rational choice theory. under rational choice theory, people
+      have access to perfect information about a market cite game; under a slightly weaker assumption,
+      people have at least some knowledge and are acting on it. These models
+      also assume that the information people have access to is correct, or that
+      it is true knowledge based on accurate perceptions of objective reality.
+      Given the modern information landscape, these are significant assumptions
+      to leave untested. Here I evaluate one important piece of the perfect
+      information assumption: I argue that there are differential demographic
+      patterns in knowledge. Considering race, class, and gender differences in
+      factual information contributes to theory on the social constructions of
+      reality and rational choice.}
+\end{frame}
+
+
+
+% % Acquisition and use of knowledge
+\subsection{Model of knowledge}
+\begin{frame}
+\frametitle{Knowledge Acquisition as a Social Process}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/KnowledgeAcquisitionUse"}
+    \end{center}
+  \end{figure}
+
+     \note[item]{Figure depicts relationships
+     among information, outcomes, and social position: social position
+     influences the likelihood of acquiring information (the first arrow) and of
+     using information to acquire resources or achieve outcomes (the second
+     arrow). In this simplified illustration, I am interested in the first piece
+     of this flow: knowledge as the dependent variable. The information
+     acquisition process is influenced by group social position (as well as
+     other factors). Knowledge, in this conception, is the outcome of interest.}
+
+            \note[item]{Notably, as a adults, gender and class structure
+           lives differently. Men and people of the middle and upper
+           classes have more time for leisure, and we might imagine that
+           leisure time is one of the key times when adults acquire facts
+           about non-occupational related domains.}
+           \note[item]{Additionally, gender and class differences in
+           college major and occupation choice funnel individuals into
+           different streams of knowledge exposure, which leads to
+           reinforcing cycles of knowledge gaps and the resulting
+           resources.}
+
+\end{frame}
+
+
+%Motivation - 3 reasons to care
+\subsection{Motivation}
+
+  \begin{frame}
+  \frametitle{Why care about information inequality?}
+    \begin{itemize}
+
+    \item
+      Differences in information capacity itself are, by definition, a
+      dimension of `inequality';
+
+        \note[item]{First, knowledge is important for its inherent value.}
+        \note[item]{Much like many people care about health or education as goods in and of themselves, not just for the ends they can help achieve, we may also think that knowledge is of value for its own sake.}
+        \note[item]{Many philosophers consider learning and knowledge part of the ``good life.''}
+        \note[item]{Here I want to note that I do NOT mean to equate knowledge or information capacity with intelligence. Knowledge of facts is only one aspect of knowledge, after all, and IQ measures something more akin to analytic abilities.}
+
+    \end{itemize}
+  \end{frame}
+
+  %Motivation - 3 reasons
+  \begin{frame}
+  \frametitle{Why care about information inequality?}
+    \begin{itemize}
+
+    \item
+    \textcolor{gray}{Differences in information capacity itself are, by definition, a
+      dimension of `inequality';}
+    \item
+      Differences in the amount of information people have are influenced by
+      unequal social positions in our society;
+
+        \note[item]{I argue that a concept I am calling information inequality - or knowledge inequality - is important as both an outcome and cause of social inequality.}
+
+
+    \end{itemize}
+  \end{frame}
+
+  %Motivation - 3 reasons
+  \begin{frame}
+  \frametitle{Why care about information inequality?}
+    \begin{itemize}
+    \item
+      \textcolor{gray}{Differences in information capacity itself are, by definition, a
+      dimension of `inequality';}
+    \item
+      \textcolor{gray}{Differences in the amount of information people have are influenced by
+      unequal social positions in our society; and}
+    \item
+      Information is a potential cause of later inequality in outcomes and
+      access to resources.
+
+    \note[item]{Finally, information discrepancies enable differential access to resources and institutional positions, thereby causing later inequality as well.}
+    \note[item]{So, while I argue that knowledge inequality is important from both ends of the causal arrow, in this research I focus on the idea that social status causes knowledge inequality.}
+
+        \note[item]{The field of sociology has long studied the production of knowledge in science inequalities in knowledge careers; and information diffusion and its consequences. Many studies have evaluated information seeking behaviors and needs. But the tendency has either been to study knowledge in one specific domain (e.g., health) or to reduce knowledge across all domains to a single test score -- and hence we know shockingly little about the everyday knowledge stock of Americans.}
+    \end{itemize}
+  \end{frame}
+
+
+
+
+% % Acquisition and use of knowledge
+\begin{frame}
+\frametitle{Knowledge Acquisition as a Social Process}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/KnowledgeAcquisitionUse"}
+    \end{center}
+  \end{figure}
+
+     \note[item]{The field of sociology has long studied the production of
+     knowledge in science; inequalities in knowledge careers; and information
+     diffusion and its consequences. Many studies have evaluated information
+     seeking behaviors and needs. But the tendency has either been to study
+     knowledge in one specific domain (e.g., health) or to reduce knowledge across
+     all domains to a single test score -- and hence we know shockingly little
+     about the everyday knowledge stock of Americans.}
+     \note[item]{My contribution brings together these fields at a breadth never
+     before undertaken and with an unusual twist on the dependent variable, focusing
+     on information as the outcome of demographic and social forces. }
+     \note[item]{Never before have so information domains been evaluated so comprehensively
+     across demographic groups. This comprehensive study looks at information
+     disparities from a broader scope than any other to date. This is important for
+     understanding information both descriptively.}
+
+\end{frame}
+
+
+\end{document}
