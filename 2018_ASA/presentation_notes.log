@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 AUG 2018 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 AUG 2018 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1105,14 +1105,14 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 115.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 <"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/T
-heoretical Model Drawing".pdf, id=28, 623.63023pt x 363.86974pt>
+heoretical Model Drawing".pdf, id=32, 623.63023pt x 363.86974pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_works
 hop/Theoretical Model Drawing".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_worksh
 op/Theoretical Model Drawing".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-presentations_workshop/Theoretical Model Drawing".pdf used on input line 150.
+presentations_workshop/Theoretical Model Drawing".pdf used on input line 154.
 (pdftex.def)             Requested size: 328.82863pt x 191.86174pt.
  [1
 
@@ -1120,14 +1120,14 @@ presentations_workshop/Theoretical Model Drawing".pdf used on input line 150.
 mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretica
 l Model Drawing.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 195.
+(Font)              <10> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 195.
+(Font)              <7> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 195.
+(Font)              <5> on input line 200.
  [2]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_edu_all-gender".pdf, id=68, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_edu_all-gender".pdf, id=72, 397.03792pt x 267.19193pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
 
@@ -1135,11 +1135,12 @@ vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_edu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender".pdf used on input li
-ne 229.
-(pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
-
+ne 236.
+(pdftex.def)             Requested size: 375.80864pt x 252.90538pt.
+ [3 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
+s/ki08_vis06_graphCIs_edu_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_compareEdu_noedu_gender".pdf, id=69, 397.485pt x 289.08pt>
+i08_vis06_compareEdu_noedu_gender".pdf, id=90, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
 
@@ -1147,29 +1148,28 @@ vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
 is/ki08_vis06_compareEdu_noedu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender".pdf used on input li
-ne 249.
+ne 256.
 (pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
- [3 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
-s/ki08_vis06_graphCIs_edu_all-gender.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
  [4 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
 s/ki08_vis06_compareEdu_noedu_gender.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
  (./presentation_notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `presentation_notes.out' has not changed.
-(rerunfilecheck)             Checksum: A62911C993483E8DDF9DF601E5DB61CA;1173.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+(rerunfilecheck)             Checksum: 9AD68053069F8695C1A11A65752EB090;1322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
  ) 
 Here is how much of TeX's memory you used:
- 13875 strings out of 492995
- 207448 string characters out of 6132704
+ 13878 strings out of 492995
+ 207480 string characters out of 6132704
  304814 words of memory out of 5000000
- 17152 multiletter control sequences out of 15000+600000
+ 17153 multiletter control sequences out of 15000+600000
  60444 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,494b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,494b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/
@@ -1181,10 +1181,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/lm/lmr7.pfb>
-Output written on presentation_notes.pdf (4 pages, 289681 bytes).
+Output written on presentation_notes.pdf (5 pages, 291927 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 12352 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 12360 words of extra memory for PDF output out of 14400 (max. 10000000)
 

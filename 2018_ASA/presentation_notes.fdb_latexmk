@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1533172490 "presentation_notes.tex" "presentation_notes.pdf" "presentation_notes" 1533237196
+["pdflatex"] 1533241275 "presentation_notes.tex" "presentation_notes.pdf" "presentation_notes" 1533241284
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing.pdf" 1533166269 17946 f741ac649b52fbcede73b362df3cbd53 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender.pdf" 1527265594 17437 b1b0cf5413fbf4d1b47dc7eb0ad5243b ""
-  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf" 1527203069 104474 640ddd70dc24c6e76dbe3d5b4a7cf018 ""
+  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf" 1533237600 104584 ba5646a4948eb72ad3eab08966ce5453 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -134,13 +134,13 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation_notes.aux" 1533172490 1603 36e3a29dfa234bb37169bcaa91ae1910 ""
-  "presentation_notes.out" 1533172490 1173 a62911c993483e8ddf9df601e5db61ca ""
-  "presentation_notes.pre" 1533172490 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "presentation_notes.tex" 1533237187 12910 cfc514d8d5e09e4015b5a87968a09e25 ""
+  "presentation_notes.aux" 1533241275 1684 8893e864ebb6fd26a57e676c6df0a296 ""
+  "presentation_notes.out" 1533241275 1322 9ad68053069f8695c1a11a65752eb090 ""
+  "presentation_notes.pre" 1533241275 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "presentation_notes.tex" 1533241284 13612 21c60ddffd5a2743dfaae3a112aca401 ""
   (generated)
   "presentation_notes.log"
-  "presentation_notes.aux"
-  "presentation_notes.out"
   "presentation_notes.pdf"
+  "presentation_notes.aux"
   "presentation_notes.pre"
+  "presentation_notes.out"
