@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1533241275 "presentation_notes.tex" "presentation_notes.pdf" "presentation_notes" 1533241284
+["pdflatex"] 1533320959 "presentation_notes.tex" "presentation_notes.pdf" "presentation_notes" 1533322548
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing.pdf" 1533166269 17946 f741ac649b52fbcede73b362df3cbd53 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender.pdf" 1527265594 17437 b1b0cf5413fbf4d1b47dc7eb0ad5243b ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf" 1533237600 104584 ba5646a4948eb72ad3eab08966ce5453 ""
@@ -134,13 +134,13 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation_notes.aux" 1533241275 1684 8893e864ebb6fd26a57e676c6df0a296 ""
-  "presentation_notes.out" 1533241275 1322 9ad68053069f8695c1a11a65752eb090 ""
-  "presentation_notes.pre" 1533241275 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "presentation_notes.tex" 1533241284 13612 21c60ddffd5a2743dfaae3a112aca401 ""
+  "presentation_notes.aux" 1533320959 1682 198d3e89a3bc3d034118c753ee2e66a2 ""
+  "presentation_notes.out" 1533320959 1319 aef114b038faabb18a7f4aad08e2cf65 ""
+  "presentation_notes.pre" 1533320959 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "presentation_notes.tex" 1533322548 14888 8aea5ce76510c552b6f6dd3a4f91a07f ""
   (generated)
+  "presentation_notes.out"
   "presentation_notes.log"
   "presentation_notes.pdf"
   "presentation_notes.aux"
   "presentation_notes.pre"
-  "presentation_notes.out"

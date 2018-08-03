@@ -143,6 +143,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grffile.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grffile.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT presentation_handout.aux
 INPUT presentation_handout.aux
 OUTPUT presentation_handout.aux
@@ -229,6 +231,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf
 INPUT /Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf
@@ -239,9 +243,10 @@ INPUT /Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
 INPUT presentation_handout.aux
 INPUT ./presentation_handout.out
 INPUT ./presentation_handout.out
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
@@ -249,3 +254,4 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb

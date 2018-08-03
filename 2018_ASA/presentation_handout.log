@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 AUG 2018 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -919,34 +919,46 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen138
 \Gm@dimlist=\toks26
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
+)
 (./presentation_handout.aux)
 \openout1 = `presentation_handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 116.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -984,7 +996,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 105.
+LaTeX Info: Redefining \microtypecontext on input line 116.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1000,7 +1012,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 105.
+Package hyperref Info: Link coloring OFF on input line 116.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1010,9 +1022,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (./presentation_handout.out) (./presentation_handout.out)
 \@outlinefile=\write5
@@ -1053,36 +1065,36 @@ LaTeX Info: Redefining \nameref on input line 105.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 123.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 112.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 123.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 112
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 123
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 112
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 123
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 112.
+(Font)              <12> on input line 123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 112.
+(Font)              <8> on input line 123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 112.
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+(Font)              <6> on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1090,7 +1102,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1106,21 +1118,21 @@ hop/Theoretical Model Drawing".pdf Graphic file (type pdf)
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_worksh
 op/Theoretical Model Drawing".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-presentations_workshop/Theoretical Model Drawing".pdf used on input line 126.
+presentations_workshop/Theoretical Model Drawing".pdf used on input line 137.
 (pdftex.def)             Requested size: 328.82863pt x 191.86174pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
+(Font)              <10> on input line 151.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 138.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 138.
+(Font)              <5> on input line 151.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/
 mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretica
 l Model Drawing.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_edu_all-gender".pdf, id=42, 397.03792pt x 267.19193pt>
+i08_vis06_graphCIs_edu_all-gender".pdf, id=44, 397.03792pt x 267.19193pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
 
@@ -1128,11 +1140,11 @@ vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_edu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender".pdf used on input li
-ne 169.
+ne 187.
 (pdftex.def)             Requested size: 343.65117pt x 231.26459pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_compareEdu_noedu_gender".pdf, id=43, 397.485pt x 289.08pt>
+i08_vis06_compareEdu_noedu_gender".pdf, id=45, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
 
@@ -1140,47 +1152,49 @@ vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
 is/ki08_vis06_compareEdu_noedu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender".pdf used on input li
-ne 178.
+ne 198.
 (pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \end{document}
+l.204 \end{document}
                      [2 </Users/mollymking/Documents/SocResearch/Dissertation/r
 esults/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf> </Users/mollymkin
 g/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareE
 du_noedu_gender.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./presentation_handout.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `presentation_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 57913E8C7F29EFC7D4A1264DB7839558;158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 13808 strings out of 492995
- 206254 string characters out of 6132704
- 302820 words of memory out of 5000000
- 17117 multiletter control sequences out of 15000+600000
- 53422 words of font info for 66 fonts, out of 8000000 for 9000
+ 13949 strings out of 492995
+ 207814 string characters out of 6132704
+ 305940 words of memory out of 5000000
+ 17248 multiletter control sequences out of 15000+600000
+ 59577 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,427b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/lm/lmbxi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on presentation_handout.pdf (2 pages, 276293 bytes).
+ 42i,11n,43p,427b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/l
+m/lmbxi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/lm/lmr8.pfb>
+Output written on presentation_handout.pdf (2 pages, 322385 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 12320 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 14368 words of extra memory for PDF output out of 14400 (max. 10000000)
 
