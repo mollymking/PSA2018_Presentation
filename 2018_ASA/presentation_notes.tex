@@ -143,7 +143,7 @@
   \item{Differences in the amount of knowledge people have are influenced by unequal social positions in our society; and}
     \begin{enumerate}
       \item{In this research I focus on the idea that social status causes knowledge inequality.}
-      \item{Specifically, I focus on the impact of gender on knowledge inequality.}
+      \item{Specifically, I focus on the impact of income, race, and ethnicity on knowledge inequality.}
     \end{enumerate}
 \end{enumerate}
 
@@ -153,7 +153,7 @@
   % Acquisition and use of knowledge
     \begin{figure}[htb]
       \begin{center}
-        \includegraphics[width=0.7\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing"}
+        \includegraphics[width=0.7\linewidth]{"Theoretical Model Drawing"}
       \end{center}
     \end{figure}
 
@@ -172,12 +172,14 @@
 \end{itemize}
 
 \begin{quote}
-  \emph{\textbf{Research Question: How does the gender gap in knowledge vary by domain?}}
+  \emph{\textbf{Research Question: How does the status gap in knowledge vary by domain?}}
 \end{quote}
 
 \vspace{5mm}
 
 \begin{itemize}
+  \item{So I wanted to ask, How does the status gap in knowledge vary by domain?}
+  \item{And here I mean status in the sense of status characteristics, like gender, class, and race.}
   \item{People have studied knowledge gaps in many of these domains before. What is unique to my study is gathering these domains all together in one comparative framework, allowing us to look at the structured acquisition of knowledge.}
 \end{itemize}
 
@@ -243,70 +245,65 @@
 Turning over the page, we will now move on to discussing the results.
 
 % Cross-domain gender log odds - regression with education
-\subsection{How likely are women to get each answer correct compared to men?}
+\subsection{How likely are the wealthy to get each answer correct compared to men?}
 \begin{figure}[ht]
     \begin{center}
-      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender"}
-      \caption{No mean gender difference in 5/16 domains}
+      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income"}
+      \caption{Income correlates with mean knowledge advantage in 13/14 domains}
     \end{center}
 \end{figure}
 
 \begin{itemize}
   \item{So here we see that each open circle represents an individual question. I have taken about 450 questions and divided them into these 16 domains across the x-axis.}
   \item{The yellow square is the mean knowledge level within each domain, and the confidence interval represents 95\% simulated certainty around that mean for each domain.}
-  \item{If there were no difference in the average difference between men and women, we would see the confidence interval bar cross the 0 line.}
-  \item{Here I tested whether gender had a significant effect on knowledge within each entire domain. For each domain, the simulated mean and confidence intervals allow us to see whether there is a significant difference between the 2 gender groups and the direction of that difference.}
-  \item{While there is no average gender difference in 5 of the 16 domains, men have greater average knowledge in 9 domains.}
-  \item{Women have greater average knowledge in the domain of social science.}
-  \item{One interesting difference I would like to focus your attention on is that men have greater average knowledge than women in the domain of religion. This is a surprising result given that U.S. women are much more likely to report that religion is ``very important'' in their lives, and women are largely responsible for the religious education of children.}
+  \item{If there were no difference in the average difference between incomes, we would see the confidence interval bar cross the 0 line.}
+  \item{Here I tested whether income had a significant effect on knowledge within each entire domain. For each domain, the simulated mean and confidence intervals allow us to see whether there is a significant difference of income on knowledge and the direction of that difference.}
+  \item{Here we see this model using income to predict the likelihood that respondents get the factual knowledge question correct, controlling for all other factors. This is essentially the income elasticity of knowledge.}
+  \item{While there is no average gender difference in only 1 of 14 domains, men have greater average knowledge in 9 domains.}
+  \item{As a reminder, this is after controlling for education - making this a conservative test for the effect of income (since in effect we are controlling twice for class).}
+  \item{So in this slide, I tested whether the effect of income on the average knowledge in the whole domain was significant. For each domain, we decide whether there is a significant effect of income, and then see that that effect largely favors those with higher incomes having more knowledge.}
 \end{itemize}
 
 \newpage
-% Proportion of questions above and below 0 log odds by gender
-\subsection{What proportion of questions are women more likely to answer correctly?}
+
+\subsection{What proportion of questions are the wealthy more likely to answer correctly?}
+
 \begin{figure}[ht]
     \begin{center}
-      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender"}
-      \caption{Men answer greater proportion of questions correctly in 63\% of domains}
+      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_income"}
+      \caption{Those with higher incomes answer a greater proportion of questions correctly}
     \end{center}
 \end{figure}
 
 \begin{itemize}
   \item{But this first figure doesn't tell us how many of these questions show knowledge differences that are statistically significant.}
   \item{So for each of these 450 questions, I tested whether the gender difference in knowledge was significant.}
-  \item{For example, in the domain of culture, we saw that the individual coefficients clustered fairly evenly around the 0 log odds line.}
-  \item{However, not all of those coefficients are statistically significant. In this figure, we see from the top bar that men answered 17\% of the questions correctly more often than women, such that these differences were statistically significant.}
+  \item{For example, in the domain of culture, we saw that the individual coefficients clustered fairly evenly between the 0 and 0.5 log odds line.}
+  \item{However, in this case, we see that none of those coefficients are statistically significant.}
   \vspace{5mm}
-  \item{We also see that women answer a greater proportion of questions correctly in the domain of health.}
-  \item{One reason we might consider this to be notable is that men's poor health outcomes are typically explained by behavioral differences. Here we see that differences in health outcomes might also be explained by a relatively large disparity in health knowledge.}
-  \vspace{5mm}
-  \item{Men are particularly advantaged in the domains of finance, foreign politics, and geography.}
-  \item{Overall, Men answer a greater proportion of questions statistically significantly correctly in 63\% of the domains. Women answer a greater proportion of questions correctly in 19\% of the domains.}
+  \item{We also see that a higher income predicts answering a greater proportion of questions correctly in the domains of finance, health, humanities, the physical, life, and social sciences, and foreign politics.}
 \end{itemize}
 
 \newpage
-%--------------------
-RELEVANCE
-\section{Possible Mechanism}
+
+\subsection{What proportion of questions are Blacks and whites more likely to answer correctly?}
+
+\begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack"}
+      \caption{Proportion of questions answered by non-Hispanic Whites vs Blacks}
+    \end{center}
+\end{figure}
 
 \begin{itemize}
-  \item{Different social roles.}
-  \item{Gap in leisure time}
-  \item{College major}
-  \item{Socially acceptable interests}
-  \item{All filter toward concrete differences in knowledge that have implications for citizenship, occupational chances, end health, as well as many other opportunities to access resources.}
+  \item{}
 \end{itemize}
 
-% \section{Next Steps}
-%
-% \begin{itemize}
-%   \item{More immediately, my next step on this particular project is to take a look at predictors of answering ``don't know'' on questions. In particular, I'm interested in quantifying the thresholds at which men and women are willing to answer questions versus to bow out and respond that they do not know.}
-% \end{itemize}
+%--------------------
 
 \section{Relevance}
 \begin{itemize}
   \item{Again, which knowledge is deemed important to know, and the acquisition of that knowledge, is all shaped by social structures, institutional contexts, social roles, and status positions. Here i've begun to explore inequalities in those knowledge items that are deemed important to measure by groups in power, an important first step to descriptively understanding inequalities in the knowledge landscape.}
 \end{itemize}
- % And even though your data can’t speak to this, you might want to briefly explain your thoughts on the broader social forces shaping the results. I know you have thought a lot about this, so you could just add one or two sentences on it. What came to mind for me is Maria Charles' research and the research on gender sorting by field among teachers professors. Erin Cech’s work on the passion principle and college degrees might also be helpful here. This would help to showcase the broader significance of your findings.
 
 \end{document}
