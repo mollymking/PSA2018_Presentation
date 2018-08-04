@@ -1,0 +1,312 @@
+ % Outline for 10 minute conference presentation ( from http://www.raewynconnell.net/search/label/conferences?&max-results=10)
+ % (a) Problem, 2 minutes: Explain very crisply the question you are wrestling with.
+ % (b) Main finding, 1 minute 30 seconds. In a conference presentation, this can legitimately come before method and data.
+ % (c) Reasoning, 30 seconds + 4 minutes 30 seconds. Say ‘How did I come to this conclusion?’ By doing such-and-such (Method, very very very short); and here is what I found (Materials, in a bit more detail).  Give a slice of your raw material, which really helps the audience to understand. It will be a thin slice, but that’s OK, in a conference you are really offering a sample of your work.
+ % (d) Relevance, 2 minutes. Tell the significance of what you have done. If it does suggest something about the literature, say so here at the end: ‘Finally, as you will realize, this finding overthrows both Keynes’ model of effective demand and Einstein’s general theory of relativity’. Whoops, we are 30 seconds over the time limit, will have to trim something.
+
+
+ %----------------------------------------------------------------------------------------
+ %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+ %---------------------------------------------------------------------------------------
+
+ \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+ \PassOptionsToPackage{hyphens}{url}
+ %
+ \documentclass[]{article}
+ \usepackage{lmodern}
+ \usepackage{amssymb,amsmath}
+ \usepackage{ifxetex,ifluatex}
+
+  % packages for figures
+ \usepackage{array}  % tables
+ \usepackage{wrapfig}  % wrap text around narrow tables or figures
+ \usepackage{graphicx}  % for inserting graphics from file
+ \usepackage{blindtext}
+ \usepackage{asymptote}
+ \usepackage{subcaption}
+ \usepackage[section]{placeins} %keeps floats in place, using command \FloatBarrier
+ %\usepackage{endfloat} % forces all floats to appear at end of document
+ %\usepackage{flafter} %force floats to appear after they are defined
+
+ % for figures in multiple parts
+ \usepackage{caption}
+ %\DeclareCaptionLabelFormat{cont}{#1~#2\alph{ContinuedFloat}}
+ %\captionsetup[ContinuedFloat]{labelformat=cont}
+
+ \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+   \usepackage[T1]{fontenc}
+   \usepackage[utf8]{inputenc}
+   \usepackage{textcomp} % provides euro and other symbols
+ \else % if luatex or xelatex
+   \usepackage{unicode-math}
+   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+ \fi
+ % use upquote if available, for straight quotes in verbatim environments
+ \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+ % use microtype if available
+ \IfFileExists{microtype.sty}{%
+ \usepackage[]{microtype}
+ \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+ }{}
+ \IfFileExists{parskip.sty}{%
+ \usepackage{parskip}
+ }{% else
+ \setlength{\parindent}{0pt}
+ \setlength{\parskip}{6pt plus 2pt minus 1pt}
+ }
+ \usepackage{hyperref}
+ \hypersetup{
+             pdftitle={Information Inequality:},
+             pdfborder={0 0 0},
+             breaklinks=true}
+ \urlstyle{same}  % don't use monospace font for urls
+ \usepackage{graphicx,grffile}
+ \makeatletter
+ \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+ \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+ \makeatother
+ % Scale images if necessary, so that they will not overflow the page
+ % margins by default, and it is still possible to overwrite the defaults
+ % using explicit options in \includegraphics[width, height, ...]{}
+ \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+ \setlength{\emergencystretch}{3em}  % prevent overfull lines
+ \providecommand{\tightlist}{%
+   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ \setcounter{secnumdepth}{0}
+ % Redefines (sub)paragraphs to behave more like sections
+ \ifx\paragraph\undefined\else
+ \let\oldparagraph\paragraph
+ \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+ \fi
+ \ifx\subparagraph\undefined\else
+ \let\oldsubparagraph\subparagraph
+ \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+ \fi
+
+
+ \usepackage{geometry}
+ \geometry{
+   hmargin = 1in,
+   vmargin = .6in,
+   includefoot
+ }
+
+ %----------------------------------------------------------------------------------------
+ %	DOCUMENT CONTENT
+ %----------------------------------------------------------------------------------------
+
+ % set default figure placement to htbp
+ \makeatletter
+ \def\fps@figure{htbp}
+ \makeatother
+
+ \begin{document}
+
+ \title{\vspace{-1.0cm}Information Inequality: the Gender of Knowledge}
+ \date{}
+ \author{Molly King  |  Presentation Notes}
+
+ \maketitle
+
+ %--------------------
+ % MOTIVATION/INTRO
+\begin{itemize}
+  \item{I argue that a concept I am calling knowledge inequality is important as both cause and outcome of social inequality.}
+    \begin{itemize}
+      \item{knowledge inequality = inequality in the possession and/or usage of information}
+    \end{itemize}
+\end{itemize}
+
+ % perhaps just define what knowledge is?
+
+
+\begin{quote}
+  \emph{\textbf{Why care about knowledge inequality?}}
+\end{quote}
+
+
+
+  %Motivation - 3 reasons
+
+\begin{enumerate}
+  \item{Differences in knowledge capacity itself are, by definition, a dimension of `inequality';}
+    \begin{enumerate}
+      \item{Here I want to note that I do NOT mean to equate knowledge or information capacity with intelligence. Knowledge of facts is only one aspect of knowledge, after all, and IQ measures something more akin to analytic abilities.}
+    \end{enumerate}
+
+  \item{Knowledge is a potential cause of later inequality in outcomes and access to resources.}
+    \begin{enumerate}
+      \item{Information discrepancies enable differential access to resources and institutional positions, thereby causing later inequality as well.}
+    \end{enumerate}
+
+ % liked what you said in the Q&A about how knowledge is linked to power, and what knowledge is valued. I think it’d be good if you could say that at some point in the main pres.
+  \item{Differences in the amount of knowledge people have are influenced by unequal social positions in our society; and}
+    \begin{enumerate}
+      \item{In this research I focus on the idea that social status causes knowledge inequality.}
+      \item{Specifically, I focus on the impact of gender on knowledge inequality.}
+    \end{enumerate}
+\end{enumerate}
+
+ %   I would have liked more on what you mean by knowledge being a form of inequality. Are you saying it’s primarily about inequality to ACCESS to resources that give knowledge?  Or differences in some kind of capital (human or otherwise?) What exactly is unequal? (You’re finding differences in what’s inside people’s heads—but the inequality you posit is presumably one that is external, in the social world.)
+
+
+  % Acquisition and use of knowledge
+    \begin{figure}[htb]
+      \begin{center}
+        \includegraphics[width=0.7\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing"}
+      \end{center}
+    \end{figure}
+
+\newpage
+ %--------------------
+% METHODS
+
+\section{Methods}\label{methods}
+
+
+
+\begin{itemize}
+   \item{It is surprising how little we know about the knowledge stock of Americans.}
+   \item{So I wanted to perform a wide scan analysis of knowledge inequality, looking at who has and does not have knowledge in different domains, and how those inequalities might compare to each other.}
+  \item{So I set out to answer the research question:}
+\end{itemize}
+
+\begin{quote}
+  \emph{\textbf{Research Question: How does the gender gap in knowledge vary by domain?}}
+\end{quote}
+
+\vspace{5mm}
+
+\begin{itemize}
+  \item{People have studied knowledge gaps in many of these domains before. What is unique to my study is gathering these domains all together in one comparative framework, allowing us to look at the structured acquisition of knowledge.}
+\end{itemize}
+
+\vspace{5mm}
+
+\begin{itemize}
+  \item{My data include 48 nationally representative data sets from between the years 2005 and 2015, each including at least one knowledge question.}
+  \item{With such limited knowledge questions in any one of these surveys, one of the things I think is interesting to consider is: what or whose knowledge is selected for inclusion. Knowledge is linked to power, and which knowledge items are included in surveys reflects what knowledge is valued in our society.}
+  \item{Anyway, I compiled these data from places like main public opinion survey repositories, the General Social Survey and Pew Research Center.}
+  \item{A question was included if it asked respondents about factual knowledge  - a question with a generally agreed-upon answer}
+  \item{These are true/false or multiple-choice questions that asked things like:}
+    \begin{itemize}
+      \item{--- ``True or false: A laser is a concentrated soundwave. The answer is false - lasers are concentrated light waves.''}
+      \item{--- ``Who is the vice president?''}
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+  \item{For each question, I mark for each individual whether they got the question correct or incorrect.}
+  \item{I curated these data and categorized them by domain.}
+  \item{This resulted in 16 topical domains, which we will see soon in the results.}
+\end{itemize}
+
+\subsection{Model}
+\begin{itemize}
+  \item{For each question, I then use logistic regression to predict the probability that an individual will get the question correct.}
+  \item{I regressed the outcome of correct answer on the independent variables income, gender, race and ethnicity categories, and controls education categories, and age and age squared.}
+\end{itemize}
+
+ % Model
+\begin{table}[ht]
+\centering
+    \begin{tabular}{l}  % creates table with text left-centered, vertical lines right and left
+      \hline   % adds horizontal lines to the top of the table
+      Factors          \\
+      \hline   % adds horizontal lines to the top of the table
+      Gender           \\
+      Income           \\
+      Race / Ethnicity \\
+      Age + $age^2$    \\
+      (Education)        \\
+      \hline  % adds horizontal line to the bottom edges
+    \end{tabular}
+    \begin{tabular}{l}  % creates table with text left-centered, vertical lines right and left
+       \hline   % adds horizontal lines to the top of the table
+       Outcome        \\
+       \hline   % adds horizontal lines to the top of the table
+       Probability      \\
+       that you get     \\
+       the question     \\
+       correct          \\
+       \hline  % adds horizontal line to the bottom edges
+     \end{tabular}
+\end{table}
+
+
+ %--------------------
+% RESULTS
+
+\newpage
+\section{Results}\label{Results}
+
+Turning over the page, we will now move on to discussing the results.
+
+% Cross-domain gender log odds - regression with education
+\subsection{How likely are women to get each answer correct compared to men?}
+\begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender"}
+      \caption{No mean gender difference in 5/16 domains}
+    \end{center}
+\end{figure}
+
+\begin{itemize}
+  \item{So here we see that each open circle represents an individual question. I have taken about 450 questions and divided them into these 16 domains across the x-axis.}
+  \item{The yellow square is the mean knowledge level within each domain, and the confidence interval represents 95\% simulated certainty around that mean for each domain.}
+  \item{If there were no difference in the average difference between men and women, we would see the confidence interval bar cross the 0 line.}
+  \item{Here I tested whether gender had a significant effect on knowledge within each entire domain. For each domain, the simulated mean and confidence intervals allow us to see whether there is a significant difference between the 2 gender groups and the direction of that difference.}
+  \item{While there is no average gender difference in 5 of the 16 domains, men have greater average knowledge in 9 domains.}
+  \item{Women have greater average knowledge in the domain of social science.}
+  \item{One interesting difference I would like to focus your attention on is that men have greater average knowledge than women in the domain of religion. This is a surprising result given that U.S. women are much more likely to report that religion is ``very important'' in their lives, and women are largely responsible for the religious education of children.}
+\end{itemize}
+
+\newpage
+% Proportion of questions above and below 0 log odds by gender
+\subsection{What proportion of questions are women more likely to answer correctly?}
+\begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=0.8\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender"}
+      \caption{Men answer greater proportion of questions correctly in 63\% of domains}
+    \end{center}
+\end{figure}
+
+\begin{itemize}
+  \item{But this first figure doesn't tell us how many of these questions show knowledge differences that are statistically significant.}
+  \item{So for each of these 450 questions, I tested whether the gender difference in knowledge was significant.}
+  \item{For example, in the domain of culture, we saw that the individual coefficients clustered fairly evenly around the 0 log odds line.}
+  \item{However, not all of those coefficients are statistically significant. In this figure, we see from the top bar that men answered 17\% of the questions correctly more often than women, such that these differences were statistically significant.}
+  \vspace{5mm}
+  \item{We also see that women answer a greater proportion of questions correctly in the domain of health.}
+  \item{One reason we might consider this to be notable is that men's poor health outcomes are typically explained by behavioral differences. Here we see that differences in health outcomes might also be explained by a relatively large disparity in health knowledge.}
+  \vspace{5mm}
+  \item{Men are particularly advantaged in the domains of finance, foreign politics, and geography.}
+  \item{Overall, Men answer a greater proportion of questions statistically significantly correctly in 63\% of the domains. Women answer a greater proportion of questions correctly in 19\% of the domains.}
+\end{itemize}
+
+\newpage
+%--------------------
+RELEVANCE
+\section{Possible Mechanism}
+
+\begin{itemize}
+  \item{Different social roles.}
+  \item{Gap in leisure time}
+  \item{College major}
+  \item{Socially acceptable interests}
+  \item{All filter toward concrete differences in knowledge that have implications for citizenship, occupational chances, end health, as well as many other opportunities to access resources.}
+\end{itemize}
+
+% \section{Next Steps}
+%
+% \begin{itemize}
+%   \item{More immediately, my next step on this particular project is to take a look at predictors of answering ``don't know'' on questions. In particular, I'm interested in quantifying the thresholds at which men and women are willing to answer questions versus to bow out and respond that they do not know.}
+% \end{itemize}
+
+\section{Relevance}
+\begin{itemize}
+  \item{Again, which knowledge is deemed important to know, and the acquisition of that knowledge, is all shaped by social structures, institutional contexts, social roles, and status positions. Here i've begun to explore inequalities in those knowledge items that are deemed important to measure by groups in power, an important first step to descriptively understanding inequalities in the knowledge landscape.}
+\end{itemize}
+ % And even though your data can’t speak to this, you might want to briefly explain your thoughts on the broader social forces shaping the results. I know you have thought a lot about this, so you could just add one or two sentences on it. What came to mind for me is Maria Charles' research and the research on gender sorting by field among teachers professors. Erin Cech’s work on the passion principle and college degrees might also be helpful here. This would help to showcase the broader significance of your findings.
+
+\end{document}
