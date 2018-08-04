@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1533322574 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533322575
+["pdflatex"] 1533322574 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533338895
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing.pdf" 1533166269 17946 f741ac649b52fbcede73b362df3cbd53 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender.pdf" 1527265594 17437 b1b0cf5413fbf4d1b47dc7eb0ad5243b ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf" 1533237600 104584 ba5646a4948eb72ad3eab08966ce5453 ""
@@ -139,8 +139,8 @@
   "presentation_handout.pre" 1533322575 0 d41d8cd98f00b204e9800998ecf8427e ""
   "presentation_handout.tex" 1533322574 7840 d39896a8b95ad0ec24c9d5e5e5c0e9a7 ""
   (generated)
-  "presentation_handout.pdf"
-  "presentation_handout.log"
+  "presentation_handout.pre"
   "presentation_handout.out"
   "presentation_handout.aux"
-  "presentation_handout.pre"
+  "presentation_handout.log"
+  "presentation_handout.pdf"
