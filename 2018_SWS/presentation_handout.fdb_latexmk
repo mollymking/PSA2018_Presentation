@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1533322574 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533338895
+["pdflatex"] 1533343982 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533343983
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretical Model Drawing.pdf" 1533166269 17946 f741ac649b52fbcede73b362df3cbd53 ""
-  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender.pdf" 1527265594 17437 b1b0cf5413fbf4d1b47dc7eb0ad5243b ""
-  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf" 1533237600 104584 ba5646a4948eb72ad3eab08966ce5453 ""
+  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_gender.pdf" 1533341759 17784 ca9affc3d8b27071e327f0441cf142e7 ""
+  "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender.pdf" 1533343757 109926 62aab114c5adf6920361b0243885c90f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -134,13 +134,13 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation_handout.aux" 1533322575 1202 32d6b8cfa0942cd880c0e1d7f100f97f ""
-  "presentation_handout.out" 1533322575 158 57913e8c7f29efc7d4a1264db7839558 ""
-  "presentation_handout.pre" 1533322575 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "presentation_handout.tex" 1533322574 7840 d39896a8b95ad0ec24c9d5e5e5c0e9a7 ""
+  "presentation_handout.aux" 1533343983 1202 32d6b8cfa0942cd880c0e1d7f100f97f ""
+  "presentation_handout.out" 1533343983 158 57913e8c7f29efc7d4a1264db7839558 ""
+  "presentation_handout.pre" 1533343982 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "presentation_handout.tex" 1533343896 7860 263f63ae701bea86799700db9b0a47f6 ""
   (generated)
+  "presentation_handout.pdf"
+  "presentation_handout.log"
+  "presentation_handout.aux"
   "presentation_handout.pre"
   "presentation_handout.out"
-  "presentation_handout.aux"
-  "presentation_handout.log"
-  "presentation_handout.pdf"

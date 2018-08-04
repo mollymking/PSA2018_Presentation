@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,31 +1127,31 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 213.
  [2]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_edu_all-gender".pdf, id=72, 397.03792pt x 267.19193pt>
+i08_vis06_graphCIs_C_edu_all-gender".pdf, id=72, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
+vis/ki08_vis06_graphCIs_C_edu_all-gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_edu_all-gender".pdf>
+is/ki08_vis06_graphCIs_C_edu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender".pdf used on input li
-ne 249.
-(pdftex.def)             Requested size: 375.80864pt x 252.90538pt.
+results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender".pdf used on input 
+line 249.
+(pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
  [3 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
-s/ki08_vis06_graphCIs_edu_all-gender.pdf>]
+s/ki08_vis06_graphCIs_C_edu_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_compareEdu_noedu_gender".pdf, id=90, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_C_edu_gender".pdf, id=90, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
+vis/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_compareEdu_noedu_gender".pdf>
+is/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender".pdf used on input li
-ne 269.
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf used o
+n input line 269.
 (pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
  [4 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
-s/ki08_vis06_compareEdu_noedu_gender.pdf>]
+s/ki08_vis03_propHoriz02_multComp_C_edu_gender.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
  [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
@@ -1164,7 +1164,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
  13890 strings out of 492995
- 207610 string characters out of 6132704
+ 207658 string characters out of 6132704
  305814 words of memory out of 5000000
  17153 multiletter control sequences out of 15000+600000
  60942 words of font info for 83 fonts, out of 8000000 for 9000
@@ -1181,7 +1181,7 @@ al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/lm/lmr7.pfb>
-Output written on presentation_notes.pdf (5 pages, 293808 bytes).
+Output written on presentation_notes.pdf (5 pages, 299390 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams

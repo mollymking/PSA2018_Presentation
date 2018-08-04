@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1132,49 +1132,49 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 mollymking/Documents/SocResearch/Dissertation/presentations_workshop/Theoretica
 l Model Drawing.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_edu_all-gender".pdf, id=44, 397.03792pt x 267.19193pt>
+i08_vis06_graphCIs_C_edu_all-gender".pdf, id=44, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_graphCIs_edu_all-gender".pdf Graphic file (type pdf)
+vis/ki08_vis06_graphCIs_C_edu_all-gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_graphCIs_edu_all-gender".pdf>
+is/ki08_vis06_graphCIs_C_edu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender".pdf used on input li
-ne 187.
-(pdftex.def)             Requested size: 343.65117pt x 231.26459pt.
+results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender".pdf used on input 
+line 188.
+(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_compareEdu_noedu_gender".pdf, id=45, 397.485pt x 289.08pt>
+i08_vis03_propHoriz02_multComp_C_edu_gender".pdf, id=45, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
-vis/ki08_vis06_compareEdu_noedu_gender".pdf Graphic file (type pdf)
+vis/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
-is/ki08_vis06_compareEdu_noedu_gender".pdf>
+is/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_compareEdu_noedu_gender".pdf used on input li
-ne 198.
+results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_gender".pdf used o
+n input line 199.
 (pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \end{document}
+l.205 \end{document}
                      [2 </Users/mollymking/Documents/SocResearch/Dissertation/r
-esults/figures/08_vis/ki08_vis06_graphCIs_edu_all-gender.pdf> </Users/mollymkin
-g/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_compareE
-du_noedu_gender.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+esults/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender.pdf> </Users/mollymk
+ing/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHo
+riz02_multComp_C_edu_gender.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
  (./presentation_handout.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `presentation_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 57913E8C7F29EFC7D4A1264DB7839558;158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
  ) 
 Here is how much of TeX's memory you used:
  13949 strings out of 492995
- 207814 string characters out of 6132704
+ 207862 string characters out of 6132704
  305940 words of memory out of 5000000
  17248 multiletter control sequences out of 15000+600000
  59577 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1191,7 +1191,7 @@ ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmr8.pfb>
-Output written on presentation_handout.pdf (2 pages, 322385 bytes).
+Output written on presentation_handout.pdf (2 pages, 327937 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
