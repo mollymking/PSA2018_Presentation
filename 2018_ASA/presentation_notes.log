@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 AUG 2018 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,7 +1131,7 @@ vis/ki08_vis06_graphCIs_C_edu_all-income".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_C_edu_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income".pdf used on input 
-line 251.
+line 254.
 (pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
  [3 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
 s/ki08_vis06_graphCIs_C_edu_all-income.pdf>]
@@ -1144,7 +1144,7 @@ vis/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf used o
-n input line 273.
+n input line 276.
 (pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
  [4 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
 s/ki08_vis03_propHoriz02_multComp_C_edu_income.pdf>]
@@ -1157,27 +1157,27 @@ vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf used o
-n input line 293.
+n input line 296.
 (pdftex.def)             Requested size: 375.8194pt x 273.32318pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
  [5 </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vi
 s/ki08_vis03_propHoriz02_multComp_C_edu_rblack.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./presentation_notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `presentation_notes.out' has not changed.
-(rerunfilecheck)             Checksum: 70DD13262AAA5EFFE8E6E6B21CADBDD2;1745.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+(rerunfilecheck)             Checksum: 37D546C7F143D2218366AE9BF520EB3D;1867.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
  13889 strings out of 492995
  207838 string characters out of 6132704
- 305814 words of memory out of 5000000
+ 306814 words of memory out of 5000000
  17157 multiletter control sequences out of 15000+600000
  60693 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,562b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,588b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/
@@ -1189,7 +1189,7 @@ al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/lm/lmr7.pfb>
-Output written on presentation_notes.pdf (5 pages, 316785 bytes).
+Output written on presentation_notes.pdf (5 pages, 338868 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams

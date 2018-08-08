@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1533346319 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533346320
+["pdflatex"] 1533771052 "presentation_handout.tex" "presentation_handout.pdf" "presentation_handout" 1533771118
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_income.pdf" 1533341761 17403 2cacf8774a2599496be7f95eb8f9e617 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack.pdf" 1533341764 18849 3fa93ed247c6325a0d2e0603c5d59e11 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income.pdf" 1533343759 111404 b882ddb8d23aa1bc5c9918a3a9084124 ""
@@ -136,13 +136,13 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "Theoretical Model Drawing.pdf" 1533346267 17783 a558fee6ddb3c1a5cee32325b59e1f18 ""
-  "presentation_handout.aux" 1533346320 1396 2ab5b5ec1bdb1600e290eead60a0da65 ""
-  "presentation_handout.out" 1533346320 158 57913e8c7f29efc7d4a1264db7839558 ""
-  "presentation_handout.pre" 1533346319 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "presentation_handout.tex" 1533346310 8743 67a7ca53fc735958bddcfe8bd5eba811 ""
+  "presentation_handout.aux" 1533771053 1396 2ab5b5ec1bdb1600e290eead60a0da65 ""
+  "presentation_handout.out" 1533771053 158 57913e8c7f29efc7d4a1264db7839558 ""
+  "presentation_handout.pre" 1533771052 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "presentation_handout.tex" 1533771052 8785 a5d8458dd7677825c97f2b212ca85a10 ""
   (generated)
-  "presentation_handout.pre"
-  "presentation_handout.aux"
-  "presentation_handout.pdf"
   "presentation_handout.log"
   "presentation_handout.out"
+  "presentation_handout.aux"
+  "presentation_handout.pre"
+  "presentation_handout.pdf"

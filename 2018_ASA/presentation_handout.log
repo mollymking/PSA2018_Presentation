@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 AUG 2018 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 AUG 2018 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1040,14 +1040,14 @@ LaTeX Info: Redefining \nameref on input line 116.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
+* v-part:(T,H,B)=(32.52127pt, 729.92744pt, 32.52127pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=469.75502pt
-* \textheight=678.24513pt
+* \textheight=699.92744pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-65.90756pt
+* \topmargin=-76.74872pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1137,7 +1137,7 @@ is/ki08_vis06_graphCIs_C_edu_all-income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income".pdf used on input 
 line 189.
-(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
+(pdftex.def)             Requested size: 198.742pt x 144.53964pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis03_propHoriz02_multComp_C_edu_income".pdf, id=45, 397.485pt x 289.08pt>
@@ -1148,8 +1148,8 @@ vis/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_income".pdf used o
-n input line 199.
-(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
+n input line 197.
+(pdftex.def)             Requested size: 198.742pt x 144.53964pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis03_propHoriz02_multComp_C_edu_rblack".pdf, id=46, 397.485pt x 289.08pt>
@@ -1160,24 +1160,19 @@ vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack".pdf used o
-n input line 207.
-(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+n input line 205.
+(pdftex.def)             Requested size: 198.742pt x 144.53964pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \end{document}
-                     [2 </Users/mollymking/Documents/SocResearch/Dissertation/r
-esults/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income.pdf> </Users/mollymk
-ing/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHo
-riz02_multComp_C_edu_income.pdf>]pdfTeX warning (ext4): destination with the sa
-me identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \end{document}
-                     [3 </Users/mollymking/Documents/SocResearch/Dissertation/r
-esults/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack.pdf>]
+l.210 \newpage
+               [2 </Users/mollymking/Documents/SocResearch/Dissertation/results
+/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-income.pdf> </Users/mollymking/Do
+cuments/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_
+multComp_C_edu_income.pdf> </Users/mollymking/Documents/SocResearch/Dissertatio
+n/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_edu_rblack.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
 
 (./presentation_handout.aux)
@@ -1190,7 +1185,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
 Here is how much of TeX's memory you used:
  13965 strings out of 492995
  208245 string characters out of 6132704
- 305940 words of memory out of 5000000
+ 305941 words of memory out of 5000000
  17256 multiletter control sequences out of 15000+600000
  68458 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1206,10 +1201,10 @@ ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmr8.pfb>
-Output written on presentation_handout.pdf (3 pages, 353982 bytes).
+Output written on presentation_handout.pdf (2 pages, 357172 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  16421 words of extra memory for PDF output out of 17280 (max. 10000000)
 
