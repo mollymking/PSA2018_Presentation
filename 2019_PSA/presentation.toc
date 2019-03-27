@@ -1,0 +1,49 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Introduction}{2}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Motivation}{2}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Research Question}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Methods}{5}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Data}{5}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Domains}{6}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{What's Missing?}{7}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{4}{Model}{8}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{5}{Model}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Results: Knowledge}{13}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Means across domains}{13}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Supplemental Slides}{21}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{Theory}{22}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Model of knowledge}{27}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{3}{Methods}{28}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{4}{Results: Knowledge}{34}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{5}{Proportions correct by group}{34}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{6}{Results: Certainty}{38}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{7}{``Don't Know'' Model}{38}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{8}{Other Research}{40}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{9}{Methods}{42}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{10}{Results: Knowledge}{43}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{11}{Correct Knowledge}{43}{1}{5}

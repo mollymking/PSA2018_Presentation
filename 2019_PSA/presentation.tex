@@ -1,0 +1,1441 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+%!TEX root = presentation.tex
+
+\documentclass[pdf]{beamer}
+
+\usepackage{pgfpages}
+\usepackage{textpos}
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{appendixnumberbeamer}
+ % \usepackage{pgfpages}
+
+% stop getting patching footnotes failed warning (https://tex.stackexchange.com/questions/202988/beamer-patching-footnotes-warning-patching-footnotes-failed-footnote-detectio)
+\usepackage{silence}
+\WarningFilter{biblatex}{Patching footnotes failed}
+
+  \usetheme{Boadilla}
+% \usetheme{stanford}
+ % \usetheme{default}
+\usecolortheme{beaver}  % red
+\beamertemplatenavigationsymbolsempty
+
+% slide number
+% \setbeamertemplate{footline}{%
+% \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[20pt]{\lolit
+% \scriptsize\insertframenumber}}}\hspace*{5pt}}
+
+ \mode<presentation>{}
+ % To give a presentation with the Skim reader (http://skim-app.sourceforge.net) on OSX so
+ % that you see the notes on your laptop and the slides on the projector, do the following:
+ %
+ %   \setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
+ % 1. Generate just the presentation (hide notes) and save to slides.
+\setbeameroption{hide notes} % Only slides
+ % 2. Generate only the notes (show only nodes) and save to notes.pdf
+   %   \setbeameroption{show only notes} % Only notes
+
+ % 3. With Skim open both slides.pdf and notes.pdf
+ % 4. Click on slides.pdf to bring it to front.
+ % 5. In Skim, under "View -> Presentation Option -> Synhcronized Noted Document"
+ %    select notes.pdf.
+ % 6. Now as you move around in slides.pdf the notes.pdf file will follow you.
+ % 7. Arrange windows so that notes.pdf is in full screen mode on your laptop
+ %    and slides.pdf is in presentation mode on the projector.
+
+ % Give a slight yellow tint to the notes page
+ \setbeamertemplate{note page}{\pagecolor{yellow!5}\insertnote}\usepackage{palatino}
+
+ % ensures that notes pages generated for every slide, even if no notes present:
+ \makeatletter
+ \def\beamer@framenotesbegin{% at beginning of slide
+   \gdef\beamer@noteitems{}%
+   \gdef\beamer@notes{{}}% used to be totally empty.
+ }
+ \makeatother
+
+
+ %Bibliography
+ \usepackage[
+ backend=biber,
+ style=alphabetic,
+ citestyle=authoryear-comp
+ ]{biblatex}
+
+
+%Stannford theme specifics
+
+ \newcommand{\bT}{\mathbf{T}}
+ \newcommand{\cP}{\mathcal{P}}
+ \newcommand{\cS}{\mathcal{S}}
+ \newcommand{\vsmall}{\vskip 5px}
+ \newcommand{\vmedium}{\vskip 10px}
+ \newcommand{\vbig}{\vskip 20px}
+ \newcommand{\bA}{\mathbf{A}}
+
+ \setbeamercolor{itemize item}{fg=red}
+
+
+ %----------------------------------------------------------------------------------------
+ %	PRESENTATION CONTENT
+ %----------------------------------------------------------------------------------------
+
+ % % preamble
+\title{Information Inequality}
+\subtitle{Gender Gaps in Knowledge}
+\author{Molly King}
+\institute{Stanford University}
+\date{March 31, 2019}
+
+\begin{document}
+
+ % Title Slide
+\begin{frame}
+  \titlepage
+    \note[item]{Good morning, everyone! Thank you for being here.}
+    \note[item]{My name is Molly King.}
+    \note[item]{I am a PhD candidate at Stanford University}
+    \note[item]{Today I am going to be presenting on 1 of the papers from my dissertation about gender disparities in factual knowledge.}
+    \note[item]{I will be exploring these gaps using analyses of quantitative survey data.}
+    \note[item]{I will show that women's disadvantage in most areas of factual knowledge closely follows patterns of social norms, suggesting the power of socialization and gendered expectation in creating knowledge inequalities.}
+   \note[item]{I will discuss how this reflects what knowledge is valued in our society and sheds light on important sites of the reproduction of inequality.}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\section{Introduction}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+\section{Introduction}
+%----------------------------------------------------------------------------------------
+
+\subsection{Motivation}
+
+% Differential access to facts
+\begin{frame}
+ \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman"}
+   \end{center}
+ \end{figure}
+ \begin{flushright}
+   \emph{\scriptsize{\textcolor{gray}{(Related theory: Hidalgo 2015, Simon 1971 | Cartoon credit: Loren Fishman | cartoonstock.com)}}}
+ \end{flushright}
+   \note[item]{Never before has such a wealth of information been so
+   immediately accessible to so many and yet the filtering
+   demands so high.  Topics many believe to be objective and
+   resolved after years of scientific consensus are now resurfacing as topics
+   of factual debate. What people know, what we think we know, and what we
+   think others know all have dramatic consequences for the future of the U.S.
+   and the world. Information truly is power; and who possesses it and wields
+   it most effectively has profound consequences for inequality and human
+   welfare.}
+   \note[item]{People disagree about facts, and this is shaping our public narrative more than ever.}
+   \note[item]{But not only are we dealing with disagreements about facts. People also have differential access to the facts.}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Types of Knowledge}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge"}
+    \end{center}
+  \end{figure}
+
+  \begin{flushleft}
+    \emph{\scriptsize{\textcolor{gray}{(Fantl 2012)}}}
+     % \emph{\scriptsize{\textcolor{gray}{\cite{Fantl2012}}}}
+  \end{flushleft}
+
+  \note[item]{Epistemology commonly distinguishes between three types of
+  knowledge:}
+    \note[item]{The category of ``knowledge-that'' is what interests me here.}
+    \note[item]{Knowledge-that can roughly be thought of as declarative
+    knowledge, propositional knowledge, or ``explicit knowledge of a fact.''}
+    \note[item]{My study focuses on inequalities in this type of knowledge.}
+\end{frame}
+
+  %
+  % %Motivation - 3 reasons
+  % \begin{frame}
+  % \frametitle{Why care about information inequality?}
+  %   \begin{itemize}
+  %   \note[item]{Most of us are in this room because we try to understand the origins or cures of inequality in some form.}
+  %
+  %   \item
+  %     Differences in information capacity itself are, by definition, a
+  %     dimension of `inequality';
+  %
+  %       \note[item]{Were also all here because we believe in the importance of knowledge, so I probably don't have to argue too much for this idea of the inherent value of knowledge.}
+  %       \note[item]{Here I want to note that I do NOT mean to equate knowledge or information capacity with intelligence. Knowledge of facts is only one aspect of knowledge, after all, and IQ measures something more akin to analytic abilities.}
+  %       \note[item]{Much like many people care about health or education as goods in and of themselves, not just for the ends they can help achieve, we may also think that knowledge is of value for its own sake.}
+  %
+  %   \end{itemize}
+  % \end{frame}
+  %
+  % %Motivation - 3 reasons
+  % \begin{frame}
+  % \frametitle{Why care about information inequality?}
+  %   \begin{itemize}
+  %
+  %   \item
+  %   \textcolor{gray}{Differences in information capacity itself are, by definition, a
+  %     dimension of `inequality';}
+  %   \item
+  %     Differences in the amount of information people have are influenced by
+  %     unequal social positions in our society;
+  %
+  %       \note[item]{I argue that a concept I am calling information inequality - or knowledge inequality - is important as both an outcome and cause of social inequality.}
+  %
+  %
+  %   \end{itemize}
+  % \end{frame}
+  %
+  % %Motivation - 3 reasons
+  % \begin{frame}
+  % \frametitle{Why care about information inequality?}
+  %   \begin{itemize}
+  %   \item
+  %     \textcolor{gray}{Differences in information capacity itself are, by definition, a
+  %     dimension of `inequality';}
+  %   \item
+  %     \textcolor{gray}{Differences in the amount of information people have are influenced by
+  %     unequal social positions in our society; and}
+  %   \item
+  %     Information is a potential cause of later inequality in outcomes and
+  %     access to resources.
+  %
+  %   \note[item]{Finally, information discrepancies enable differential access to resources and institutional positions, thereby causing later inequality as well.}
+  %   \note[item]{So, while I argue that knowledge inequality is important from both ends of the causal arrow, in this research I focus on the idea that social status causes knowledge inequality.}
+  %
+  %       \note[item]{The field of sociology has long studied the production of knowledge in science inequalities in knowledge careers; and information diffusion and its consequences. Many studies have evaluated information seeking behaviors and needs. But the tendency has either been to study knowledge in one specific domain (e.g., health) or to reduce knowledge across all domains to a single test score -- and hence we know shockingly little about the everyday knowledge stock of Americans.}
+  %   \end{itemize}
+  % \end{frame}
+
+
+%-------------------------
+\subsection{Research Question}
+%-------------------------
+
+\begin{frame}
+\frametitle{Research Questions}
+  \emph{Is there a gender gap in knowledge?} \\
+  \vspace{.2cm}
+  \emph{Does the gender gap in knowledge vary by domain?} \\
+  \vspace{.2cm}
+  \emph{What social process(es) explain(s) this gap?}
+
+  \note[item]{So I wanted to perform a wide scan analysis of knowledge inequality, first finding out the answer to the most fundamental question: is there a gender gap in knowledge in different domains?}
+  \note[item]{Then I wanted to look at who has and does not have knowledge in different domains, and how those inequalities might compare to each other.}
+  \note[item]{I also sought to explore what social processes might explain the variance in knowledge by domain.}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\section{Methods}
+%----------------------------------------------------------------------------------------
+
+ % Data
+\subsection{Data}
+
+\begin{frame}
+\frametitle{Data}
+  \begin{columns}
+    \begin{tabular}{|l|c|c|}
+      \hline   % adds horizontal lines to the top of the table
+      Data Source & No.  & No. \\
+        & Datasets & Questions \\
+      \hline
+      General Social Survey  & 5 & 40        \\
+      Pew Research Center  &  20 & 222          \\
+      USC's Understanding America Study  & 3 & 48 \\
+      Rand American Life Panel & 2 & 24  \\
+      National Financial Capability Studies & 3  & 16 \\
+      Kaiser Family Foundation  & 1   & 7     \\
+      Health Information National Trends Survey  & 7 & 125 \\
+      Integrated Health Interview Series  & 1 & 12 \\
+      21st Century Americanism survey & 1 & 4 \\
+      Global Views American Public Opinion  & 1  & 2 \\
+      Outlook on Life Survey & 1  &  6 \\
+      National Politics Study  &  1 & 5 \\
+      Chicago Survey of Amer. Public Opinion  & 1 & 2 \\
+      \hline  % adds horizontal line to the bottom edges
+      Total & 48  & 513 \\
+      \hline
+    \end{tabular}
+   \end{columns}
+
+  \note[item]{in order to explore these questions, I collected data from 48
+  nationally representative data sets from between the years 2005 and 2015, each
+  including at least one knowledge question.}
+  \note[item]{I collected over 500 questions data from main public opinion
+  survey repositories, like the General Social Survey, Pew Research Center, and ICPSR.}
+  \note[item]{A question was included if it asked respondents about factual
+  knowledge  - a question with a generally agreed-upon answer.}
+  \note[item]{These are true/false or multiple-choice questions that asked
+  things like:}
+  \note[item]{-``Chest pain is a symptom that
+  someone may be having a heart attack -- true or false.}
+\end{frame}
+
+
+\subsection{Domains}
+\begin{frame}
+\frametitle{Domains}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{tabular} {l}  % creates table with text left-centered, vertical lines right and left
+        \hline   % adds horizontal lines to the top of the table
+        physical science               \\
+        biological science             \\
+        technology                     \\
+        math                           \\
+        literature                    \\
+        social science                 \\
+        natural world                  \\
+        geography                      \\
+        domestic politics              \\
+        foreign politics               \\
+        economics                      \\
+        finance                        \\
+        health                         \\
+        religion                       \\
+        war                            \\
+        current events                 \\
+        \hline  % adds horizontal line to the bottom edges
+        \end{tabular}
+  \end{columns}
+
+  \note[item]{For each question, I marked for each individual whether they got the question correct or incorrect.}
+  \note[item]{I curated these data and categorized them by domain.}
+  \note[item]{This resulted in 16 topical domains.}
+  \note[item]{People have studied knowledge gaps in many of these domains
+  before. What is unique to my study is gathering these domains all together in
+  one comparative framework, allowing me to look at the structured acquisition
+  of knowledge.}
+\end{frame}
+
+
+\subsection{What's Missing?}
+\begin{frame}
+\frametitle{What's Missing?}
+\begin{columns}
+  \column{0.5\textwidth}
+    \begin{tabular} {l}  % creates table with text left-centered, vertical lines right and left
+      \hline   % adds horizontal lines to the top of the table
+      human development	 \\
+      child care \\
+      elder care \\
+      household maintenance  \\
+      cooking \\
+      car maintenance \\
+      art \\
+      music \\
+      \hline  % adds horizontal line to the bottom edges
+      \end{tabular}
+\end{columns}
+
+  \note[item]{So that's what's here. It's also interesting to reflect on what is not here.}
+  \note[item]{Across all of the surveys between 2005 and 2015, I was unable to find any questions related to facts about child development or elder care, household maintenance, cleaning, cooking, car maintenance, or art or music.}
+  \note[item]{While many of these might be considered more skills based domains, there are also ways to ask questions about them that are more factually grounded.}
+  \note[item]{Even if items around this type of knowledge are being included in nationally representative surveys, they are not being framed as knowledge.}
+  \note[item]{The fact that these domains are missing is important commentary on what knowledge our culture considers important, a point I will return to in my hypotheses.}
+\end{frame}
+
+
+% Model
+\subsection{Model}
+\begin{frame}
+\frametitle{Model}
+  \begin{columns}
+
+    \begin{column}{0.25\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Factors          \\
+         \hline   % adds horizontal lines to the top of the table
+         \textbf{Gender}           \\
+         Income           \\
+         Race / Ethnicity \\
+         Age + $age^2$    \\
+         Education        \\
+         \hline  % adds horizontal line to the bottom edges
+         \end{tabular}
+    \end{column}
+
+    \begin{column}{0.05\textwidth}
+      \begin{tabular}{c}
+        \LARGE{$ = $} \\
+        \\
+        x 513
+      \end{tabular}
+    \end{column}
+
+    \begin{column}{0.2\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Outcome        \\
+         \hline   % adds horizontal lines to the top of the table
+         Probability      \\
+         that you get     \\
+         the question     \\
+         correct          \\
+         \hline  % adds horizontal line to the bottom edges
+      \end{tabular}
+    \end{column}
+
+  \end{columns}
+
+  \note[item]{I also gathered many demographic characteristics about the individuals answering these factual knowledge questions.}
+  \note[item]{For each question, I then use logistic regression to predict the probability of getting the question correct.}
+  \note[item]{I run this analysis for each of my 513 questions.}
+  \note[item]{I regressed the outcome of correct answer on the independent variables gender and control variables.}
+  \note[item]{I also estimated linear probability models, and the results are much the same.}
+  \note[item]{Because I am dealing with over 500 separate logistic regressions, I also adjust for multiple comparisons.}
+  \note[item]{I mention this because the implication is that I can be extremely confident that these results would replicate using a different sample.}
+  \note[item]{Finally, I created 95\% confidence intervals using simulation methods, resampling from the standard error of each coefficient and averaging those across each domain.}
+  \note[item]{I'm happy to discuss any details in the Q\&A.}
+\end{frame}
+
+
+
+% Model
+\subsection{Model}
+\begin{frame}
+\frametitle{Model}
+  \begin{columns}
+
+    \begin{column}{0.25\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Factors          \\
+         \hline   % adds horizontal lines to the top of the table
+         \textbf{Gender}           \\
+         Income           \\
+         Race / Ethnicity \\
+         Age + $age^2$    \\
+         Education        \\
+         \hline  % adds horizontal line to the bottom edges
+         \end{tabular}
+    \end{column}
+
+    \begin{column}{0.05\textwidth}
+      \begin{tabular}{c}
+        \LARGE{$ = $} \\
+        \\
+        x 513
+      \end{tabular}
+    \end{column}
+
+    \begin{column}{0.2\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Outcome        \\
+         \hline   % adds horizontal lines to the top of the table
+         Probability      \\
+         that you get     \\
+         the question     \\
+         correct          \\
+         \hline  % adds horizontal line to the bottom edges
+      \end{tabular}
+    \end{column}
+
+  \end{columns}
+
+  \note[item]{I also gathered many demographic characteristics about the individuals answering these factual knowledge questions.}
+  \note[item]{For each question, I then use logistic regression to predict the probability of getting the question correct.}
+  \note[item]{I run this analysis for each of my 513 questions.}
+  \note[item]{I regressed the outcome of correct answer on the independent variables gender and control variables.}
+  \note[item]{I also estimated linear probability models, and the results are much the same.}
+  \note[item]{Because I am dealing with over 500 separate logistic regressions, I also adjust for multiple comparisons.}
+  \note[item]{I mention this because the implication is that I can be extremely confident that these results would replicate using a different sample.}
+  \note[item]{Finally, I created 95\% confidence intervals using simulation methods, resampling from the standard error of each coefficient and averaging those across each domain.}
+  \note[item]{I'm happy to discuss any details in the Q\&A.}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Hypothesis: Question Maker Bias}
+
+\begin{figure}[ht]
+  \begin{center}
+    \vspace{-.3cm}
+    \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias"}
+  \end{center}
+
+  \note[item]{This possibility leads me to my first hypothesis: the question maker bias hypothesis.}
+  \note[item]{Under this hypothesis, questions in all domains are biased to be
+  more likely to be answered correctly by men - or to be answered by men at all
+  - because they are more likely to be written by men in the first place.}
+  \note[item]{This is indicated here with predicted log odds in favor of men
+  knowing more. The log odds of a woman knowing the correct answer relative to a
+  man is presented along the y axis. Under this hypothesis, men would be
+  expected to know more in all domains.}
+
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Hypothesis: Socialized Essentialism}
+
+\begin{figure}[ht]
+  \begin{center}
+    \vspace{-.65cm}
+    \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com"}
+  \end{center}
+\end{figure}
+
+\begin{flushleft}
+  \vspace{-.3cm}
+  \emph{\scriptsize{\textcolor{gray}{(Related theory: Ridgeway2006, West1987, Cech 2013, Charles 2009 | Photo credit: Medium.com)}}}
+\end{flushleft}
+
+  \note[item]{\footnotesize{Alternatively, socialization may cause specialized knowledge by gender.}}
+  \note[item]{\footnotesize{gender may have a direct impact
+  on the types of knowledge acquired via education, occupations, and social
+  networks.}}
+  \note[item]{\footnotesize{ Gender may also have an indirect impact via social
+  norms, gaps in leisure time, or other socially shaped expectations of gendered
+  knowledge interests. }}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Hypothesis: Socialized Essentialism}
+  \begin{figure}[ht]
+    \begin{center}
+      \vspace{-.3cm}
+      \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism"}
+    \end{center}
+  \end{figure}
+
+    \note[item]{These interrelated mechanisms lead me to the Socialized
+    Essentialism hypothesis.}
+    \note[item]{Under this hypothesis, men and women specialize in knowledge
+    domains understood to be stereotypically associated with their respective
+    gender.}
+    \note[item]{My estimates for the relative specialization of men and women
+    in different domains in this hypothesis come from a survey I fielded asking
+    about respondents' perceptions of each knowledge question.}
+    \note[item]{I don't have time to discuss the details of this survey here, but I am happy to talk more about it in Q\&A.}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\section{Results: Knowledge}
+%----------------------------------------------------------------------------------------
+
+
+\subsection{Means across domains}
+
+ % Show axes without result
+\begin{frame}
+\frametitle{Domains Across X-Axis}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{So here I take the 500 questions and divide them into these 16 domains across the x-axis.}
+  \note[item]{I tested whether gender had a significant effect on knowledge within each entire domain. }
+  \note[item]{If there were no difference in the average difference between men and women, we would see the confidence interval bar across the 0 line.}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Each Model as a Data Point}
+  \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender"}
+   \end{center}
+  \end{figure}
+
+  \note[item]{Each blue dot represents an individual question.}
+  \note[item]{The green square is the mean knowledge level within each domain,
+  and the confidence interval represents 95\% simulated certainty around that
+  mean for each domain.}
+  \note[item]{For each domain, the simulated mean and confidence intervals show
+  whether there is a significant difference between the 2 gender groups and the
+  direction of that difference.}
+
+\end{frame}
+
+
+% Cross-domain gender log odds
+\begin{frame}
+\frametitle{No mean gender difference in 4/16 domains}
+ \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors"}
+   \end{center}
+ \end{figure}
+  \note[item]{Women have greater average knowledge in the domains of social
+  science and humanities.}
+  \note[item]{There is no average gender difference in 4 of the 16 domains,
+  because the confidence interval crosses 0.}
+\end{frame}
+
+% Cross-domain gender log odds
+\begin{frame}
+\frametitle{Men have greater knowledge in 10/16 domains}
+ \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors"}
+   \end{center}
+ \end{figure}
+
+  \note[item]{And men have greater average knowledge in 10 domains.}
+  \note[item]{These are all domains where the questions were rated more
+masculine by respondents in my survey.}
+
+\end{frame}
+
+ % Result holds when controlling for education
+\begin{frame}
+\frametitle{Result holds when controlling for education}
+ \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors"}
+   \end{center}
+ \end{figure}
+  \note[item]{You might think this is driven by differences in education.}
+  \note[item]{However, controlling for education increases the number of
+  questions that men answer correctly significantly more often and decreases the
+  number of questions that women answer correctly. This is because women are
+  getting more of their knowledge advantage from their educational advantage
+  relative to men - especially in the sciences.}
+\end{frame}
+
+% Proportion of questions answered "don't know" above and below 0 log odds by gender - with education
+\begin{frame}
+\frametitle{Women answer more questions ``don't know''}
+  \begin{figure}[ht]
+    \begin{center}
+        \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender"}
+
+    \end{center}
+  \end{figure}
+
+    % \note[item]{Here are results, by domain, of whether a question is more likely to be answered ``don't know'' by a man, a woman, or neither. These results control for education and reflect whether this tendency to answer don't know is statistically significant.}
+    \note[item]{I see a similar pattern when I model answers of ``don't know''
+    to questions where  that was available.}
+    \note[item]{The same knowledge domains where men are more likely to answer
+    correct on average are the domains where women are more likely to answer
+    ``don't know''.}
+    \note[item]{I'm still exploring whether this represents a true gap in
+    knowledge or a difference in the certainty at which men and women are
+    comfortable guessing, both of which could lead to an observed gap in
+    knowledge.}
+    \note[item]{In other words, I do not yet know if this is because women truly
+    are less likely to know the information or are less willing to guess.}
+
+  \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{dontknow_barChart}{Proportion of Don't Know Responses by Gender}}}}
+  \end{flushright}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Results: Socialized Essentialism}
+
+\begin{figure}[ht]
+  \begin{center}
+    \vspace{-.3cm}
+    \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur_C_edu_gender_essentialism"}
+  \end{center}
+
+  \note[item]{Revisiting my original theory, I found my results most closely
+  match the socialized essentialism hypothesis.}
+  \note[item]{I do find high
+  degree of correlation between what people think women and men are likely to
+  know more about and the actual factual knowledge respondents report on
+  nationally representative surveys.}
+  \note[item]{Remember, my classifications into domains had nothing to do with
+  these gendered ratings of the questions themselves. So the respondents'
+  performance on the knowledge items and the ratings of how gendered each item is
+  perceived to be are as independent as possible.}
+  \note[item]{This is strong evidence that gendered socialization mechanisms are
+  at work here in determining the domains of knowledge men and women specialize
+  in.}
+  \note[item]{In this way, our expectations shape our reality. Social
+  expectations and socialization shape the knowledge acquired by men and women,
+  with dramatic consequences for inequality.}
+
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Thank You}
+\label{supplemental_slides}
+\vspace{1cm}
+\Large{\textbf{Molly M. King}} \newline
+\texttt{kingmo@stanford.edu} \\
+\vspace{2.45cm}
+\hspace*{8cm}\includegraphics[height =1.5 in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos"}
+
+  \note[item]{}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\section{Supplemental Slides}
+%----------------------------------------------------------------------------------------
+\appendix
+
+
+\begin{frame}
+\frametitle{Supplemental Slides}
+\label{supplemental_slides}
+ %https://www.overleaf.com/learn/latex/Beamer_Presentations:_A_Tutorial_for_Beginners_(Part_3)%E2%80%94Blocks,_Code,_Hyperlinks_and_Buttons
+  \begin{itemize}
+    \vspace{0.25cm} \\
+    \hspace*{-.75cm}\textcolor{red}{Theory} \\
+        \item
+          \footnotesize{\hyperlink{model_of_knowledge}{Model Of Knowledge}}
+        \item
+          \footnotesize{\hyperlink{status_differences}{Status Differences}}
+        \item
+          \footnotesize{\hyperlink{gender_segregated_networks}{Gender Segregated Networks}}
+        \item
+          \footnotesize{\hyperlink{leisure_time}{Leisure Time}}
+        \item
+          \footnotesize{\hyperlink{socialization}{Socialization}}
+        \item
+          \footnotesize{\hyperlink{next_steps_exploring_mechanisms}{Next Steps: Exploring Mechanisms}}
+    \vspace{0.25cm} \\
+    \hspace*{-.75cm}\textcolor{red}{Methods} \\
+        \item
+          \footnotesize{\hyperlink{data_search_selection}{Data Search \& Selection}}
+        \item
+          \footnotesize{\hyperlink{data_structure}{Data Structure}}
+        \item
+          \footnotesize{\hyperlink{my_survey}{My Survey on Gendered Perception of Knowledge Questions}}
+        \item
+          \footnotesize{\hyperlink{logit_details}{Logit Details}}
+        \item
+          \footnotesize{\hyperlink{multiple_comparisons}{Multiple Comparisons}}
+        \item
+          \footnotesize{\hyperlink{ci_simulations}{Confidence Interval Simulations}}
+    \vspace{0.25cm} \\
+    \hspace*{-.75cm}\textcolor{red}{Results} \\
+        \item
+          \footnotesize{\hyperlink{dontknow_barChart}{Proportion of Don't Know Responses by Gender}}
+    \vspace{0.25cm} \\
+    \hspace*{-.75cm}\textcolor{red}{Other Research} \\
+        \item
+          \footnotesize{\hyperlink{self_citation_block_diagram}{Gender \& Self Citation: Proportions}}
+        \item
+          \footnotesize{\hyperlink{self_citation_ratio}{Gender \& Self Citation: Ratio}}
+\end{itemize}
+\end{frame}
+
+
+
+\subsection{Theory}
+
+\begin{frame} %[label = status_differences]
+\label{status_differences}
+\frametitle{Information \& Status Differences}
+
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{\scriptsize{Weber's three interrelated bases for inequalities in modern
+  industrial societies are resources, power and status. Status differences
+  between individuals may be created by virtue of information differences.
+  Social status is defined as inequality grounded in differences in respect,
+  esteem, and honor. ``People use culture to make connections with one
+  another''; information that is important to one's social contacts may lead
+  those important others to publicly acknowledge that person and contribute to
+  their sense of being valued. When aggregated at the group level, this control
+  of information may be ``transformed into more essentialized differences among
+  `types' of people, status beliefs that fuel social perceptions of
+  difference.'' At the macro-level, I argue these differences in information,
+  originally created on the basis of gender, give a force to status beliefs that
+  can reproduce material inequalities independent of initial differences in
+  power or resources.}}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Leisure Time}
+\label{leisure_time}
+  \begin{figure}[ht]
+    \begin{center}
+      \vspace{-.2cm}
+      \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_DDX1319-1-EYC12)_(25742716351)"}
+    \end{center}
+  \end{figure}
+
+  \begin{flushleft}
+    \vspace{-.3cm}
+    \emph{\scriptsize{\textcolor{gray}{(Related theory: Parker 2011 | Photo credit: East Riding Archives) }}}
+ %     \emph{\scriptsize{\textcolor{gray}{(Related theory: \cite{Parker2011} | Photo credit: East Riding Archives) }}}
+  \end{flushleft}
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{A number of different mechanisms may be at work behind this
+  finding of gender essentialism in knowledge.}
+  \note[item]{Notably, as adults, gender and class structure lives
+  differently. Men and people of the middle and upper classes have more time
+  for leisure, and we might imagine that leisure time is one of the key
+  times when adults acquire facts about non-occupational related domains.}
+  % Men and women experience a gap in leisure time in which men
+  % might have the opportunity to learn more knowledge.
+  \note[item]{Depending on family
+  structure, women have 3 to 5 fewer hours of leisure time per week than men.}
+  \note[item]{This is in part due to different social roles and
+  expectations, which may have an independent effect on knowledge gaps by
+  funneling women and men toward specialized knowledge consistent with these
+  duties and norms. Furthermore, ideas about what are socially acceptable and
+  desirable interests for men and women in the United States may shape pursuit of
+  knowledge in different domains. }
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Socialization}
+\label{socialization}
+  \begin{figure}[ht]
+    \begin{center}
+      \vspace{-.65cm}
+      \includegraphics[height=3.0in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com"}
+    \end{center}
+  \end{figure}
+
+  \begin{flushleft}
+    \vspace{-.3cm}
+    \emph{\scriptsize{\textcolor{gray}{(Related theory: Ridgeway2006, West1987, Cech 2013, Charles 2009 | Photo credit: Medium.com)}}}
+     % \emph{\scriptsize{\textcolor{gray}{(Related theory: \cite{Cech2013a, Charles2009} | Photo credit: Medium.com)}}}
+  \end{flushleft}
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{Related, men and women are socialized differently from a very early age.}
+  \note[item]{Children are socialized in gendered ways.}
+  \note[item]{Additionally, gender and class differences in
+  college major and occupation choice funnel individuals into different streams
+  of knowledge exposure, which leads to reinforcing cycles of knowledge gaps and
+  the resulting resources.}
+  \note[item]{Gender differences in college major may be a
+  result of self-expressive career choices, and occupational sorting may further
+  reinforce knowledge differences throughout the life course. }
+  \note[item]{After college, expectations of discrimination shape entry into
+  jobs. Hostile environments in training and everyday discrimination in the
+  workplace provide the structural underpinnings for demographic differences in
+  knowledge.}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Gender Segregated Networks}
+\label{gender_segregated_networks}
+  \begin{figure}[ht]
+    \begin{center}
+      \vspace{-.65cm}
+      \includegraphics[height=2.9in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/derechos-politicos-mujer"}
+    \end{center}
+  \end{figure}
+
+  \begin{flushleft}
+    \vspace{-.3cm}
+    \emph{\scriptsize{\textcolor{gray}{(Related theory: Lutter 2015, Marin 2012, DiMaggio \& Garip 2012 | Photo credit: https://www.nes-mag.com)}}}
+  \end{flushleft}
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{Finally, while men's and women's networks are similar until they
+  have children, they diverge dramatically thereafter. Social networks are
+  important source of all types of information - from information about jobs to
+  skill sharing - so there is no reason to believe that men and women would not be
+  receiving different types of factual information through their networks as well.}
+  \note[item]{Gender-segregated networks may also be an important vehicle for maintaining prior socialization.}
+  \note[item]{I have studied the importance of networks and
+  occupations in who gets credit for the production of NEW knowledge in a
+  different set of projects, by looking at the effect of gender on author order
+  and self citation practices in academic publishing. I would be happy to talk
+  about this work during the Q \& A portion of the talk.}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Next: Exploring Mechanisms}
+\label{next_steps_exploring_mechanisms}
+\begin{figure}[ht]
+  \begin{center}
+    \vspace{-.2cm}
+    \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/next_steps_exploring_mechanisms"}
+  \end{center}
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+\end{figure}
+
+  % \begin{itemize}
+  %   \item
+  %     H1. Men and women in occupations of majority opposite-gender "perform gender" by emphasizing knowledge in gender-typical domains, enlarging gender gaps.
+  %   \item
+  %     H2. Occupation-specific knowledge claims primacy and reduces the
+  %     gender gap by domain.
+  %   \item
+  %     H0. Occupation has no interaction with gender in influence on knowledge.
+  % \end{itemize}
+
+  \note[item]{My next projects will explore these potential mechanisms in more detail...}
+  \note[item]{One project I have planned will investigate whether gender performance
+  (or ``doing gender'') contributes to knowledge gaps. Using a subset of my
+  data where I can control for occupation, I will explore whether men and women in
+  the same occupation differ in their knowledge of different domains. For example, do men in majority-female occupations use knowledge as a way to compensate and assert their masculinity, or do they adapt by acquiring gendered knowledge? I will compare these hypotheses and occupational-specific knowledge hypotheses with a null hypothesis of increasing gender equality over time. This will provide one test of possible theoretical mechanisms underlying the gender gap in knowledge among different domains.}
+\end{frame}
+
+
+% % Acquisition and use of knowledge
+\subsection{Model of knowledge}
+\label{model_of_knowledge}
+\begin{frame}
+\frametitle{Acquisition and use of knowledge}
+  \begin{figure}[ht]
+    \begin{center}
+      \vspace{-.2cm}
+      \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/theoretical_model_drawing_gender"}
+    \end{center}
+  \end{figure}
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{\footnotesize{Again, revisiting my model of social influences on
+  knowledge acquisition, I find that indeed gender has a significant effect.}}
+  % Social statuses do structure different understandings of reality by shaping
+  % knowledge in different social facts.
+  \note[item]{\footnotesize{Findings are consistent with a model that implies:}}
+  \note[item]{\footnotesize{--- demographic characteristics affect the knowledge an individual has, and}}
+  \note[item]{\footnotesize{--- using knowledge to access resources.}}
+  \note[item]{\footnotesize{Again, my broad survey allows comparisons across knowledge
+  domains and demographic status groups to understand how the socially
+  structured acquisition of knowledge leads to stratified gaps in information
+  resources.}}
+  \note[item]{\footnotesize{All these different social forces filter toward
+  concrete differences in knowledge that have implications for citizenship,
+  occupational chances, and health, as well as many other opportunities to
+  access resources.}}
+  \note[item]{\footnotesize{This analysis is part of a broader research project
+  that seeks to build out the study of knowledge inequality.}}
+  \note[item]{\footnotesize{Understanding the demographic patterns of knowledge
+  inequality can help sociology move toward a better understanding of the
+  mechanisms underlying inequality more broadly.}}
+
+\end{frame}
+
+
+
+\subsection{Methods}
+
+\begin{frame}
+\label{data_search_selection}
+\frametitle{Data Search \& Selection}
+ %   Slide on data search and selection (terms used etc)
+
+  Databases searched:
+  \begin{itemize}
+    \item
+    ICPSR -- 4,581 surveys reviewed
+    \item
+    Data.gov -- 1,117 surveys reviewed
+  \end{itemize}
+
+  Inclusion criteria:
+  \begin{itemize}
+
+    \item
+    survey search includes the term ``knowledge''
+    \item
+    years 2005 -- 2015
+    \item
+    U.S. nationally representative on race, gender, age
+  \end{itemize}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+  \note[item]{Additional surveys were identified by searching ICPSR using the term
+  ``knowledge,'' limiting the search to the time period 2005 to 2015 in the
+  United States. All (4,581) surveys returned from the search were assessed for
+  relevance and inclusion in the study.
+  I performed the same search for the term ``knowledge'' on the Data.gov database.
+  Criteria for selection included whether the surveys were generally nationally
+  representative and were limited to the time period 2005 to 2015.
+  I reviewed the resultant 1,117 surveys from Data.gov for relevance.}
+  \note[item]{This returned several additional surveys:}
+    \note[item]{Annenberg National Health Communication Survey;}
+    \note[item]{the National Financial Capability Studies}
+    \note[item]{the 21st Century Americanism survey}
+    \note[item]{the Global Views American Public Opinion and Foreign Policy Survey;}
+    \note[item]{the Outlook on Life Survey;}
+    \note[item]{the State of the First Amendment surveys;}
+    \note[item]{and the Chicago Council Survey of American Public Opinion and U.S. Foreign Policy.}
+
+\end{frame}
+
+
+\begin{frame}
+\label{data_structure}
+\frametitle{Data Structure}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[width=\textwidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure"}
+    \end{center}
+  \end{figure}
+
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+\end{frame}
+
+
+\begin{frame}
+\label{logit_details}
+\frametitle{Logit Details}
+  \note[item]{I regressed the outcome of correct answer on the independent variables income, gender, race and ethnicity categories, and controls education categories, and age and age squared.}
+  \note[item]{Although the ideal measure of class here would have been parental occupation, I had to use respondents' family or household income because parental education was not available in most surveys.}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+\end{frame}
+
+
+\begin{frame}
+\label{multiple_comparisons}
+\frametitle{Adjusting for Multiple Comparisons}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.5\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon"}
+  \end{center}
+\end{figure}
+
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+  \note[item]{Because I am dealing with over 400 separate regressions, I also adjust for multiple comparisons using the Holland method.}
+  \note[item]{I mention this because the implication is that I can be extremely confident that these results would replicate using a different sample.}
+\end{frame}
+
+
+\begin{frame}
+\label{ci_simulations}
+\frametitle{Confidence Interval Simulations}
+
+Draw 1000 repetitions from a standard normal distribution,
+ generate a distribution of 1000 possible coefficients for each knowledge question:
+  $$  \hat{\beta_i} = \beta + (SE * x_i) , $$
+where $ x_i \sim N \left( 0,1 \right). $ \\
+\vspace{1 cm}
+Order all $\hat{\beta_i}$ such that \\
+$$\hat{\beta_i} \leq \hat{\beta_{i+1}}$$ \\
+Find value of $\hat{\beta_i}$ at the 2.5th percentile
+and the 97.5th percentile.
+
+  \note[item]{ I  take each coefficient from each of my logistic regressions, and "resample" from a possible distribution of these coefficients adjusted by each coefficient's standard error multiplied by a random draw from a normal distribution.}
+  \note[item]{Drawing 1000 repetitions from a standard
+  normal distribution, I generate a distribution of 1000 possible coefficients for
+  each knowledge question.
+  In other words, I repeat this 1000 times for each of the knowledge questions (each of the 513 logistic regressions).}
+  \note[item]{Then, within each knowledge domain, I line these resampled simulated coefficients up in order and use the 2.5th percentile and the 97.5th percentile as my upper and lower confidence bounds for that particular knowledge domain. These values are the lower and upper bounds of
+  the 95 percent confidence interval for each information domain within each
+  demographic subgroup.}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+\end{frame}
+
+
+
+\begin{frame}
+\label{my_survey}
+\frametitle{My Survey: Gendered Perception of Knowledge Questions}
+  \begin{itemize}
+    \item
+      Who mostly watches news about X?
+      \begin{figure}[ht]
+        \begin{center}
+          \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly"}
+        \end{center}
+      \end{figure}
+
+    \item
+      Who mostly talks to their friends about X?
+      \begin{figure}[ht]
+        \begin{center}
+          \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly"}
+        \end{center}
+      \end{figure}
+
+    \item
+      Who do most people in our society think has more knowledge about X? \\
+      \begin{figure}[ht]
+        \begin{center}
+          \includegraphics[width=\linewidth]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge"}
+        \end{center}
+      \end{figure}
+
+  \note[item]{I fielded a survey using these 3 items [read items]}
+  \note[item]{I chose these 3 items out of 6 original items based on which showed the highest inter item reliability scores.}
+  \note[item]{I used these
+  questions to create a scale representing the socially perceived masculine or
+  feminine nature of a given knowledge question.}
+  \note[item]{I then use this perceived gender of each item to develop an overall scale for my domains.}
+  \note[item]{The socialized essentialism hypothesis predicts that the respondents on the nationally representative surveys with the factual knowledge questions will perform in correlation to the gender each item is perceived to be. In other words, women answer more questions incorrectly in those domains that are perceived to be more "masculine," and vice versa.}
+
+  \end{itemize}
+\end{frame}
+
+%---------------
+\subsection{Results: Knowledge}
+%---------------
+
+\subsection{Proportions correct by group}
+
+% Introduce how data work
+\begin{frame}
+\frametitle{Mean significance vs. Question significance}
+  \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox"}
+   \end{center}
+  \end{figure}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+  \note[item]{For example, note here how in the natural world domain women have .8 odds smaller of knowing the correct answer in the domain, on average.}
+  \note[item]{But this first figure does not indicate how many of these questions
+  show knowledge differences that are statistically significant.}
+  \note[item]{So for each of these 500 questions, I tested whether the gender difference in knowledge was significant.}
+   % Also wondering whether you can get the bars for men and women on the same line for each domain on the second graph. It's a little hard to tell now which bars belong to which domain.
+\end{frame}
+
+% Proportion of questions above and below 0 log odds by gender - without education
+\begin{frame}
+\frametitle{Men answer greater proportion of questions correctly in 65\% of domains}
+
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender"}
+    \end{center}
+
+      \begin{flushright}
+        \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+      \end{flushright}
+
+  \end{figure}
+
+  \note[item]{However, not all of those coefficients are statistically
+  significant. In this figure, each bar represents the proportion of all questions in a given domain that men or women were more likely to answer correctly such that these differences were statistically significant.}
+  \note[item]{So in the example of the natural world, the average gap between men and women across all items in the natural world domain is significantly different from 0, but there was no single question where men or women were more likely to be correct.}
+  \note[item]{This can also go the other way, in theory, where the average gap is not significantly different from 0 but individual questions are. Though there are no examples of this here, social science does come close.}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Men answer greater proportion of questions correctly in 65\% of domains}
+
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender"}
+    \end{center}
+  \end{figure}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+  \note[item]{I also find that women answer a greater proportion of questions
+  correctly in the domain of health, though this is a bit more complicated. Both men and women have some questions that they are significantly more likely than the other group to answer correctly, so there are proportions in both directions on the graph.}
+  \note[item]{One reason we might consider this to be notable is that men's poor
+  health outcomes are typically explained by behavioral differences. Here,
+  differences in health outcomes might also be explained by a disparity in health knowledge.}
+  \note[item]{You might assume this is driven by gender differences and education.}
+\end{frame}
+
+  % Proportion of questions above and below 0 log odds by gender - with education
+  \begin{frame}
+  \frametitle{Controlling for education, men answer greater proportion of questions correctly in 63\% domains}
+    \begin{figure}[ht]
+      \begin{center}
+        \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender"}
+      \end{center}
+    \end{figure}
+
+      \begin{flushright}
+        \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+      \end{flushright}
+
+    \note[item]{But overall the trend holds.}
+    \note[item]{Men are particularly advantaged in the domains of finance, foreign
+    politics, and geography.}
+    \note[item]{Overall, Men answer a greater proportion of
+    questions statistically significantly correctly in 3/5ths of the domains. Women
+    answer a greater proportion of questions correctly in 1/5th of the domains.}
+    \note[item]{Essentially, this residual effect of gender cannot be explained by differences in education level or income.}
+\end{frame}
+
+
+%---------------
+\subsection{Results: Certainty}
+%---------------
+
+\subsection{``Don't Know'' Model}
+\begin{frame}
+\frametitle{``Don't Know'' Model}
+  \begin{columns}
+
+    \begin{column}{0.25\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Factors          \\
+         \hline   % adds horizontal lines to the top of the table
+         \textbf{Gender}           \\
+         Income           \\
+         Race / Ethnicity \\
+         Age + $age^2$    \\
+         (Education)        \\
+         \hline  % adds horizontal line to the bottom edges
+         \end{tabular}
+    \end{column}
+
+    \begin{column}{0.05\textwidth}
+      \begin{tabular}{c}
+        \LARGE{$ = $}
+      \end{tabular}
+    \end{column}
+
+    \begin{column}{0.2\textwidth}
+       \begin{tabular}{c}  % creates table with text left-centered, vertical lines right and left
+         \hline   % adds horizontal lines to the top of the table
+         Outcome        \\
+         \hline   % adds horizontal lines to the top of the table
+         Probability      \\
+         that you        \\
+         answer        \\
+         ``don't know'' \\
+         \hline  % adds horizontal line to the bottom edges
+      \end{tabular}
+    \end{column}
+
+  \end{columns}
+
+  \note[item]{In a slightly different model, for each question, I then use logistic regression to predict the probability of answering `don't know' for all questions where that was an option.}
+  \note[item]{I regressed the outcome of uncertainty on the independent variables gender and control variables.}
+  \note[item]{I have also estimated linear probability models and the results are much the same.}
+
+\end{frame}
+
+
+\begin{frame}
+\label{dontknow_barChart}
+\frametitle{Controlling for education, women answer greater proportion of questions ``don't know''}
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender"}
+    \end{center}
+  \end{figure}
+
+  \note[item]{In all but 16 domains, women are more likely, on average, to answer
+  don't know across all questions as well, even after controlling for
+  education.}
+  \note[item]{However, I do not yet know if this is because women truly are less
+  likely to know the information or are less willing to guess.}
+  \note[item]{I am currently working on a process to estimate each group's
+  certainty threshold. I can talk this in q\&a if you are interested.}
+
+\end{frame}
+
+
+% \begin{frame}
+%
+% %Diagram showing thresholds and mock=graph of how this would affect knowledge/certainty tradeoff
+%
+%   \note[item]{It could be that women's certainty threshold is higher, such that they need a higher degree of certainty to be willing to guess on the correct answer. So to estimate this threshold, I developed a Heckman selection model.}
+%   \note[item]{This allows me to model the probability that men and women will answer questions using different thresholds for men and women, so that I can calculate these thresholds, based in part on the gendered qualities of the domain itself.}
+%
+% \end{frame}
+
+
+%----------------------------------------------------------------------------------------
+ % \section{slides_to_make}
+%----------------------------------------------------------------------------------------
+
+
+%---------------
+\subsection{Other Research}
+%---------------
+
+\begin{frame}
+\label{self_citation_block_diagram}
+\frametitle{Gender \& Self Citation: Proportion with Self Citation}
+
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main"}
+    \end{center}
+  \end{figure}
+
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom"}
+    \end{center}
+  \end{figure}
+
+\note[item]{shows members of self-citations grouped by proportions of men’s and women’s authorships. We show the proportion of men with a certain number of self-citations on the x-axis and the corresponding proportion of women on the y-axis. If men and woman behaved similarly in their approaches to self-citation, the corners of the boxes would trace the x-y diagonal. Instead, wherever there is a difference in the proportion of men and women citing themselves a certain number of times, the corners of the boxes deviate from the diagonal.}
+\note[item]{ relative to men’s authorships, women’s authorships are more likely to feature zero self-citations. Women cite themselves one or more times in their papers less often than men do. In other words, compared with men, women are overrepresented in the zero self-citations category and underrepresented in terms of citing their papers at all. For example, if in a paper you never cite another paper of your own, you are among the majority of men (68.6 percent) and women (78.8 percent) who do not cite themselves.}
+\note[item]{whenever a box is wider than it is tall, there is a greater proportion of men authorships in that category of self-citations. If you have one self-citation, you are in the 68th to 88th percentile range for men (representing 20 percent of men’s authorships) but the 78th to 93rd percentile for women (representing only 15 percent of women’s authorships). With four self-citations in a single paper, a woman is in the 99th percentile, while a man is in the 98th.}
+
+\end{frame}
+
+
+\begin{frame}
+\label{self_citation_ratio}
+\frametitle{Gender \& Self Citation: Ratio}
+
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time"}
+    \end{center}
+  \end{figure}
+
+\note[item]{shows the self-citation ratio for each year. If men and women cited themselves at equal rates, the ratio shown would be 1.0. A value of 1.5 means that men cite themselves 50 percent more than women in papers published during that year. Shaded intervals represent 95 percent bootstrap confidence limits.}
+\note[item]{ In the 1950s, the relative rate15 of men’s self-citations relative to women’s self-citations was 1.23. However, during the 1950s, the bootstrapped 95 percent confidence intervals of the annual ratios overlap with an equality ratio of 1.0, indicating that we cannot reject the null hypothesis of gender equality in self-citation rate during this decade. However, beginning in the 1960s, the ratio of men’s to women’s self-citations per authorship remains steadily significantly above 1.0. In the 2000s, the relative rate was 1.71. There is no evidence that that the gender gap is decreasing over time.}
+
+\end{frame}
+
+
+%---------------
+\subsection{Methods}
+%---------------
+
+%methods
+\begin{frame}
+\label{no_items_each_domain}
+\frametitle{Items in Each Domain}
+
+%how many items you have in each domain
+
+  \begin{flushright}
+    \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+  \end{flushright}
+
+\end{frame}
+
+
+
+%---------------
+\subsection{Results: Knowledge}
+%---------------
+
+\subsection{Correct Knowledge}
+
+\begin{frame}
+\frametitle{Correct Knowledge by Race}
+  \begin{figure}[ht]
+   \begin{center}
+     \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-race_byGroup"}
+   \end{center}
+  \end{figure}
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+  \note[item]{.}
+\end{frame}
+
+%
+% \begin{frame}
+% \frametitle{Correct Knowledge: Race * Gender Interaction}
+%   \begin{figure}[ht]
+%    \begin{center}
+%      \includegraphics[height=3in]{"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/"}
+%    \end{center}
+%   \end{figure}
+%     \begin{flushright}
+%       \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+%     \end{flushright}
+%   \note[item]{.}
+% \end{frame}
+
+\begin{frame}
+\frametitle{Results with Linear Probability Models}
+  \begin{figure}[ht]
+   \begin{center}
+     %\includegraphics[height=3in]{""}
+   \end{center}
+  \end{figure}
+
+    \begin{flushright}
+      \emph{\scriptsize{\textcolor{gray}{\hyperlink{supplemental_slides}{(Back)}}}}
+    \end{flushright}
+
+  \note[item]{I have also estimated linear probability models and the results are much the same.}
+
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+ % \section{possible_audience_questions}
+%----------------------------------------------------------------------------------------
+ % WAYS TO PIVOT
+ % Thank you for the question. /  that's a great question
+ % More generally how i've been thinking about issues such as this ...
+
+% Q: Why didn't you look at x variable?
+  % A: As you might imagine, these data took years to compile, and clean into 1 compatible data set. I think that any good science starts with thorough, careful description. If I were to explore any other variable and my descriptive analyses, I would have to balance with the reduction in what types of knowledge I could look at, since not all data sets have all independent variables that might be of interest. So, if I selected out some trait, I would lose some of my 500 variables that I worked hard aggregate. But I have invested the time in this because I will be able to work with these data for years to come - including analyzing many other interesting independent variables like X.
+ % --> add slide with demonstration of how eg, region or/and political affiliation would reduce # variables
+
+
+ % Q:Haven’t lots of people studied knowledge and equality?
+ % A:  Thank you for raising that question. Indeed at first glance it might seem that my topic has been covered by scholars working in areas like health inequality and educational inequality. However, I would suggest that what my work contributes is really a broad comparative view of all types of knowledge inequality - enabling us to look at different types of knowledge in comparative perspective.
+
+
+ % How does stereotype threat play into this story? It struck me that many of these domains are associated with these status characteristics, so how might stereotype threat affect whether the respondents get the answer right in the first place?
+
+
+
+
+
+
+\end{document}
