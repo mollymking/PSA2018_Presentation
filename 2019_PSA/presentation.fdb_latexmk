@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber presentation"] 1553631325 "presentation.bcf" "presentation.bbl" "presentation" 1553631883
-  "presentation.bcf" 1553631838 94490 ed21617d68ab23ca2dea122420c4becb ""
+["biber presentation"] 1553631325 "presentation.bcf" "presentation.bbl" "presentation" 1553813257
+  "presentation.bcf" 1553631885 94490 ed21617d68ab23ca2dea122420c4becb ""
   (generated)
   "presentation.bbl"
   "presentation.blg"
-["pdflatex"] 1553631883 "presentation.tex" "presentation.pdf" "presentation" 1553631883
+["pdflatex"] 1553813257 "presentation.tex" "presentation.pdf" "presentation" 1553813257
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon.pdf" 1527269283 82799 265683e53d12ad4d66ec5fdbf1b75fa8 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender.pdf" 1550088773 17657 c19f424f732637459da525bf308394fa ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender.pdf" 1550089350 19593 12f318aec03dd957405d3288b6852746 ""
@@ -265,19 +265,19 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation.aux" 1553631838 24478 043759b44cd95db21dd181864f12083f ""
+  "presentation.aux" 1553631885 24478 043759b44cd95db21dd181864f12083f ""
   "presentation.bbl" 1553631327 0 d41d8cd98f00b204e9800998ecf8427e "biber presentation"
-  "presentation.nav" 1553631838 12550 b1be0b9c340a73d131db9add8b8aefef ""
-  "presentation.out" 1553631838 1547 c1a49c696b68fd3588819b8a83f54995 ""
-  "presentation.run.xml" 1553631838 2291 15fc4d626e27f0353c4f41dc17af8792 ""
-  "presentation.tex" 1553631882 64330 4c00eceabdb715668f63963526250908 ""
+  "presentation.nav" 1553631885 12550 b1be0b9c340a73d131db9add8b8aefef ""
+  "presentation.out" 1553631885 1547 c1a49c696b68fd3588819b8a83f54995 ""
+  "presentation.run.xml" 1553631885 2291 15fc4d626e27f0353c4f41dc17af8792 ""
+  "presentation.tex" 1553813256 64330 d2067414559a6ff310198e82f98bac3e ""
   (generated)
-  "presentation.pdf"
-  "presentation.log"
-  "presentation.nav"
-  "presentation.run.xml"
-  "presentation.out"
-  "presentation.aux"
   "presentation.snm"
-  "presentation.bcf"
+  "presentation.run.xml"
   "presentation.toc"
+  "presentation.out"
+  "presentation.log"
+  "presentation.aux"
+  "presentation.pdf"
+  "presentation.bcf"
+  "presentation.nav"

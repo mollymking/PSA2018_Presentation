@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 MAR 2019 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -816,6 +816,9 @@ emedolphin.sty)
 emeinfolines.sty))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emebeaver.sty)
+\pgfpages@box@1=\box60
+\pgfpages@box@2=\box61
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -1098,7 +1101,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count369
 \scratchdimen=\dimen265
-\scratchbox=\box60
+\scratchbox=\box62
 \nofMPsegments=\count370
 \nofMParguments=\count371
 \everyMPshowfont=\toks54
@@ -1125,7 +1128,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box61
+\AtBeginShipoutBox=\box63
 Package hyperref Info: Link coloring OFF on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1224,11 +1227,11 @@ Package biblatex Info: ... file 'presentation.bbl' found.
 (./presentation.bbl)
 Package biblatex Info: Reference section=0 on input line 95.
 Package biblatex Info: Reference segment=0 on input line 95.
- (./presentation.nav) [1
+ (./presentation.nav)
+\GPT@outputbox=\box64
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/misinformation_cartoon_LorenFishman".jpg, id=129, 552.0625pt x 610.28pt>
+images/misinformation_cartoon_LorenFishman".jpg, id=121, 552.0625pt x 610.28pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/misinformation_cartoon_LorenFishman".jpg Graphic file (type jpg)
 
@@ -1244,10 +1247,24 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
  [2
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/misinformation_cartoon_LorenFishman.jpg>]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}pdfTeX wa
+rning (ext4): destination with the same identifier (name{Navigation1}) has been
+ already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.142 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.1}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.142 \end{frame}
+                 
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/types_of_knowledge".pdf, id=137, 794.97pt x 614.295pt>
+images/types_of_knowledge".pdf, id=131, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/types_of_knowledge".pdf Graphic file (type pdf)
 
@@ -1262,10 +1279,39 @@ Overfull \vbox (20.29279pt too high) detected at line 164
 
 [3
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/types_of_knowledge.pdf>] [4
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
+ has been already used, duplicate ignored
 
-]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.164 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.2}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.164 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/misinformation_cartoon_LorenFishman.jpg>] [4
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation3})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.239 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.3}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.239 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/types_of_knowledge.pdf>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 287.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1280,10 +1326,51 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 287.
  [5
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation4})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.287 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.4}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.287 \end{frame}
+                 
+
 ] [6
 
-]
-[7
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation5})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.324 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.5}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.324 \end{frame}
+                 
+
+] [7
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation6})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.351 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.6}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.351 \end{frame}
+                 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
@@ -1311,6 +1398,20 @@ Overfull \hbox (3.16866pt too wide) in paragraph at lines 406--406
 
 [8
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.406 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.7}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.406 \end{frame}
+                 
+
 ]
 Overfull \hbox (2.45972pt too wide) in paragraph at lines 462--462
 [][]  
@@ -1328,9 +1429,23 @@ Overfull \hbox (3.16866pt too wide) in paragraph at lines 462--462
 
 [9
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.462 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.8}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.462 \end{frame}
+                 
+
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_question_maker_bias".pdf, id=202, 397.485pt x 289.
+i10_sur05_domain_predictions_question_maker_bias".pdf, id=197, 397.485pt x 289.
 08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur05_domain_predictions_question_maker_bias".pdf Graphic file (type p
@@ -1344,10 +1459,23 @@ sed on input line 486.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [10
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_question_maker_bias.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.486 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.9}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.486 \end{frame}
+                 
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/gender_segregated_classroom_medium_com".jpeg, id=221, 1853.92625pt x 116
+images/gender_segregated_classroom_medium_com".jpeg, id=204, 1853.92625pt x 116
 4.35pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
@@ -1370,10 +1498,24 @@ Overfull \vbox (20.46278pt too high) detected at line 513
 
 [11
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/gender_segregated_classroom_medium_com.jpeg>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.513 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.10}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.513 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur05_domain_predictions_question_maker_bias.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_socialized_essentialism".pdf, id=228, 397.485pt x 
+i10_sur05_domain_predictions_socialized_essentialism".pdf, id=223, 397.485pt x 
 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf Graphic file (ty
@@ -1387,10 +1529,24 @@ df used on input line 534.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [12
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_socialized_essentialism.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.534 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.11}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.534 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/gender_segregated_classroom_medium_com.jpeg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_blank".pdf, id=247, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_blank".pdf, id=230, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_blank".pdf Graphic file (type pdf)
 
@@ -1401,10 +1557,24 @@ results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf used on input line 556.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [13
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_blank.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.556 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.12}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.556 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur05_domain_predictions_socialized_essentialism.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender".pdf, id=267, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_C_noedu_all-gender".pdf, id=249, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf Graphic file (type pdf)
 
@@ -1416,10 +1586,24 @@ t line 575.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [14
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.575 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.13}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.575 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender.pdf>]
+i08_vis06_graphCIs_blank.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=286, 397.485pt x 289
+i08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=269, 397.485pt x 289
 .08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf Graphic file (type 
@@ -1433,10 +1617,24 @@ used on input line 590.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [15
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.590 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.14}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.590 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_womenColors.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=306, 397.485pt x 289.0
+i08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=288, 397.485pt x 289.0
 8pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf Graphic file (type pd
@@ -1450,10 +1648,24 @@ ed on input line 605.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [16
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.605 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.15}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.605 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_menColors.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender_womenColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=325, 397.485pt x 289.08p
+i08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=308, 397.485pt x 289.08p
 t>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf Graphic file (type pdf)
@@ -1467,10 +1679,24 @@ results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf used
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [17
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.621 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.16}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.621 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-gender_menColors.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender_menColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_D_edu_all-gender".pdf, id=344, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_D_edu_all-gender".pdf, id=327, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_D_edu_all-gender".pdf Graphic file (type pdf)
 
@@ -1486,10 +1712,24 @@ Overfull \vbox (20.29279pt too high) detected at line 650
 
 [18
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.650 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.17}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.650 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_D_edu_all-gender.pdf>]
+i08_vis06_graphCIs_C_edu_all-gender_menColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur_C_edu_gender_essentialism".pdf, id=365, 397.485pt x 289.08pt>
+i10_sur_C_edu_gender_essentialism".pdf, id=347, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur_C_edu_gender_essentialism".pdf Graphic file (type pdf)
 
@@ -1501,16 +1741,31 @@ ne 682.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [19
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur_C_edu_gender_essentialism.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.682 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.18}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.682 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_D_edu_all-gender.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 696.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 696.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/thanks_logos".pdf, id=385, 794.97pt x 614.295pt>
+images/thanks_logos".pdf, id=367, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/thanks_logos".pdf Graphic file (type pdf)
 
@@ -1530,18 +1785,26 @@ Overfull \vbox (14.98322pt too high) detected at line 696
 
 [20
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/thanks_logos.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.696 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.19}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.696 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur_C_edu_gender_essentialism.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\translate ' on input line 702.
 
-pdfTeX warning (ext4): destination with the same identifier (name{supplemental_
-slides}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.749 \end{frame}
-                 
 
 ./presentation.tex:749: LaTeX Error: There's no line here to end.
 
@@ -2246,17 +2509,52 @@ If that doesn't work, type  X <return>  to quit.
 
 [21
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.749 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.20}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.749 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/thanks_logos.pdf>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 753.
 
 [22
 
+pdfTeX warning (ext4): destination with the same identifier (name{supplemental_
+slides}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.777 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{Navigation21}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.777 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.21}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.777 \end{frame}
+                 
+
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
 images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
-DX1319-1-EYC12)_(25742716351)".jpg, id=464, 194.1654pt x 145.9854pt>
+DX1319-1-EYC12)_(25742716351)".jpg, id=459, 194.1654pt x 145.9854pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_
 ref_DDX1319-1-EYC12)_(25742716351)".jpg Graphic file (type jpg)
@@ -2275,9 +2573,21 @@ Overfull \vbox (25.66643pt too high) detected at line 817
 
 [23
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
-DX1319-1-EYC12)_(25742716351).jpg>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.817 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.22}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.817 \end{frame}
+                 
+
+]
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
 )
@@ -2299,9 +2609,25 @@ Overfull \vbox (40.06279pt too high) detected at line 852
 
 [24
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.852 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.23}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.852 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
+DX1319-1-EYC12)_(25742716351).jpg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/derechos-politicos-mujer".jpg, id=479, 1284.8pt x 722.7pt>
+images/derechos-politicos-mujer".jpg, id=474, 1284.8pt x 722.7pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/derechos-politicos-mujer".jpg Graphic file (type jpg)
 
@@ -2322,10 +2648,23 @@ Overfull \vbox (32.83534pt too high) detected at line 886
 
 [25
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/derechos-politicos-mujer.jpg>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.886 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.24}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.886 \end{frame}
+                 
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/next_steps_exploring_mechanisms".pdf, id=488, 794.97pt x 614.295pt>
+images/next_steps_exploring_mechanisms".pdf, id=482, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/next_steps_exploring_mechanisms".pdf Graphic file (type pdf)
 
@@ -2341,10 +2680,24 @@ Overfull \vbox (68.4027pt too high) detected at line 917
 
 [26
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.917 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.25}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.917 \end{frame}
+                 
+
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/next_steps_exploring_mechanisms.pdf>]
+images/derechos-politicos-mujer.jpg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/theoretical_model_drawing_gender".pdf, id=514, 794.97pt x 614.295pt>
+images/theoretical_model_drawing_gender".pdf, id=491, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/theoretical_model_drawing_gender".pdf Graphic file (type pdf)
 
@@ -2360,12 +2713,41 @@ Overfull \vbox (62.4027pt too high) detected at line 956
 
 [27
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/theoretical_model_drawing_gender.pdf>] [28
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}
+) has been already used, duplicate ignored
 
-]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.956 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.26}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.956 \end{frame}
+                 
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/next_steps_exploring_mechanisms.pdf>] [28
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1007 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.27}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1007 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/theoretical_model_drawing_gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/data_structure".pdf, id=545, 763.22058pt x 370.27875pt>
+images/data_structure".pdf, id=540, 763.22058pt x 370.27875pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/data_structure".pdf Graphic file (type pdf)
 
@@ -2376,12 +2758,40 @@ theoretical_figures_and_images/data_structure".pdf used on input line 1023.
 (pdftex.def)             Requested size: 342.43532pt x 166.13799pt.
  [29
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/data_structure.pdf>] [30
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}
+) has been already used, duplicate ignored
 
-]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1023 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.28}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1023 \end{frame}
+                  
+
+] [30
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1036 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.29}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1036 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/data_structure.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/x
-kcd significance cartoon".pdf, id=593, 253.94875pt x 357.335pt>
+kcd significance cartoon".pdf, id=588, 253.94875pt x 357.335pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_works
 hop/xkcd significance cartoon".pdf Graphic file (type pdf)
 
@@ -2396,12 +2806,40 @@ Overfull \vbox (44.41177pt too high) detected at line 1054
 
 [31
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1054 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.30}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1054 \end{frame}
+                  
+
+] [32
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1084 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.31}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1084 \end{frame}
+                  
+
  </Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/x
-kcd significance cartoon.pdf>] [32
-
-]
+kcd significance cartoon.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_mostly".png, id=621, 645.41125pt x 79.29625pt>
+images/my_survey_mostly".png, id=612, 645.41125pt x 79.29625pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/my_survey_mostly".png Graphic file (type png)
 
@@ -2420,7 +2858,7 @@ theoretical_figures_and_images/my_survey_mostly".png used on input line 1125.
 (pdftex.def)             Requested size: 320.53526pt x 39.38062pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_more_knowledge".png, id=623, 655.44875pt x 126.4725pt>
+images/my_survey_more_knowledge".png, id=614, 655.44875pt x 126.4725pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/my_survey_more_knowledge".png Graphic file (type png)
 
@@ -2436,11 +2874,23 @@ Overfull \vbox (7.44427pt too high) detected at line 1125
 
 [33
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_mostly.png> </Users/mollymking/Documents/SocResearch/Dissertat
-ion/theoretical_figures_and_images/my_survey_more_knowledge.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1125 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.32}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1125 \end{frame}
+                  
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=632, 794.97p
+images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=625, 794.97p
 t x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf Graphic fil
@@ -2458,10 +2908,25 @@ Overfull \vbox (20.29279pt too high) detected at line 1151
 
 [34
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation33}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1151 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.33}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1151 \end{frame}
+                  
+
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox.pdf>]
+images/my_survey_mostly.png> </Users/mollymking/Documents/SocResearch/Dissertat
+ion/theoretical_figures_and_images/my_survey_more_knowledge.png>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=658, 397.485pt x 289.08p
+i08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=635, 397.485pt x 289.08p
 t>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
@@ -2479,8 +2944,22 @@ Overfull \vbox (44.29279pt too high) detected at line 1172
 
 [35
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_C_noedu_gender.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation34}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1172 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.34}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1172 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox.pdf>]
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
 
@@ -2497,9 +2976,24 @@ Overfull \vbox (38.29279pt too high) detected at line 1195
 
 [36
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation35}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1195 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.35}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1195 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis03_propHoriz02_multComp_C_noedu_gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis07_compareEdu_eduCompare_gender".pdf, id=684, 397.485pt x 289.08pt>
+i08_vis07_compareEdu_eduCompare_gender".pdf, id=678, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis07_compareEdu_eduCompare_gender".pdf Graphic file (type pdf)
 
@@ -2515,8 +3009,21 @@ Overfull \vbox (38.29279pt too high) detected at line 1217
 
 [37
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis07_compareEdu_eduCompare_gender.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1217 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.36}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1217 \end{frame}
+                  
+
+]
 Overfull \hbox (2.45972pt too wide) in paragraph at lines 1268--1268
 [][]  
  []
@@ -2533,9 +3040,24 @@ Overfull \hbox (2.98273pt too wide) in paragraph at lines 1268--1268
 
 [38
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation37}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1268 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.37}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1268 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis07_compareEdu_eduCompare_gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propVert02_multComp_D_edu_gender".pdf, id=709, 397.485pt x 289.08pt>
+i08_vis03_propVert02_multComp_D_edu_gender".pdf, id=704, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf Graphic file (type pdf)
 
@@ -2551,10 +3073,23 @@ Overfull \vbox (17.00885pt too high) detected at line 1288
 
 [39
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propVert02_multComp_D_edu_gender.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation38}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1288 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.38}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1288 \end{frame}
+                  
+
+]
 <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=726
+n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=711
 , 578.16pt x 577.15625pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
 tation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf Gr
@@ -2568,7 +3103,7 @@ iagram_main".pdf used on input line 1330.
 (pdftex.def)             Requested size: 217.18881pt x 216.81pt.
 
 <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=727
+n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=712
 , 602.25pt x 587.19376pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
 tation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf Gr
@@ -2586,19 +3121,29 @@ Overfull \vbox (228.81885pt too high) detected at line 1330
 
 [40
 
- </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main.pdf> </Users
-/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figure
-s and Results/Fig 3 - Stairstep diagram/block_diagram_zoom.pdf
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation39}
+) has been already used, duplicate ignored
 
-pdfTeX warning: pdflatex (file /Users/mollymking/Documents/SocResearch/JSTOR_Ge
-nderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/bl
-ock_diagram_zoom.pdf): PDF inclusion: multiple pdfs with page group included in
- a single page
->]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1330 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.39}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1330 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis03_propVert02_multComp_D_edu_gender.pdf>]
+Overfull \vbox (12.9583pt too high) detected at line 1330
+ []
+
+
 <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
 n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf, i
-d=880, 578.16pt x 354.32375pt>
+d=729, 578.16pt x 354.32375pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
 tation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".p
 df Graphic file (type pdf)
@@ -2621,13 +3166,49 @@ Overfull \vbox (12.60886pt too high) detected at line 1346
 
 [41
 
- </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time.pdf>] [
-42
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation40}
+) has been already used, duplicate ignored
 
-]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1346 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.40}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1346 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
+n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main.pdf> </Users
+/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figure
+s and Results/Fig 3 - Stairstep diagram/block_diagram_zoom.pdf
+
+pdfTeX warning: pdflatex (file /Users/mollymking/Documents/SocResearch/JSTOR_Ge
+nderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/bl
+ock_diagram_zoom.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>] [42
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation41}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1364 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.41}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1364 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
+n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-race_byGroup".pdf, id=923, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_C_edu_all-race_byGroup".pdf, id=917, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_edu_all-race_byGroup".pdf Graphic file (type pdf)
 
@@ -2643,10 +3224,38 @@ Overfull \vbox (20.29279pt too high) detected at line 1385
 
 [43
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>] [44
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation42}
+) has been already used, duplicate ignored
 
-]
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1385 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.42}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1385 \end{frame}
+                  
+
+] [44
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation43}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1415 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.43}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1415 \end{frame}
+                  
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>]
 \tf@nav=\write8
 \openout8 = `presentation.nav'.
 
@@ -2656,6 +3265,23 @@ i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>] [44
 \tf@snm=\write10
 \openout10 = `presentation.snm'.
 
+ [45
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation44}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1441 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{page.44}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1441 \end{document}
+                     
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1441.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1441.
  (./presentation.aux)
@@ -2673,11 +3299,11 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26932 strings out of 492995
- 535733 string characters out of 6132704
- 953251 words of memory out of 5000000
- 29765 multiletter control sequences out of 15000+600000
- 53889 words of font info for 77 fonts, out of 8000000 for 9000
+ 26991 strings out of 492995
+ 537157 string characters out of 6132704
+ 963458 words of memory out of 5000000
+ 29823 multiletter control sequences out of 15000+600000
+ 55043 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,59p,778b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2690,7 +3316,7 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (44 pages, 4320536 bytes).
+Output written on presentation.pdf (44 pages, 4344523 bytes).
 PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  806 compressed objects within 9 object streams
