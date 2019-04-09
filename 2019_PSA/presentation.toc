@@ -20,30 +20,32 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {3}{5}{Model}{9}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Results: Knowledge}{13}{0}{4}
+\beamer@sectionintoc {4}{Hypotheses: Knowledge}{10}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{1}{Means across domains}{13}{0}{4}
+\beamer@sectionintoc {5}{Results: Knowledge}{15}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Supplemental Slides}{21}{0}{5}
+\beamer@subsectionintoc {5}{1}{Means across domains}{15}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{1}{Theory}{22}{1}{5}
+\beamer@sectionintoc {6}{Supplemental Slides}{23}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{2}{Model of knowledge}{27}{1}{5}
+\beamer@subsectionintoc {6}{1}{Theory}{23}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{3}{Methods}{28}{1}{5}
+\beamer@subsectionintoc {6}{2}{Model of knowledge}{28}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{4}{Results: Knowledge}{34}{1}{5}
+\beamer@subsectionintoc {6}{3}{Methods}{29}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{5}{Proportions correct by group}{34}{1}{5}
+\beamer@subsectionintoc {6}{4}{Results: Knowledge}{35}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{6}{Results: Certainty}{38}{1}{5}
+\beamer@subsectionintoc {6}{5}{Proportions correct by group}{35}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{7}{``Don't Know'' Model}{38}{1}{5}
+\beamer@subsectionintoc {6}{6}{Results: Certainty}{39}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{8}{Other Research}{40}{1}{5}
+\beamer@subsectionintoc {6}{7}{``Don't Know'' Model}{39}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{9}{Methods}{42}{1}{5}
+\beamer@subsectionintoc {6}{8}{Other Research}{41}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{10}{Results: Knowledge}{43}{1}{5}
+\beamer@subsectionintoc {6}{9}{Methods}{43}{1}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{11}{Correct Knowledge}{43}{1}{5}
+\beamer@subsectionintoc {6}{10}{Results: Knowledge}{44}{1}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {6}{11}{Correct Knowledge}{44}{1}{6}

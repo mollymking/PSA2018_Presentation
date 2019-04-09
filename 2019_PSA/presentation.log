@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2019 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAR 2019 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -816,9 +816,6 @@ emedolphin.sty)
 emeinfolines.sty))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emebeaver.sty)
-\pgfpages@box@1=\box60
-\pgfpages@box@2=\box61
-
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -1038,11 +1035,7 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 \@quotelevel=\count367
 \@quotereset=\count368
 
-(./presentation.aux
-
-LaTeX Warning: Label `supplemental_slides' multiply defined.
-
-)
+(./presentation.aux)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1060,7 +1053,8 @@ LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 95.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1101,7 +1095,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count369
 \scratchdimen=\dimen265
-\scratchbox=\box62
+\scratchbox=\box60
 \nofMPsegments=\count370
 \nofMParguments=\count371
 \everyMPshowfont=\toks54
@@ -1128,7 +1122,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box63
+\AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1227,11 +1221,11 @@ Package biblatex Info: ... file 'presentation.bbl' found.
 (./presentation.bbl)
 Package biblatex Info: Reference section=0 on input line 95.
 Package biblatex Info: Reference segment=0 on input line 95.
- (./presentation.nav)
-\GPT@outputbox=\box64
+ (./presentation.nav) [1
 
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/misinformation_cartoon_LorenFishman".jpg, id=121, 552.0625pt x 610.28pt>
+images/misinformation_cartoon_LorenFishman".jpg, id=133, 552.0625pt x 610.28pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/misinformation_cartoon_LorenFishman".jpg Graphic file (type jpg)
 
@@ -1247,24 +1241,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
  [2
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}pdfTeX wa
-rning (ext4): destination with the same identifier (name{Navigation1}) has been
- already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.142 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.142 \end{frame}
-                 
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/misinformation_cartoon_LorenFishman.jpg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/types_of_knowledge".pdf, id=131, 794.97pt x 614.295pt>
+images/types_of_knowledge".pdf, id=141, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/types_of_knowledge".pdf Graphic file (type pdf)
 
@@ -1279,39 +1259,10 @@ Overfull \vbox (20.29279pt too high) detected at line 164
 
 [3
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.164 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.2}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.164 \end{frame}
-                 
-
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/misinformation_cartoon_LorenFishman.jpg>] [4
+images/types_of_knowledge.pdf>] [4
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation3})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.239 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.3}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.239 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/types_of_knowledge.pdf>]
+]
 LaTeX Font Info:    Try loading font information for U+msa on input line 287.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1326,51 +1277,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 287.
  [5
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation4})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.287 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.4}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.287 \end{frame}
-                 
-
 ] [6
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation5})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.324 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.5}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.324 \end{frame}
-                 
-
-] [7
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation6})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.351 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.6}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.351 \end{frame}
-                 
+]
+[7
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
@@ -1398,20 +1308,6 @@ Overfull \hbox (3.16866pt too wide) in paragraph at lines 406--406
 
 [8
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.406 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.7}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.406 \end{frame}
-                 
-
 ]
 Overfull \hbox (2.45972pt too wide) in paragraph at lines 462--462
 [][]  
@@ -1429,23 +1325,34 @@ Overfull \hbox (3.16866pt too wide) in paragraph at lines 462--462
 
 [9
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.462 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.8}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.462 \end{frame}
-                 
+] [10
 
 ]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0
+029154".jpg, id=214, 714.2685pt x 568.2831pt>
+File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
+_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellco
+me_V0029154".jpg Graphic file (type jpg)
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_
+and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcom
+e_V0029154".jpg>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
+theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_me
+n_in_a_confe_Wellcome_V0029154".jpg used on input line 522.
+(pdftex.def)             Requested size: 272.50383pt x 216.81pt.
+
+Overfull \vbox (3.31703pt too high) detected at line 522
+ []
+
+[11
+
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0
+029154.jpg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_question_maker_bias".pdf, id=197, 397.485pt x 289.
+i10_sur05_domain_predictions_question_maker_bias".pdf, id=221, 397.485pt x 289.
 08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur05_domain_predictions_question_maker_bias".pdf Graphic file (type p
@@ -1455,27 +1362,14 @@ df)
 ur/ki10_sur05_domain_predictions_question_maker_bias".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf u
-sed on input line 486.
+sed on input line 546.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [10
+ [12
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.486 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.9}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.486 \end{frame}
-                 
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur05_domain_predictions_question_maker_bias.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/gender_segregated_classroom_medium_com".jpeg, id=204, 1853.92625pt x 116
+images/gender_segregated_classroom_medium_com".jpeg, id=240, 1853.92625pt x 116
 4.35pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
@@ -1485,37 +1379,23 @@ _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
 and_images/gender_segregated_classroom_medium_com".jpeg>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg use
-d on input line 513.
+d on input line 573.
 (pdftex.def)             Requested size: 345.2058pt x 216.81pt.
 
-Overfull \hbox (2.77048pt too wide) in paragraph at lines 513--513
+Overfull \hbox (2.77048pt too wide) in paragraph at lines 573--573
  [] 
  []
 
 
-Overfull \vbox (20.46278pt too high) detected at line 513
+Overfull \vbox (20.46278pt too high) detected at line 573
  []
 
-[11
+[13
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.513 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.10}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.513 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_question_maker_bias.pdf>]
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/gender_segregated_classroom_medium_com.jpeg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_socialized_essentialism".pdf, id=223, 397.485pt x 
+i10_sur05_domain_predictions_socialized_essentialism".pdf, id=248, 397.485pt x 
 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf Graphic file (ty
@@ -1525,56 +1405,28 @@ pe pdf)
 ur/ki10_sur05_domain_predictions_socialized_essentialism".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".p
-df used on input line 534.
+df used on input line 594.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [12
+ [14
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.534 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.11}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.534 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/gender_segregated_classroom_medium_com.jpeg>]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur05_domain_predictions_socialized_essentialism.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_blank".pdf, id=230, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_blank".pdf, id=267, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_blank".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_v
 is/ki08_vis06_graphCIs_blank".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf used on input line 556.
+results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf used on input line 616.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [13
+ [15
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.556 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.12}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.556 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur05_domain_predictions_socialized_essentialism.pdf>]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis06_graphCIs_blank.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender".pdf, id=249, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_C_noedu_all-gender".pdf, id=286, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf Graphic file (type pdf)
 
@@ -1582,28 +1434,14 @@ vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_C_noedu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf used on inpu
-t line 575.
+t line 635.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [14
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.575 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.13}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.575 \end{frame}
-                 
+ [16
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_blank.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=269, 397.485pt x 289
+i08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=306, 397.485pt x 289
 .08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf Graphic file (type 
@@ -1613,28 +1451,14 @@ pdf)
 is/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf 
-used on input line 590.
+used on input line 650.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [15
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.590 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.14}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.590 \end{frame}
-                 
+ [17
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender_womenColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=288, 397.485pt x 289.0
+i08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=325, 397.485pt x 289.0
 8pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf Graphic file (type pd
@@ -1644,28 +1468,14 @@ f)
 is/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf us
-ed on input line 605.
+ed on input line 665.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [16
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.605 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.15}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.605 \end{frame}
-                 
+ [18
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_womenColors.pdf>]
+i08_vis06_graphCIs_C_noedu_all-gender_menColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=308, 397.485pt x 289.08p
+i08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=344, 397.485pt x 289.08p
 t>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf Graphic file (type pdf)
@@ -1675,28 +1485,14 @@ vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf used
- on input line 621.
+ on input line 681.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [17
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.621 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.16}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.621 \end{frame}
-                 
+ [19
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_noedu_all-gender_menColors.pdf>]
+i08_vis06_graphCIs_C_edu_all-gender_menColors.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_D_edu_all-gender".pdf, id=327, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_D_edu_all-gender".pdf, id=364, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_D_edu_all-gender".pdf Graphic file (type pdf)
 
@@ -1704,32 +1500,18 @@ vis/ki08_vis06_graphCIs_D_edu_all-gender".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_D_edu_all-gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender".pdf used on input 
-line 650.
+line 710.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (20.29279pt too high) detected at line 650
+Overfull \vbox (20.29279pt too high) detected at line 710
  []
 
-[18
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.650 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.17}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.650 \end{frame}
-                 
+[20
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-gender_menColors.pdf>]
+i08_vis06_graphCIs_D_edu_all-gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur_C_edu_gender_essentialism".pdf, id=347, 397.485pt x 289.08pt>
+i10_sur_C_edu_gender_essentialism".pdf, id=385, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_
 sur/ki10_sur_C_edu_gender_essentialism".pdf Graphic file (type pdf)
 
@@ -1737,824 +1519,55 @@ sur/ki10_sur_C_edu_gender_essentialism".pdf Graphic file (type pdf)
 ur/ki10_sur_C_edu_gender_essentialism".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/10_sur/ki10_sur_C_edu_gender_essentialism".pdf used on input li
-ne 682.
+ne 742.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
- [19
+ [21
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.682 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.18}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.682 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_D_edu_all-gender.pdf>]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
+i10_sur_C_edu_gender_essentialism.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 696.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 696.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 755.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 755.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/thanks_logos".pdf, id=367, 794.97pt x 614.295pt>
+images/thanks_logos".pdf, id=404, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/thanks_logos".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_
 and_images/thanks_logos".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-theoretical_figures_and_images/thanks_logos".pdf used on input line 696.
+theoretical_figures_and_images/thanks_logos".pdf used on input line 755.
 (pdftex.def)             Requested size: 140.28633pt x 108.405pt.
 
-Overfull \hbox (25.47305pt too wide) in paragraph at lines 696--696
+Overfull \hbox (25.47305pt too wide) in paragraph at lines 755--755
 []| []  
  []
 
 
-Overfull \vbox (14.98322pt too high) detected at line 696
+Overfull \vbox (14.98322pt too high) detected at line 755
  []
 
-[20
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.696 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.19}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.696 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/k
-i10_sur_C_edu_gender_essentialism.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 702.
-
-
-./presentation.tex:749: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./presentation.tex:749: LaTeX Error: Something's wrong--perhaps a missing \item
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[21
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.749 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.20}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.749 \end{frame}
-                 
+[22
 
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
 images/thanks_logos.pdf>]
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 761.
+
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 753.
+(hyperref)                than one, level fixed on input line 813.
 
-[22
-
-pdfTeX warning (ext4): destination with the same identifier (name{supplemental_
-slides}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.777 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{Navigation21}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.777 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.21}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.777 \end{frame}
-                 
+[23
 
 ]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
 images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
-DX1319-1-EYC12)_(25742716351)".jpg, id=459, 194.1654pt x 145.9854pt>
+DX1319-1-EYC12)_(25742716351)".jpg, id=443, 194.1654pt x 145.9854pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_
 ref_DDX1319-1-EYC12)_(25742716351)".jpg Graphic file (type jpg)
@@ -2565,29 +1578,17 @@ ef_DDX1319-1-EYC12)_(25742716351)".jpg>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_c
 irca_1905_(archive_ref_DDX1319-1-EYC12)_(25742716351)".jpg used on input line 8
-17.
+77.
 (pdftex.def)             Requested size: 288.36464pt x 216.81pt.
 
-Overfull \vbox (25.66643pt too high) detected at line 817
+Overfull \vbox (25.66643pt too high) detected at line 877
  []
 
-[23
+[24
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.817 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.22}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.817 \end{frame}
-                 
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
+DX1319-1-EYC12)_(25742716351).jpg>]
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
 )
@@ -2596,38 +1597,22 @@ _and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg
 and_images/gender_segregated_classroom_medium_com".jpeg>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg use
-d on input line 852.
+d on input line 912.
 (pdftex.def)             Requested size: 345.2058pt x 216.81pt.
 
-Overfull \hbox (2.77048pt too wide) in paragraph at lines 852--852
+Overfull \hbox (2.77048pt too wide) in paragraph at lines 912--912
  [] 
  []
 
 
-Overfull \vbox (40.06279pt too high) detected at line 852
+Overfull \vbox (40.06279pt too high) detected at line 912
  []
 
-[24
+[25
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.852 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.23}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.852 \end{frame}
-                 
-
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_D
-DX1319-1-EYC12)_(25742716351).jpg>]
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/derechos-politicos-mujer".jpg, id=474, 1284.8pt x 722.7pt>
+images/derechos-politicos-mujer".jpg, id=461, 1284.8pt x 722.7pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/derechos-politicos-mujer".jpg Graphic file (type jpg)
 
@@ -2635,36 +1620,23 @@ _and_images/derechos-politicos-mujer".jpg Graphic file (type jpg)
 and_images/derechos-politicos-mujer".jpg>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/derechos-politicos-mujer".jpg used on input line
- 886.
+ 946.
 (pdftex.def)             Requested size: 372.58246pt x 209.58255pt.
 
-Overfull \hbox (30.14714pt too wide) in paragraph at lines 886--886
+Overfull \hbox (30.14714pt too wide) in paragraph at lines 946--946
  [] 
  []
 
 
-Overfull \vbox (32.83534pt too high) detected at line 886
+Overfull \vbox (32.83534pt too high) detected at line 946
  []
 
-[25
+[26
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.886 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.24}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.886 \end{frame}
-                 
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/derechos-politicos-mujer.jpg>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/next_steps_exploring_mechanisms".pdf, id=482, 794.97pt x 614.295pt>
+images/next_steps_exploring_mechanisms".pdf, id=470, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/next_steps_exploring_mechanisms".pdf Graphic file (type pdf)
 
@@ -2672,32 +1644,18 @@ _and_images/next_steps_exploring_mechanisms".pdf Graphic file (type pdf)
 and_images/next_steps_exploring_mechanisms".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/next_steps_exploring_mechanisms".pdf used on inp
-ut line 917.
+ut line 977.
 (pdftex.def)             Requested size: 342.43532pt x 264.61037pt.
 
-Overfull \vbox (68.4027pt too high) detected at line 917
+Overfull \vbox (68.4027pt too high) detected at line 977
  []
 
-[26
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.917 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.25}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.917 \end{frame}
-                 
+[27
 
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/derechos-politicos-mujer.jpg>]
+images/next_steps_exploring_mechanisms.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/theoretical_model_drawing_gender".pdf, id=491, 794.97pt x 614.295pt>
+images/theoretical_model_drawing_gender".pdf, id=497, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/theoretical_model_drawing_gender".pdf Graphic file (type pdf)
 
@@ -2705,148 +1663,63 @@ _and_images/theoretical_model_drawing_gender".pdf Graphic file (type pdf)
 and_images/theoretical_model_drawing_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/theoretical_model_drawing_gender".pdf used on in
-put line 956.
+put line 1016.
 (pdftex.def)             Requested size: 342.43532pt x 264.61037pt.
 
-Overfull \vbox (62.4027pt too high) detected at line 956
+Overfull \vbox (62.4027pt too high) detected at line 1016
  []
 
-[27
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.956 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.26}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.956 \end{frame}
-                 
+[28
 
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/next_steps_exploring_mechanisms.pdf>] [28
+images/theoretical_model_drawing_gender.pdf>] [29
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1007 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.27}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1007 \end{frame}
-                  
-
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/theoretical_model_drawing_gender.pdf>]
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/data_structure".pdf, id=540, 763.22058pt x 370.27875pt>
+images/data_structure".pdf, id=530, 763.22058pt x 370.27875pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/data_structure".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_
 and_images/data_structure".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-theoretical_figures_and_images/data_structure".pdf used on input line 1023.
+theoretical_figures_and_images/data_structure".pdf used on input line 1083.
 (pdftex.def)             Requested size: 342.43532pt x 166.13799pt.
- [29
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1023 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.28}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1023 \end{frame}
-                  
-
-] [30
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1036 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.29}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1036 \end{frame}
-                  
+ [30
 
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/data_structure.pdf>]
+images/data_structure.pdf>] [31
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/x
-kcd significance cartoon".pdf, id=588, 253.94875pt x 357.335pt>
+kcd significance cartoon".pdf, id=581, 253.94875pt x 357.335pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_works
 hop/xkcd significance cartoon".pdf Graphic file (type pdf)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_worksh
 op/xkcd significance cartoon".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-presentations_workshop/xkcd significance cartoon".pdf used on input line 1054.
+presentations_workshop/xkcd significance cartoon".pdf used on input line 1114.
 (pdftex.def)             Requested size: 171.21765pt x 240.92899pt.
 
-Overfull \vbox (44.41177pt too high) detected at line 1054
+Overfull \vbox (44.41177pt too high) detected at line 1114
  []
 
-[31
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1054 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.30}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1054 \end{frame}
-                  
-
-] [32
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1084 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.31}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1084 \end{frame}
-                  
+[32
 
  </Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/x
-kcd significance cartoon.pdf>]
+kcd significance cartoon.pdf>] [33
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_mostly".png, id=612, 645.41125pt x 79.29625pt>
+images/my_survey_mostly".png, id=610, 645.41125pt x 79.29625pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/my_survey_mostly".png Graphic file (type png)
 
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_
 and_images/my_survey_mostly".png>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-theoretical_figures_and_images/my_survey_mostly".png used on input line 1125.
+theoretical_figures_and_images/my_survey_mostly".png used on input line 1185.
 (pdftex.def)             Requested size: 320.53526pt x 39.38062pt.
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/my_survey_mostly".png Graphic file (type png)
@@ -2854,11 +1727,11 @@ _and_images/my_survey_mostly".png Graphic file (type png)
 <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_
 and_images/my_survey_mostly".png>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
-theoretical_figures_and_images/my_survey_mostly".png used on input line 1125.
+theoretical_figures_and_images/my_survey_mostly".png used on input line 1185.
 (pdftex.def)             Requested size: 320.53526pt x 39.38062pt.
 
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_more_knowledge".png, id=614, 655.44875pt x 126.4725pt>
+images/my_survey_more_knowledge".png, id=612, 655.44875pt x 126.4725pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/my_survey_more_knowledge".png Graphic file (type png)
 
@@ -2866,31 +1739,19 @@ _and_images/my_survey_more_knowledge".png Graphic file (type png)
 and_images/my_survey_more_knowledge".png>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/my_survey_more_knowledge".png used on input line
- 1125.
+ 1185.
 (pdftex.def)             Requested size: 320.53526pt x 61.84856pt.
 
-Overfull \vbox (7.44427pt too high) detected at line 1125
+Overfull \vbox (7.44427pt too high) detected at line 1185
  []
 
-[33
+[34
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1125 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.32}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1125 \end{frame}
-                  
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
+images/my_survey_mostly.png> </Users/mollymking/Documents/SocResearch/Dissertat
+ion/theoretical_figures_and_images/my_survey_more_knowledge.png>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=625, 794.97p
+images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=622, 794.97p
 t x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures
 _and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf Graphic fil
@@ -2900,33 +1761,18 @@ e (type pdf)
 and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldB
-ox".pdf used on input line 1151.
+ox".pdf used on input line 1211.
 (pdftex.def)             Requested size: 280.57268pt x 216.81pt.
 
-Overfull \vbox (20.29279pt too high) detected at line 1151
+Overfull \vbox (20.29279pt too high) detected at line 1211
  []
 
-[34
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation33}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1151 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.33}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1151 \end{frame}
-                  
+[35
 
  </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/my_survey_mostly.png> </Users/mollymking/Documents/SocResearch/Dissertat
-ion/theoretical_figures_and_images/my_survey_more_knowledge.png>]
+images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox.pdf>]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=635, 397.485pt x 289.08p
+i08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=648, 397.485pt x 289.08p
 t>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
@@ -2936,30 +1782,16 @@ vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf used
- on input line 1172.
+ on input line 1232.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (44.29279pt too high) detected at line 1172
+Overfull \vbox (44.29279pt too high) detected at line 1232
  []
 
-[35
+[36
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation34}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1172 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.34}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1172 \end{frame}
-                  
-
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_
-images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox.pdf>]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis03_propHoriz02_multComp_C_noedu_gender.pdf>]
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
 
@@ -2968,32 +1800,17 @@ vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf used
- on input line 1195.
+ on input line 1255.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (38.29279pt too high) detected at line 1195
+Overfull \vbox (38.29279pt too high) detected at line 1255
  []
 
-[36
+[37
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation35}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1195 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.35}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1195 \end{frame}
-                  
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propHoriz02_multComp_C_noedu_gender.pdf>]
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis07_compareEdu_eduCompare_gender".pdf, id=678, 397.485pt x 289.08pt>
+i08_vis07_compareEdu_eduCompare_gender".pdf, id=674, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis07_compareEdu_eduCompare_gender".pdf Graphic file (type pdf)
 
@@ -3001,63 +1818,35 @@ vis/ki08_vis07_compareEdu_eduCompare_gender".pdf Graphic file (type pdf)
 is/ki08_vis07_compareEdu_eduCompare_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf used on inp
-ut line 1217.
+ut line 1277.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (38.29279pt too high) detected at line 1217
- []
-
-[37
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1217 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.36}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1217 \end{frame}
-                  
-
-]
-Overfull \hbox (2.45972pt too wide) in paragraph at lines 1268--1268
-[][]  
- []
-
-
-Overfull \hbox (7.51599pt too wide) in paragraph at lines 1268--1268
-[][]  
- []
-
-
-Overfull \hbox (2.98273pt too wide) in paragraph at lines 1268--1268
-[][]  
+Overfull \vbox (38.29279pt too high) detected at line 1277
  []
 
 [38
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation37}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1268 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.37}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1268 \end{frame}
-                  
-
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
 i08_vis07_compareEdu_eduCompare_gender.pdf>]
+Overfull \hbox (2.45972pt too wide) in paragraph at lines 1328--1328
+[][]  
+ []
+
+
+Overfull \hbox (7.51599pt too wide) in paragraph at lines 1328--1328
+[][]  
+ []
+
+
+Overfull \hbox (2.98273pt too wide) in paragraph at lines 1328--1328
+[][]  
+ []
+
+[39
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propVert02_multComp_D_edu_gender".pdf, id=704, 397.485pt x 289.08pt>
+i08_vis03_propVert02_multComp_D_edu_gender".pdf, id=699, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf Graphic file (type pdf)
 
@@ -3065,31 +1854,18 @@ vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf Graphic file (type pdf)
 is/ki08_vis03_propVert02_multComp_D_edu_gender".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf used on
- input line 1288.
+ input line 1348.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (17.00885pt too high) detected at line 1288
+Overfull \vbox (17.00885pt too high) detected at line 1348
  []
 
-[39
+[40
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation38}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1288 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.38}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1288 \end{frame}
-                  
-
-]
+ </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
+i08_vis03_propVert02_multComp_D_edu_gender.pdf>]
 <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=711
+n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=716
 , 578.16pt x 577.15625pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
 tation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf Gr
@@ -3099,11 +1875,11 @@ aphic file (type pdf)
 ation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderA
 ndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_d
-iagram_main".pdf used on input line 1330.
+iagram_main".pdf used on input line 1390.
 (pdftex.def)             Requested size: 217.18881pt x 216.81pt.
 
 <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=712
+n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=717
 , 602.25pt x 587.19376pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
 tation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf Gr
@@ -3113,72 +1889,13 @@ aphic file (type pdf)
 ation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderA
 ndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_d
-iagram_zoom".pdf used on input line 1330.
+iagram_zoom".pdf used on input line 1390.
 (pdftex.def)             Requested size: 222.36952pt x 216.81pt.
 
-Overfull \vbox (228.81885pt too high) detected at line 1330
- []
-
-[40
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation39}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1330 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.39}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1330 \end{frame}
-                  
-
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis03_propVert02_multComp_D_edu_gender.pdf>]
-Overfull \vbox (12.9583pt too high) detected at line 1330
- []
-
-
-<"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf, i
-d=729, 578.16pt x 354.32375pt>
-File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
-tation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".p
-df Graphic file (type pdf)
-
-<use "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCit
-ation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pd
-f>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderA
-ndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all
-_JSTOR_over_time".pdf used on input line 1346.
-(pdftex.def)             Requested size: 353.77983pt x 216.81pt.
-
-Overfull \hbox (11.34451pt too wide) in paragraph at lines 1346--1346
- [] 
- []
-
-
-Overfull \vbox (12.60886pt too high) detected at line 1346
+Overfull \vbox (228.81885pt too high) detected at line 1390
  []
 
 [41
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation40}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1346 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.40}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1346 \end{frame}
-                  
 
  </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
 n/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main.pdf> </Users
@@ -3189,26 +1906,39 @@ pdfTeX warning: pdflatex (file /Users/mollymking/Documents/SocResearch/JSTOR_Ge
 nderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/bl
 ock_diagram_zoom.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
->] [42
+>]
+<"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
+n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf, i
+d=871, 578.16pt x 354.32375pt>
+File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCi
+tation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".p
+df Graphic file (type pdf)
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation41}
-) has been already used, duplicate ignored
+<use "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCit
+ation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pd
+f>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderA
+ndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all
+_JSTOR_over_time".pdf used on input line 1406.
+(pdftex.def)             Requested size: 353.77983pt x 216.81pt.
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1364 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.41}) has been already used, duplicate ignored
+Overfull \hbox (11.34451pt too wide) in paragraph at lines 1406--1406
+ [] 
+ []
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1364 \end{frame}
-                  
+
+Overfull \vbox (12.60886pt too high) detected at line 1406
+ []
+
+[42
 
  </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitatio
-n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time.pdf>]
+n/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time.pdf>] [
+43
+
+]
 <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-race_byGroup".pdf, id=917, 397.485pt x 289.08pt>
+i08_vis06_graphCIs_C_edu_all-race_byGroup".pdf, id=916, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_
 vis/ki08_vis06_graphCIs_C_edu_all-race_byGroup".pdf Graphic file (type pdf)
 
@@ -3216,46 +1946,18 @@ vis/ki08_vis06_graphCIs_C_edu_all-race_byGroup".pdf Graphic file (type pdf)
 is/ki08_vis06_graphCIs_C_edu_all-race_byGroup".pdf>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/
 results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-race_byGroup".pdf used on 
-input line 1385.
+input line 1445.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (20.29279pt too high) detected at line 1385
+Overfull \vbox (20.29279pt too high) detected at line 1445
  []
 
-[43
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation42}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1385 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.42}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1385 \end{frame}
-                  
-
-] [44
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation43}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1415 \end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.43}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1415 \end{frame}
-                  
+[44
 
  </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/k
-i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>]
+i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>] [45
+
+]
 \tf@nav=\write8
 \openout8 = `presentation.nav'.
 
@@ -3265,61 +1967,43 @@ i08_vis06_graphCIs_C_edu_all-race_byGroup.pdf>]
 \tf@snm=\write10
 \openout10 = `presentation.snm'.
 
- [45
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation44}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1441 \end{document}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{page.44}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.1441 \end{document}
-                     
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1441.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1441.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1501.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1501.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1501.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1501.
 
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: C1A49C696B68FD3588819B8A83F54995;1547.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: FF51CFFB2354A63739B9964C29208F7D;1604.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26991 strings out of 492995
- 537157 string characters out of 6132704
- 963458 words of memory out of 5000000
- 29823 multiletter control sequences out of 15000+600000
- 55043 words of font info for 78 fonts, out of 8000000 for 9000
+ 26943 strings out of 492995
+ 536562 string characters out of 6132704
+ 953183 words of memory out of 5000000
+ 29771 multiletter control sequences out of 15000+600000
+ 50999 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,59p,778b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (44 pages, 4344523 bytes).
+pdfTeX warning (dest): name{supplemental_slides} has been referenced but does
+ not exist, replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation.pdf (45 pages, 6538399 bytes).
 PDF statistics:
- 1015 PDF objects out of 1200 (max. 8388607)
- 806 compressed objects within 9 object streams
- 131 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 797 compressed objects within 8 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
 

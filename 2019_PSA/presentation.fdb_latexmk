@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber presentation"] 1553631325 "presentation.bcf" "presentation.bbl" "presentation" 1553813257
-  "presentation.bcf" 1553631885 94490 ed21617d68ab23ca2dea122420c4becb ""
+["biber presentation"] 1553631325 "presentation.bcf" "presentation.bbl" "presentation" 1553878132
+  "presentation.bcf" 1553878132 94490 ed21617d68ab23ca2dea122420c4becb ""
   (generated)
   "presentation.bbl"
   "presentation.blg"
-["pdflatex"] 1553813257 "presentation.tex" "presentation.pdf" "presentation" 1553813257
+["pdflatex"] 1553878130 "presentation.tex" "presentation.pdf" "presentation" 1553878132
   "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon.pdf" 1527269283 82799 265683e53d12ad4d66ec5fdbf1b75fa8 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender.pdf" 1550088773 17657 c19f424f732637459da525bf308394fa ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender.pdf" 1550089350 19593 12f318aec03dd957405d3288b6852746 ""
@@ -20,6 +20,7 @@
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism.pdf" 1547696333 19355 7ccb72810c68cae6a0c91355b243ac80 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur_C_edu_gender_essentialism.pdf" 1547085909 23857 05e03ac7f7085845d5fdb19133d0e16c ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Man_and_woman_on_bicycles,_Long_Lane,_Beverley_circa_1905_(archive_ref_DDX1319-1-EYC12)_(25742716351).jpg" 1538349975 138188 86f3efb519133d2d55289e0b5760f5e1 ""
+  "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154.jpg" 1538348468 2218387 db307905de7a8c24b2b3fb7e648a5442 ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure.pdf" 1538764197 351625 38ff4dfec76e96b24ea095f0fb00731d ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/derechos-politicos-mujer.jpg" 1541707035 208034 dfa741c5694ec97a5193b95ddde3a0ac ""
   "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com.jpeg" 1538350462 336791 5bd6f6e9277b759f6572f183e4615502 ""
@@ -265,19 +266,19 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "presentation.aux" 1553631885 24478 043759b44cd95db21dd181864f12083f ""
+  "presentation.aux" 1553878132 24839 3693f1ff181bf9dd763a8ee467e538a5 ""
   "presentation.bbl" 1553631327 0 d41d8cd98f00b204e9800998ecf8427e "biber presentation"
-  "presentation.nav" 1553631885 12550 b1be0b9c340a73d131db9add8b8aefef ""
-  "presentation.out" 1553631885 1547 c1a49c696b68fd3588819b8a83f54995 ""
-  "presentation.run.xml" 1553631885 2291 15fc4d626e27f0353c4f41dc17af8792 ""
-  "presentation.tex" 1553813256 64330 d2067414559a6ff310198e82f98bac3e ""
+  "presentation.nav" 1553878132 12979 e7723e7390b4b3c6c64ea29fed786fab ""
+  "presentation.out" 1553878132 1604 ff51cffb2354a63739b9964c29208f7d ""
+  "presentation.run.xml" 1553878132 2291 15fc4d626e27f0353c4f41dc17af8792 ""
+  "presentation.tex" 1553878127 66895 52891c444fd46ae3593138a0b4b476d1 ""
   (generated)
-  "presentation.snm"
-  "presentation.run.xml"
-  "presentation.toc"
-  "presentation.out"
-  "presentation.log"
-  "presentation.aux"
   "presentation.pdf"
   "presentation.bcf"
+  "presentation.out"
+  "presentation.aux"
+  "presentation.log"
+  "presentation.run.xml"
+  "presentation.snm"
   "presentation.nav"
+  "presentation.toc"
