@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 AUG 2019 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 AUG 2019 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -629,7 +629,10 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@BankOfErrors=\toks53
 LaTeX Info: Redefining \GenericError on input line 601.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBoadilla.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemerose.sty) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemerounded.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemedolphin.sty) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemeinfolines.sty)) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemebeaver.sty) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemedolphin.sty) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemeinfolines.sty)) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemebeaver.sty)
+No auxiliary output files.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
@@ -796,8 +799,7 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
 File: alphabetic.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
@@ -830,14 +832,13 @@ File: biblatex.cfg
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count367
 \@quotereset=\count368
  (./presentation.aux)
-\openout1 = `presentation.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
@@ -928,9 +929,6 @@ LaTeX Info: Redefining \ref on input line 95.
 LaTeX Info: Redefining \pageref on input line 95.
 LaTeX Info: Redefining \nameref on input line 95.
  (./presentation.out) (./presentation.out)
-\@outlinefile=\write7
-\openout7 = `presentation.out'.
-
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -992,16 +990,19 @@ Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-\openout6 = `presentation.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'presentation.bbl' found.
- (./presentation.bbl)
 Package biblatex Info: Reference section=0 on input line 95.
 Package biblatex Info: Reference segment=0 on input line 95.
- (./presentation.nav) [1
+ (./presentation.nav)
+\GPT@outputbox=\box62
+ [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman".jpg, id=117, 552.0625pt x 610.28pt>
+
+
+
+
+
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman".jpg, id=115, 552.0625pt x 610.28pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman".jpg Graphic file (type jpg)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman".jpg>
 Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman".jpg used on input line 142.
@@ -1012,422 +1013,605 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 142.
  [2
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/misinformation_cartoon_LorenFishman.jpg>]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf, id=125, 794.97pt x 614.295pt>
+
+
+
+
+
+
+
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf, id=121, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf Graphic file (type pdf)
- <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf used on input line 166.
+
+<use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf>
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color".pdf used on input line 164.
 (pdftex.def)             Requested size: 280.57268pt x 216.81pt.
 
-Overfull \vbox (20.29279pt too high) detected at line 166
+Overfull \vbox (20.29279pt too high) detected at line 164
  []
 
 [3
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/types_of_knowledge_color.pdf>] [4
+
+
+
+] [4
+
+
+
+
+
 
 ] [5
 
+
+
+
 ] [6
+
+
+
 
 ] [7
 
+
+
+
+
+
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 301.
+LaTeX Font Info:    Try loading font information for U+msa on input line 299.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 301.
+LaTeX Font Info:    Try loading font information for U+msb on input line 299.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 301.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 299.
  [8
+
+
+
+
+
+
+
+
+
 
 ] [9
 
+
+
+
+
+
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 413.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 412.
 
-Overfull \hbox (2.45972pt too wide) in paragraph at lines 413--413
+Overfull \hbox (2.45972pt too wide) in paragraph at lines 412--412
 [][]  
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 413.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 412.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 413.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 412.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 413.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 412.
 
-Overfull \hbox (7.51599pt too wide) in paragraph at lines 413--413
+Overfull \hbox (7.51599pt too wide) in paragraph at lines 412--412
 [][]  
  []
 
 [10
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg, id=198, 714.2685pt x 568.2831pt>
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg, id=165, 714.2685pt x 568.2831pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg Graphic file (type jpg)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg used on input line 456.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154".jpg used on input line 455.
 (pdftex.def)             Requested size: 272.50383pt x 216.81pt.
 
-Overfull \vbox (3.31703pt too high) detected at line 456
+Overfull \vbox (3.31703pt too high) detected at line 455
  []
 
 [11
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/Philadelphia_College_of_Pharmacy_and_Science;_men_in_a_confe_Wellcome_V0029154.jpg>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf, id=205, 397.485pt x 289.08pt>
+
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf, id=172, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf used on input line 479.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias".pdf used on input line 478.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [12
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_question_maker_bias.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg, id=224, 1853.92625pt x 1164.35pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg, id=178, 1853.92625pt x 1164.35pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg Graphic file (type jpg)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg used on input line 501.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com".jpeg used on input line 500.
 (pdftex.def)             Requested size: 345.2058pt x 216.81pt.
 
-Overfull \hbox (2.77048pt too wide) in paragraph at lines 501--501
+Overfull \hbox (2.77048pt too wide) in paragraph at lines 500--500
  [] 
  []
 
 
-Overfull \vbox (6.51382pt too high) detected at line 501
+Overfull \vbox (6.51382pt too high) detected at line 500
  []
 
 [13
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/gender_segregated_classroom_medium_com.jpeg>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf, id=232, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf, id=185, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf used on input line 521.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism".pdf used on input line 520.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [14
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur05_domain_predictions_socialized_essentialism.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf, id=251, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf, id=191, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf used on input line 544.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank".pdf used on input line 543.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [15
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_blank.pdf>]
-<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf, id=268, 397.485pt x 289.08pt>
+
+
+
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf, id=197, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf used on input line 561.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender".pdf used on input line 560.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
  [16
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=287, 397.485pt x 289.08pt>
+
+
+
+]
+<"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf, id=203, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf used on input line 576.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors".pdf used on input line 575.
 (pdftex.def)             Requested size: 342.43532pt x 249.04945pt.
 
-Overfull \vbox (31.2483pt too high) detected at line 576
+Overfull \vbox (31.2483pt too high) detected at line 575
  []
 
 [17
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_womenColors.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=307, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf, id=209, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf used on input line 590.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors".pdf used on input line 589.
 (pdftex.def)             Requested size: 342.43532pt x 249.04945pt.
 
-Overfull \vbox (31.2483pt too high) detected at line 590
+Overfull \vbox (31.2483pt too high) detected at line 589
  []
 
 [18
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_noedu_all-gender_menColors.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=326, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf, id=215, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf used on input line 606.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors".pdf used on input line 605.
 (pdftex.def)             Requested size: 342.43532pt x 249.04945pt.
 
-Overfull \vbox (31.2483pt too high) detected at line 606
+Overfull \vbox (31.2483pt too high) detected at line 605
  []
 
 [19
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_C_edu_all-gender_menColors.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf, id=346, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf, id=222, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf used on input line 628.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors".pdf used on input line 627.
 (pdftex.def)             Requested size: 342.43532pt x 249.04945pt.
 
-Overfull \vbox (52.53224pt too high) detected at line 628
+Overfull \vbox (52.53224pt too high) detected at line 627
  []
 
 [20
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis06_graphCIs_D_edu_all-gender_colors.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf, id=367, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf, id=229, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf used on input line 665.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism".pdf used on input line 664.
 (pdftex.def)             Requested size: 342.43532pt x 249.04945pt.
 
-Overfull \vbox (22.7124pt too high) detected at line 665
+Overfull \vbox (22.7124pt too high) detected at line 664
+ []
+
+
+Overfull \vbox (49.07835pt too high) detected at line 664
  []
 
 [21
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/10_sur/ki10_sur06_predictions_and_results_C_edu_gender_essentialism.pdf>]
+
+
+
+]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 678.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 678.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 677.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 677.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf, id=386, 794.97pt x 614.295pt>
+) <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf, id=235, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf used on input line 678.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos".pdf used on input line 677.
 (pdftex.def)             Requested size: 140.28633pt x 108.405pt.
 
-Overfull \hbox (25.47305pt too wide) in paragraph at lines 678--678
+Overfull \hbox (25.47305pt too wide) in paragraph at lines 677--677
 []| []  
  []
 
 
-Overfull \vbox (14.98322pt too high) detected at line 678
+Overfull \vbox (14.98322pt too high) detected at line 677
  []
 
 [22
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/thanks_logos.pdf>]
+
+
+
+]
+\global\@namedef{mainendframenumber}{22}
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 688.
+(hyperref)                removing `\translate ' on input line 687.
 
 [23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 742.
+(hyperref)                than one, level fixed on input line 741.
 
 [24
 
+
+
+
+
+
 ] [25
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf, id=469, 763.22058pt x 370.27875pt>
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf, id=275, 763.22058pt x 370.27875pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf used on input line 825.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure".pdf used on input line 824.
 (pdftex.def)             Requested size: 342.43532pt x 166.13799pt.
  [26
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/data_structure.pdf>]
-Overfull \hbox (2.45972pt too wide) in paragraph at lines 880--880
+
+
+
+]
+Overfull \hbox (2.45972pt too wide) in paragraph at lines 879--879
 [][]  
  []
 
 
-Overfull \hbox (21.66054pt too wide) in paragraph at lines 880--880
+Overfull \hbox (21.66054pt too wide) in paragraph at lines 879--879
 [][]  
  []
 
 
-Overfull \hbox (3.16866pt too wide) in paragraph at lines 880--880
+Overfull \hbox (3.16866pt too wide) in paragraph at lines 879--879
 [][]  
  []
 
 [27
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf, id=516, 253.94875pt x 357.335pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf, id=288, 253.94875pt x 357.335pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf used on input line 896.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon".pdf used on input line 895.
 (pdftex.def)             Requested size: 171.21765pt x 240.92899pt.
 
-Overfull \vbox (44.41177pt too high) detected at line 896
+Overfull \vbox (44.41177pt too high) detected at line 895
  []
 
 [28
 
- </Users/mollymking/Documents/SocResearch/Dissertation/presentations_workshop/xkcd significance cartoon.pdf>] [29
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png, id=543, 645.41125pt x 79.29625pt>
+
+
+] [29
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png, id=301, 645.41125pt x 79.29625pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png Graphic file (type png)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png used on input line 963.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png used on input line 962.
 (pdftex.def)             Requested size: 256.42918pt x 31.50497pt.
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png Graphic file (type png)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png used on input line 963.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly".png used on input line 962.
 (pdftex.def)             Requested size: 256.42918pt x 31.50497pt.
- <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png, id=545, 655.44875pt x 126.4725pt>
+ <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png, id=303, 655.44875pt x 126.4725pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png Graphic file (type png)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png used on input line 963.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge".png used on input line 962.
 (pdftex.def)             Requested size: 256.42918pt x 49.47845pt.
 
-Overfull \vbox (4.10683pt too high) detected at line 963
+Overfull \vbox (4.10683pt too high) detected at line 962
  []
 
 [30
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_mostly.png> </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/my_survey_more_knowledge.png>] [31
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=564, 794.97pt x 614.295pt>
+
+
+
+
+
+
+] [31
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf, id=317, 794.97pt x 614.295pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf used on input line 1004.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox".pdf used on input line 1003.
 (pdftex.def)             Requested size: 280.57268pt x 216.81pt.
  [32
 
- </Users/mollymking/Documents/SocResearch/Dissertation/theoretical_figures_and_images/ki08_vis06_graphCIs_C_noedu_all-gender_natworldBox.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=590, 397.485pt x 289.08pt>
+
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf, id=324, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf used on input line 1025.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender".pdf used on input line 1024.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (17.00885pt too high) detected at line 1025
+Overfull \vbox (17.00885pt too high) detected at line 1024
  []
 
 [33
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propHoriz02_multComp_C_noedu_gender.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf, id=607, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf, id=331, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf used on input line 1046.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender".pdf used on input line 1045.
 (pdftex.def)             Requested size: 248.4275pt x 180.67499pt.
 
-Overfull \vbox (2.15778pt too high) detected at line 1046
+Overfull \vbox (2.15778pt too high) detected at line 1045
  []
 
 [34
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis07_compareEdu_eduCompare_gender.pdf>]
-Overfull \hbox (2.45972pt too wide) in paragraph at lines 1099--1099
+
+
+
+]
+Overfull \hbox (2.45972pt too wide) in paragraph at lines 1098--1098
 [][]  
  []
 
 
-Overfull \hbox (7.51599pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (7.51599pt too wide) in paragraph at lines 1098--1098
 [][]  
  []
 
 
-Overfull \hbox (2.98273pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (2.98273pt too wide) in paragraph at lines 1098--1098
 [][]  
  []
 
 [35
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf, id=633, 397.485pt x 289.08pt>
+
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf, id=345, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf used on input line 1121.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender".pdf used on input line 1120.
 (pdftex.def)             Requested size: 278.2376pt x 202.35622pt.
 
-Overfull \vbox (29.839pt too high) detected at line 1121
+Overfull \vbox (29.839pt too high) detected at line 1120
  []
 
 [36
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/08_vis/ki08_vis03_propVert02_multComp_D_edu_gender.pdf>] [37
 
-] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf, id=658, 397.485pt x 289.08pt>
+
+
+] [37
+
+
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf, id=358, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf used on input line 1146.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C".pdf used on input line 1145.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (26.29279pt too high) detected at line 1146
+Overfull \vbox (26.29279pt too high) detected at line 1145
  []
 
 [38
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_C.pdf>] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf, id=679, 397.485pt x 289.08pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf, id=365, 397.485pt x 289.08pt>
 File: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf used on input line 1161.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D".pdf used on input line 1160.
 (pdftex.def)             Requested size: 298.113pt x 216.81pt.
 
-Overfull \vbox (26.29279pt too high) detected at line 1161
+Overfull \vbox (26.29279pt too high) detected at line 1160
  []
 
 [39
 
- </Users/mollymking/Documents/SocResearch/Dissertation/results/figures/06_desc/ki06_desc03_graphs_D.pdf>] <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=699, 578.16pt x 577.15625pt>
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf, id=372, 578.16pt x 577.15625pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf used on input line 1185.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main".pdf used on input line 1184.
 (pdftex.def)             Requested size: 217.18881pt x 216.81pt.
- <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=700, 602.25pt x 587.19376pt>
+ <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf, id=373, 602.25pt x 587.19376pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf used on input line 1185.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom".pdf used on input line 1184.
 (pdftex.def)             Requested size: 222.36952pt x 216.81pt.
 
-Overfull \vbox (228.81885pt too high) detected at line 1185
+Overfull \vbox (228.81885pt too high) detected at line 1184
+ []
+
+
+Overfull \vbox (12.9583pt too high) detected at line 1184
  []
 
 [40
 
- </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_main.pdf> </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom.pdf
 
-pdfTeX warning: pdflatex (file /Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 3 - Stairstep diagram/block_diagram_zoom.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf, id=853, 578.16pt x 354.32375pt>
+
+
+
+
+] <"/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf, id=379, 578.16pt x 354.32375pt>
 File: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf Graphic file (type pdf)
  <use "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf>
-Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf used on input line 1198.
+Package pdftex.def Info: "/Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time".pdf used on input line 1197.
 (pdftex.def)             Requested size: 353.77983pt x 216.81pt.
 
-Overfull \hbox (11.34451pt too wide) in paragraph at lines 1198--1198
+Overfull \hbox (11.34451pt too wide) in paragraph at lines 1197--1197
  [] 
  []
 
 
-Overfull \vbox (12.60886pt too high) detected at line 1198
+Overfull \vbox (12.60886pt too high) detected at line 1197
  []
 
 [41
 
- </Users/mollymking/Documents/SocResearch/JSTOR_GenderAndAuthorship/SelfCitation/Figures and Results/Fig 4 - Ratio over time/ratio_all_JSTOR_over_time.pdf>]
-\tf@nav=\write8
-\openout8 = `presentation.nav'.
 
-\tf@toc=\write9
-\openout9 = `presentation.toc'.
 
-\tf@snm=\write10
-\openout10 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1280.
- (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1280.
-Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 45B792627BC9E6B9331BF59E5F11689A;1261.
+]
+\global\@namedef{appendixtotalframenumber}{19}
+\global\@namedef{inserttotalframenumber}{22}
+\@writefile{nav}{\headcommand {\def \inserttotalframenumber {22}}}
+\@writefile{nav}{\headcommand {\def \appendixtotalframenumber {19}}}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1279.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1279.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1279.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26905 strings out of 492995
- 534395 string characters out of 6132704
- 953274 words of memory out of 5000000
- 29744 multiletter control sequences out of 15000+600000
- 55106 words of font info for 78 fonts, out of 8000000 for 9000
+ 26801 strings out of 492995
+ 532500 string characters out of 6132704
+ 775223 words of memory out of 5000000
+ 29673 multiletter control sequences out of 15000+600000
+ 43764 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,59p,778b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{data_sources} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (41 pages, 5575760 bytes).
+ 56i,13n,59p,778b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on presentation.pdf (41 pages, 45374 bytes).
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 750 compressed objects within 8 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

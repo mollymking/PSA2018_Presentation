@@ -34,11 +34,11 @@
  % To give a presentation with the Skim reader (http://skim-app.sourceforge.net) on OSX so
  % that you see the notes on your laptop and the slides on the projector, do the following:
  %
-  %  \setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
+%    \setbeameroption{show notes on second screen = right}  % tells to show notes on right hand side screen
  % 1. Generate just the presentation (hide notes) and save to slides.
-\setbeameroption{hide notes} % Only slides
+%\setbeameroption{hide notes} % Only slides
  % 2. Generate only the notes (show only nodes) and save to notes.pdf
-   %   \setbeameroption{show only notes} % Only notes
+      \setbeameroption{show only notes} % Only notes
 
  % 3. With Skim open both slides.pdf and notes.pdf
  % 4. Click on slides.pdf to bring it to front.
@@ -160,9 +160,7 @@
     \note[item]{-- knowledge of how to do something, or skills-based knowledge;}
     \note[item]{-- and  knowledge that some fact is true.}
     \note[item]{The category of factual knowledge, or ``knowledge-that'', is what interests me here.}
-    \note[item]{Knowledge-that can roughly be thought of as declarative
-    knowledge, propositional knowledge, or ``explicit knowledge of a fact.''}
-    \note[item]{My study focuses on inequalities in this type of knowledge.}
+    \note[]{So why should we care about inequalities in this?}
 \end{frame}
 
 
@@ -233,7 +231,7 @@
   \note[item]{In my dissertation, I focus on this motivation -- that social
   status causes knowledge inequality.}
 
-  \note[item]{The field of sociology has long studied the production of knowledge in science inequalities in knowledge careers; and information diffusion and its consequences. Many studies have evaluated information seeking behaviors and needs. But the tendency has either been to study knowledge in one specific domain (e.g., health) or to reduce knowledge across all domains to a single test score -- and hence we know shockingly little about the everyday knowledge stock of Americans.}
+  \note[item]{The field of sociology has long studied the production of knowledge; science inequalities in knowledge careers; and information diffusion and its consequences. Many studies have evaluated information seeking behaviors and needs. But the tendency has either been to study knowledge in one specific domain (e.g., health) or to reduce knowledge across all domains to a single test score -- and hence we know shockingly little about the everyday knowledge stock of Americans.}
 \end{frame}
 
 
@@ -296,7 +294,7 @@
   repositories, like the General Social Survey, Pew Research Center, and ICPSR.}
   \note[item]{These are true/false, yes/no, or multiple-choice questions
   that asked things like: `Antibiotics kill viruses as well as bacteria. Is that
-  true or false?''}
+  true or false?'' The answer is false.}
   \note[item]{I am happy to talk more about my data or methods in Q \& A if anyone is interested.}
 \end{frame}
 
@@ -408,6 +406,7 @@
 
   \note[item]{I also gathered many demographic characteristics about the individuals answering these factual knowledge questions.}
   \note[item]{For each question, I then use logistic regression to predict the probability of getting the question correct. I run this analysis for each of my 513 questions.}
+  \note[item]{I also correct for multiple comparisons, meaning I can be very confident my results would replicate using another sample.}
   \note[item]{I'm happy to discuss any details in the Q\&A.}
   \note[item]{In order to develop hypotheses about how my results might turn out...}
 \end{frame}
